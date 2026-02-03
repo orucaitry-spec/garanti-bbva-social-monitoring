@@ -440,6 +440,26 @@
             background: #2980b9;
         }
 
+        .mini-feedback-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            background: rgba(102, 126, 234, 0.8);
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            cursor: pointer;
+            transition: all 0.2s;
+            z-index: 10;
+        }
+
+        .mini-feedback-btn:hover {
+            background: #667eea;
+            transform: scale(1.1);
+        }
+
         .feedback-btn-main {
             position: fixed;
             bottom: 20px;
@@ -666,12 +686,9 @@
 
     <script>
         const DATA_BASE_URL = 'https://raw.githubusercontent.com/orucaitry-spec/garanti-bbva-social-monitoring/main/data/';
-        const GIST_API_URL = 'https://api.github.com/gists';
-        const FEEDBACK_GIST_ID = 'f6b7a3a37b06b401ba06c240cecd2d09';
         
         let currentReport = null;
         let categories = null;
-        let userToken = null;
 
         const CHANNEL_NAMES = {
             twitter: 'Twitter',
@@ -686,6 +703,38 @@
             ios_store: '&#63743;',
             android_store: '&#129302;'
         };
+
+        // Feedback system (local storage + console)
+        function saveFeedback(feedback) {
+            const key = 'garanti_feedback';
+            let feedbacks = JSON.parse(localStorage.getItem(key) || '[]');
+            feedbacks.push({
+                ...feedback,
+                timestamp: new Date().toISOString(),
+                page: window.location.href,
+                userAgent: navigator.userAgent.substring(0, 100)
+            });
+            localStorage.setItem(key, JSON.stringify(feedbacks, null, 2));
+            
+            console.log('📝 NEW FEEDBACK:', JSON.stringify(feedback, null, 2));
+            console.log('📦 ALL FEEDBACKS:', feedbacks.length, 'total');
+            
+            return feedbacks;
+        }
+
+        function exportFeedbacks() {
+            const feedbacks = JSON.parse(localStorage.getItem('garanti_feedback') || '[]');
+            console.log('📤 EXPORT FEEDBACKS:');
+            console.log(JSON.stringify(feedbacks, null, 2));
+            alert(`${feedbacks.length} geri bildirim konsola yazildi. Console'u acip kopyalayabilirsiniz.`);
+        }
+
+        function clearFeedbacks() {
+            if (confirm('Tum geri bildirimleri silmek istediginize emin misiniz?')) {
+                localStorage.removeItem('garanti_feedback');
+                alert('Geri bildirimler temizlendi.');
+            }
+        }
 
         async function loadData(date) {
             try {
@@ -753,7 +802,8 @@
                 });
                 
                 return `
-                    <div class="channel-card ${statusClass}">
+                    <div class="channel-card ${statusClass}" style="position: relative;">
+                        <button class="mini-feedback-btn" onclick="quickFeedback('channel', '${id}', '${CHANNEL_NAMES[id]}')" title="Geri bildirim">📝</button>
                         <div class="channel-header">
                             <div>
                                 <span>${CHANNEL_ICONS[id]}</span>
@@ -772,19 +822,23 @@
         function renderStats(summary) {
             const statsGrid = document.getElementById('statsGrid');
             statsGrid.innerHTML = `
-                <div class="stat-card">
+                <div class="stat-card" style="position:relative;">
+                    <button class="mini-feedback-btn" onclick="quickFeedback('stat', 'totalMentions', 'Toplam Mention')" title="Geri bildirim">📝</button>
                     <div class="stat-label">&#128241; Toplam Mention</div>
                     <div class="stat-value">${summary.totalMentions}</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card" style="position:relative;">
+                    <button class="mini-feedback-btn" onclick="quickFeedback('stat', 'criticalIssues', 'Kritik Sorunlar')" title="Geri bildirim">📝</button>
                     <div class="stat-label">&#128308; Kritik Sorunlar</div>
                     <div class="stat-value">${summary.criticalIssues}</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card" style="position:relative;">
+                    <button class="mini-feedback-btn" onclick="quickFeedback('stat', 'storeRating', 'Store Rating')" title="Geri bildirim">📝</button>
                     <div class="stat-label">&#11088; Store Rating</div>
                     <div class="stat-value">${summary.storeRating}/5.0</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card" style="position:relative;">
+                    <button class="mini-feedback-btn" onclick="quickFeedback('stat', 'avgResponseTime', 'Ortalama Yanit Suresi')" title="Geri bildirim">📝</button>
                     <div class="stat-label">&#9201; Avg Response</div>
                     <div class="stat-value">${summary.avgResponseTime}</div>
                 </div>
@@ -828,9 +882,12 @@
                 
                 const catLabel = document.createElement('div');
                 catLabel.className = 'heatmap-label';
-                catLabel.innerHTML = `${cat ? cat.name : catId} <span style="color:${trendColor};font-size:0.9em;margin-left:4px;">${trendIcon}${Math.abs(trend)}</span>`;
+                catLabel.style.position = 'relative';
+                catLabel.innerHTML = `
+                    <button class="mini-feedback-btn" onclick="quickFeedback('category', '${catId}', '${cat ? cat.name : catId}')" title="Geri bildirim" style="position:absolute;right:2px;top:50%;transform:translateY(-50%);">📝</button>
+                    ${cat ? cat.name : catId} <span style="color:${trendColor};font-size:0.9em;margin-left:4px;">${trendIcon}${Math.abs(trend)}</span>
+                `;
                 catLabel.style.color = cat ? cat.color : '#666';
-                catLabel.onclick = () => openCategoryFeedback(catId, cat ? cat.name : catId);
                 catLabel.title = `Toplam: ${categoryCounts[catId]} | Trend: ${trend >= 0 ? '+' : ''}${trend}`;
                 grid.appendChild(catLabel);
 
@@ -846,7 +903,7 @@
                     
                     cell.addEventListener('mouseenter', showTooltip);
                     cell.addEventListener('mouseleave', hideTooltip);
-                    cell.onclick = () => openHeatmapCellFeedback(catId, report.days[dayIdx], count);
+                    cell.onclick = () => quickFeedback('heatmap_cell', `${catId}-${report.days[dayIdx]}`, `${cat ? cat.name : catId} / ${report.days[dayIdx]}: ${count}`);
                     
                     grid.appendChild(cell);
                 });
@@ -858,7 +915,8 @@
             container.innerHTML = issues.map(issue => {
                 const cat = categories.categories.find(c => c.id === issue.category);
                 return `
-                    <div class="issue-item">
+                    <div class="issue-item" style="position:relative;">
+                        <button class="mini-feedback-btn" onclick="quickFeedback('issue', '${issue.id}', '${issue.title}')" title="Geri bildirim">📝</button>
                         <div class="issue-header">
                             <div class="issue-title">${issue.title}</div>
                             <div class="category-badge" style="background: ${cat ? cat.color : '#999'}">
@@ -899,7 +957,8 @@
                 });
                 
                 return `
-                    <div class="comment-item">
+                    <div class="comment-item" style="position:relative;">
+                        <button class="mini-feedback-btn" onclick="quickFeedback('comment', '${comment.id}', '${comment.author}: ${comment.text.substring(0,30)}...')" title="Geri bildirim">📝</button>
                         <div class="comment-header">
                             <div class="comment-meta">
                                 <strong>${comment.author}</strong> &middot; 
@@ -912,9 +971,6 @@
                             <div class="category-badge" style="background: ${cat ? cat.color : '#999'}">
                                 ${cat ? cat.name : comment.category}
                             </div>
-                            <button class="feedback-btn-small" onclick="openCommentFeedback('${comment.id}', '${issue.id}')">
-                                &#128172; Geri Bildirim
-                            </button>
                         </div>
                     </div>
                 `;
@@ -927,30 +983,20 @@
             document.getElementById('commentsModal').classList.remove('active');
         }
 
-        function openCategoryFeedback(catId, catName) {
-            document.getElementById('feedbackType').value = 'category-rename';
-            document.getElementById('feedbackTarget').value = catId;
-            document.getElementById('feedbackDescription').value = `Kategori: ${catName}\n\nOnerilen yeni ad: `;
-            document.getElementById('feedbackContext').value = JSON.stringify({ type: 'category', id: catId, name: catName });
-            openFeedbackModal();
-        }
-
-        function openHeatmapCellFeedback(catId, day, count) {
-            const cat = categories.categories.find(c => c.id === catId);
-            document.getElementById('feedbackType').value = 'other';
-            document.getElementById('feedbackTarget').value = catId;
-            document.getElementById('feedbackDescription').value = `${cat ? cat.name : catId} kategorisi - ${day} gunu:\n${count} mention var.\n\nGeri bildiriminiz: `;
-            document.getElementById('feedbackContext').value = JSON.stringify({ type: 'heatmap', category: catId, day, count });
-            openFeedbackModal();
-        }
-
-        function openCommentFeedback(commentId, issueId) {
-            document.getElementById('feedbackType').value = 'comment-recategorize';
-            document.getElementById('feedbackTarget').value = commentId;
-            document.getElementById('feedbackDescription').value = `Yorum ID: ${commentId}\nSorun: ${issueId}\n\nYeni kategori veya duzeltme: `;
-            document.getElementById('feedbackContext').value = JSON.stringify({ type: 'comment', commentId, issueId });
-            closeCommentsModal();
-            openFeedbackModal();
+        function quickFeedback(type, id, label) {
+            const description = prompt(`Geri bildirim: ${label}\n\nYorum/oneri yaziniz:`);
+            if (!description || description.trim() === '') return;
+            
+            const feedback = {
+                type: type,
+                target: id,
+                label: label,
+                description: description.trim(),
+                report: currentReport ? currentReport.date : 'unknown'
+            };
+            
+            saveFeedback(feedback);
+            alert('✅ Geri bildirim kaydedildi!\n\nKonsol: F12 > Console > exportFeedbacks()');
         }
 
         function showTooltip(e) {
@@ -979,18 +1025,8 @@
             document.getElementById('successMessage').classList.remove('show');
         }
 
-        document.getElementById('feedbackForm').addEventListener('submit', async (e) => {
+        document.getElementById('feedbackForm').addEventListener('submit', (e) => {
             e.preventDefault();
-            
-            // User must provide token
-            if (!userToken) {
-                const tokenInput = prompt('GitHub Personal Access Token (gist scope gerekli):\n\nToken: https://github.com/settings/tokens');
-                if (!tokenInput || tokenInput.length < 20) {
-                    alert('Lutfen gecerli bir GitHub token girin.');
-                    return;
-                }
-                userToken = tokenInput;
-            }
             
             const type = document.getElementById('feedbackType').value;
             const description = document.getElementById('feedbackDescription').value;
@@ -998,67 +1034,19 @@
             const context = document.getElementById('feedbackContext').value;
             
             const feedback = {
-                timestamp: new Date().toISOString(),
                 type: type,
                 description: description,
                 target: target,
                 context: context ? JSON.parse(context) : null,
-                userAgent: navigator.userAgent,
-                currentReport: currentReport.date
+                report: currentReport ? currentReport.date : 'unknown'
             };
 
-            try {
-                const submitBtn = document.querySelector('.submit-btn');
-                submitBtn.disabled = true;
-                submitBtn.textContent = 'Gonderiliyor...';
-
-                // Read current gist
-                const getResponse = await fetch(`${GIST_API_URL}/${FEEDBACK_GIST_ID}`, {
-                    headers: {
-                        'Authorization': `token ${userToken}`
-                    }
-                });
-                
-                if (!getResponse.ok) {
-                    throw new Error('Token yetkisi yetersiz - lütfen gist scope ekleyin');
-                }
-                
-                const gistData = await getResponse.json();
-                const currentContent = JSON.parse(gistData.files['feedback.json'].content);
-                currentContent.feedbacks.push(feedback);
-
-                // Update gist
-                const response = await fetch(`${GIST_API_URL}/${FEEDBACK_GIST_ID}`, {
-                    method: 'PATCH',
-                    headers: {
-                        'Authorization': `token ${userToken}`,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        files: {
-                            'feedback.json': {
-                                content: JSON.stringify(currentContent, null, 2)
-                            }
-                        }
-                    })
-                });
-
-                if (response.ok) {
-                    document.getElementById('successMessage').classList.add('show');
-                    setTimeout(() => {
-                        closeFeedbackModal();
-                    }, 2000);
-                } else {
-                    alert('Hata: Geri bildirim gonderilemedi.');
-                }
-            } catch (error) {
-                console.error('Feedback error:', error);
-                alert('Hata: ' + error.message);
-            } finally {
-                const submitBtn = document.querySelector('.submit-btn');
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Gonder';
-            }
+            saveFeedback(feedback);
+            
+            document.getElementById('successMessage').classList.add('show');
+            setTimeout(() => {
+                closeFeedbackModal();
+            }, 1500);
         });
 
         document.querySelectorAll('.date-btn').forEach(btn => {
@@ -1068,6 +1056,11 @@
                 loadData(btn.dataset.date);
             });
         });
+
+        // Global functions for console
+        window.exportFeedbacks = exportFeedbacks;
+        window.clearFeedbacks = clearFeedbacks;
+        window.quickFeedback = quickFeedback;
 
         loadData('2026-02-03');
     </script>

@@ -2,8 +2,9 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garanti BBVA Sosyal Medya İzleme</title>
+    <title>Garanti BBVA Sosyal Medya Izleme</title>
     <style>
         * {
             margin: 0;
@@ -242,46 +243,46 @@
 <body>
     <div class="container">
         <header>
-            <h1>📊 Garanti BBVA Sosyal Medya İzleme</h1>
-            <div class="last-update">Son güncelleme: <span id="lastUpdate">3 Şubat 2026, 21:00</span></div>
+            <h1>&#128200; Garanti BBVA Sosyal Medya Izleme</h1>
+            <div class="last-update">Son guncelleme: <span id="lastUpdate">3 Subat 2026, 21:00</span></div>
         </header>
 
         <div class="date-nav">
-            <span>📅 Tarih Seç:</span>
-            <button class="date-btn active" data-date="2026-02-03">Bugün (3 Şub)</button>
-            <button class="date-btn" data-date="2026-02-02">Dün (2 Şub)</button>
-            <button class="date-btn" data-date="2026-02-01">1 Şub</button>
+            <span>&#128197; Tarih Sec:</span>
+            <button class="date-btn active" data-date="2026-02-03">Bugun (3 Sub)</button>
+            <button class="date-btn" data-date="2026-02-02">Dun (2 Sub)</button>
+            <button class="date-btn" data-date="2026-02-01">1 Sub</button>
             <select id="monthSelect">
-                <option value="2026-02">Şubat 2026</option>
+                <option value="2026-02">Subat 2026</option>
                 <option value="2026-01">Ocak 2026</option>
             </select>
         </div>
 
         <div class="stats-grid" id="statsGrid">
             <div class="stat-card">
-                <div class="stat-label">📱 Toplam Mention</div>
+                <div class="stat-label">&#128241; Toplam Mention</div>
                 <div class="stat-value" id="totalMentions">-</div>
-                <div class="stat-trend trend-up">↑ +2 bugün</div>
+                <div class="stat-trend trend-up">&#8593; +2 bugun</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">🔴 Kritik Sorunlar</div>
+                <div class="stat-label">&#128308; Kritik Sorunlar</div>
                 <div class="stat-value" id="criticalIssues">-</div>
-                <div class="stat-trend trend-down">↓ 1 düşük</div>
+                <div class="stat-trend trend-down">&#8595; 1 dusuk</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">⭐ Store Rating</div>
+                <div class="stat-label">&#11088; Store Rating</div>
                 <div class="stat-value" id="storeRating">-</div>
-                <div class="stat-trend trend-down">↓ 0.3 azaldı</div>
+                <div class="stat-trend trend-down">&#8595; 0.3 azaldi</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">⏱️ Avg Response Time</div>
+                <div class="stat-label">&#9201; Avg Response Time</div>
                 <div class="stat-value" id="responseTime">-</div>
-                <div class="stat-trend trend-down">↓ 2sa iyileşti</div>
+                <div class="stat-trend trend-down">&#8595; 2sa iyilesti</div>
             </div>
         </div>
 
         <div class="heatmap">
-            <h2>🔥 Aktivite Isı Haritası (7 Gün)</h2>
+            <h2>&#128293; Aktivite Isi Haritasi (7 Gun)</h2>
             <div class="heatmap-grid" id="heatmapGrid"></div>
             <div class="legend">
                 <div class="legend-item">
@@ -308,7 +309,7 @@
         </div>
 
         <div class="issues-list">
-            <h2 style="margin-bottom: 20px;">🚨 Devam Eden Kritik Sorunlar</h2>
+            <h2 style="margin-bottom: 20px;">&#128680; Devam Eden Kritik Sorunlar</h2>
             <div id="issuesList"></div>
         </div>
     </div>
@@ -325,20 +326,20 @@
                 responseTime: '4sa',
                 issues: [
                     {
-                        title: 'iOS FaceID Giriş Hatası',
+                        title: 'iOS FaceID Giris Hatasi',
                         platform: 'App Store',
                         version: '8.45.0',
-                        impact: 'Yüksek',
+                        impact: 'Yuksek',
                         status: 'Devam ediyor',
-                        duration: '2+ gün'
+                        duration: '2+ gun'
                     },
                     {
-                        title: 'Android Uygulama Açılmıyor',
+                        title: 'Android Uygulama Acilmiyor',
                         platform: 'Google Play',
                         version: '8.45.2',
                         impact: 'Kritik',
                         status: 'Devam ediyor',
-                        duration: '3+ gün'
+                        duration: '3+ gun'
                     }
                 ],
                 heatmap: generateSampleHeatmap()
@@ -350,12 +351,12 @@
                 responseTime: '6sa',
                 issues: [
                     {
-                        title: 'iOS FaceID Giriş Hatası',
+                        title: 'iOS FaceID Giris Hatasi',
                         platform: 'App Store',
                         version: '8.45.0',
-                        impact: 'Yüksek',
+                        impact: 'Yuksek',
                         status: 'Yeni',
-                        duration: '1 gün'
+                        duration: '1 gun'
                     }
                 ],
                 heatmap: generateSampleHeatmap()
@@ -363,7 +364,7 @@
         };
 
         function generateSampleHeatmap() {
-            const days = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
+            const days = ['Pzt', 'Sal', 'Car', 'Per', 'Cum', 'Cmt', 'Paz'];
             const data = {};
             days.forEach(day => {
                 data[day] = Array.from({length: 24}, () => Math.floor(Math.random() * 5));
@@ -429,11 +430,11 @@
             container.innerHTML = issues.map(issue => `
                 <div class="issue-item">
                     <div class="issue-title">${issue.title}</div>
-                    <div>${issue.platform} · v${issue.version}</div>
+                    <div>${issue.platform} &middot; v${issue.version}</div>
                     <div class="issue-meta">
-                        <span>📍 Etki: <strong>${issue.impact}</strong></span>
-                        <span>⏱️ Süre: ${issue.duration}</span>
-                        <span>🔄 Durum: ${issue.status}</span>
+                        <span>&#128205; Etki: <strong>${issue.impact}</strong></span>
+                        <span>&#9201; Sure: ${issue.duration}</span>
+                        <span>&#128260; Durum: ${issue.status}</span>
                     </div>
                 </div>
             `).join('');

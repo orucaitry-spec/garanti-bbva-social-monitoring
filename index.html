@@ -621,11 +621,26 @@
 
         <div class="heatmap">
             <h2>&#128293; Kategori x Gun Isi Haritasi</h2>
+            <div style="margin-bottom: 15px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                <label style="font-weight: 600;">Filtre:</label>
+                <select id="filterChannel" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #ddd;">
+                    <option value="all">Tüm Kanallar</option>
+                    <option value="ios_store">iOS Store</option>
+                    <option value="android_store">Android Store</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="linkedin">LinkedIn</option>
+                </select>
+                <select id="filterCategory" style="padding: 6px 12px; border-radius: 6px; border: 1px solid #ddd;">
+                    <option value="all">Tüm Kategoriler</option>
+                </select>
+                <button onclick="applyFilters()" style="padding: 6px 16px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer;">Filtrele</button>
+                <button onclick="clearFilters()" style="padding: 6px 16px; background: #95a5a6; color: white; border: none; border-radius: 6px; cursor: pointer;">Temizle</button>
+            </div>
             <div class="heatmap-grid" id="heatmapGrid"></div>
         </div>
 
         <div class="issues-list">
-            <h2 style="margin-bottom: 15px;">&#128680; Kritik Sorunlar</h2>
+            <h2 style="margin-bottom: 15px;">&#128680; Kritik Sorunlar <span id="issueCount"></span></h2>
             <div id="issuesList"></div>
         </div>
     </div>
@@ -748,6 +763,13 @@
 
                 currentReport = await reportRes.json();
                 categories = await catRes.json();
+
+                // Populate category filter
+                const catFilter = document.getElementById('filterCategory');
+                catFilter.innerHTML = '<option value="all">Tüm Kategoriler</option>';
+                categories.categories.forEach(cat => {
+                    catFilter.innerHTML += `<option value="${cat.id}">${cat.name}</option>`;
+                });
 
                 renderChannels(currentReport.channels);
                 renderStats(currentReport.summary);
@@ -912,10 +934,12 @@
 
         function renderIssues(issues) {
             const container = document.getElementById('issuesList');
+            document.getElementById('issueCount').textContent = `(${issues.length})`;
+            
             container.innerHTML = issues.map(issue => {
                 const cat = categories.categories.find(c => c.id === issue.category);
                 return `
-                    <div class="issue-item" style="position:relative;">
+                    <div class="issue-item" style="position:relative;" data-channel="${issue.channel}" data-category="${issue.category}">
                         <button class="mini-feedback-btn" onclick="quickFeedback('issue', '${issue.id}', '${issue.title}')" title="Geri bildirim">📝</button>
                         <div class="issue-header">
                             <div class="issue-title">${issue.title}</div>
@@ -938,6 +962,37 @@
                     </div>
                 `;
             }).join('');
+        }
+
+        function applyFilters() {
+            const channelFilter = document.getElementById('filterChannel').value;
+            const categoryFilter = document.getElementById('filterCategory').value;
+            
+            const allIssues = document.querySelectorAll('.issue-item');
+            let visibleCount = 0;
+            
+            allIssues.forEach(issue => {
+                const issueChannel = issue.dataset.channel;
+                const issueCategory = issue.dataset.category;
+                
+                const channelMatch = channelFilter === 'all' || issueChannel === channelFilter;
+                const categoryMatch = categoryFilter === 'all' || issueCategory === categoryFilter;
+                
+                if (channelMatch && categoryMatch) {
+                    issue.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    issue.style.display = 'none';
+                }
+            });
+            
+            document.getElementById('issueCount').textContent = `(${visibleCount})`;
+        }
+
+        function clearFilters() {
+            document.getElementById('filterChannel').value = 'all';
+            document.getElementById('filterCategory').value = 'all';
+            applyFilters();
         }
 
         function openComments(issueId) {

@@ -1,16 +1,22 @@
 {
   "categories": [
     {
+      "id": "app_crash",
+      "name": "Uygulama Açılmıyor",
+      "color": "#c0392b",
+      "keywords": ["açılmıyor", "acilmiyor", "giremiyorum", "giriş yapamıyorum", "kapanıyor", "crash", "donuyor", "takılı", "takili", "çöküyor", "cokuyor", "işleminizi gerçekleştiremiyoruz", "açmıyor", "acmiyor", "kullanamıyorum"]
+    },
+    {
       "id": "login",
-      "name": "Giriş & Kimlik",
+      "name": "Şifre & Kimlik",
       "color": "#e74c3c",
-      "keywords": ["giriş", "giris", "şifre", "sifre", "faceid", "face id", "touchid", "touch id", "parmak izi", "biyometrik", "otp", "sms kod", "doğrulama", "dogrulama", "kimlik doğrulama", "giriş yapamıyorum", "sifreyi unuttum"]
+      "keywords": ["şifre", "sifre", "faceid", "face id", "touchid", "touch id", "parmak izi", "biyometrik", "otp", "sms kod", "doğrulama", "dogrulama", "kimlik doğrulama", "sifreyi unuttum", "şifre yenile"]
     },
     {
       "id": "fee",
       "name": "İşlem Ücreti",
       "color": "#e67e22",
-      "keywords": ["eft ücreti", "havale ücreti", "işlem ücreti", "masraf", "komisyon", "ücret", "kesinti", "aidat", "hesap işletim ücreti", "kart yıllık ücret", "17 tl", "ücretlendir"]
+      "keywords": ["eft ücreti", "havale ücreti", "işlem ücreti", "masraf", "komisyon", "ücret kesiyor", "kesinti", "aidat", "hesap işletim ücreti", "maaş hesabı ücret", "ücretsiz olmalı"]
     },
     {
       "id": "transfer",

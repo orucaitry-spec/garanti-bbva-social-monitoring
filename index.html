@@ -640,7 +640,7 @@
         </div>
 
         <div class="issues-list">
-            <h2 style="margin-bottom: 15px;">&#128680; Kritik Sorunlar <span id="issueCount"></span></h2>
+            <h2 style="margin-bottom: 15px;">📋 Tüm Yorumlar <span id="issueCount"></span></h2>
             <div id="issuesList"></div>
         </div>
     </div>
@@ -949,12 +949,7 @@
                         </div>
                         <div style="margin-bottom: 8px;">
                             <span class="channel-badge">${CHANNEL_ICONS[issue.channel]} ${CHANNEL_NAMES[issue.channel]}</span>
-                            <span style="margin-left: 10px; color: #666;">v${issue.version}</span>
-                        </div>
-                        <div class="issue-meta">
-                            <span>&#128205; ${issue.impact}</span>
-                            <span>&#9201; ${issue.duration}</span>
-                            <span>&#128172; ${issue.commentCount} yorum</span>
+                            <span style="margin-left: 10px; color: #666;">&#128172; ${issue.commentCount} yorum</span>
                         </div>
                         <button class="view-comments-btn" onclick="openComments('${issue.id}')">
                             Yorumlari Goruntule (${issue.commentCount})

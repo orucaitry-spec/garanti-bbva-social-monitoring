@@ -292,6 +292,56 @@
             font-size: 0.85em;
         }
 
+        .similar-groups-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-top: 30px;
+        }
+
+        .group-item {
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background: #ecf0f1;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .group-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .group-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .group-count {
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .group-text {
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .group-meta {
+            color: #7f8c8d;
+            font-size: 0.85em;
+        }
+
         .issue-item {
             padding: 15px;
             border-left: 4px solid #e74c3c;
@@ -686,6 +736,12 @@
             <h2 style="margin-bottom: 15px;">📋 Tüm Yorumlar <span id="issueCount"></span></h2>
             <div id="issuesList"></div>
         </div>
+
+        <div class="similar-groups-section">
+            <h2 style="margin-bottom: 15px;">🔄 Benzer Yorumlar (Gruplu)</h2>
+            <p style="color: #7f8c8d; margin-bottom: 15px;">Aynı konudaki yorumlar gruplanmıştır. Detay için gruba tıklayın.</p>
+            <div id="similarGroupsList"></div>
+        </div>
     </div>
 
     <button class="feedback-btn-main" onclick="openFeedbackModal()">
@@ -819,6 +875,7 @@
                 renderHeatmap(currentReport);
                 renderIssues(currentReport.issues);
                 renderPositive(currentReport.positive || []);
+                renderSimilarGroups(currentReport.similarGroups || {});
                 
                 document.getElementById('lastUpdate').textContent = new Date(currentReport.date).toLocaleDateString('tr-TR');
             } catch (error) {
@@ -1096,6 +1153,87 @@
 
         function closeCommentsModal() {
             document.getElementById('commentsModal').classList.remove('active');
+        }
+
+        function renderSimilarGroups(similarGroups) {
+            const container = document.getElementById('similarGroupsList');
+            
+            if (!similarGroups || Object.keys(similarGroups).length === 0) {
+                container.innerHTML = '<div style="color:#7f8c8d;text-align:center;padding:20px;">Benzer yorum grubu bulunamadı</div>';
+                return;
+            }
+            
+            // Tüm grupları birleştir ve count'a göre sırala
+            const allGroups = [];
+            for (const [category, groups] of Object.entries(similarGroups)) {
+                groups.forEach(g => {
+                    if (g.count >= 2) { // En az 2 benzer yorum
+                        allGroups.push({
+                            category: category,
+                            ...g
+                        });
+                    }
+                });
+            }
+            
+            allGroups.sort((a, b) => b.count - a.count);
+            
+            container.innerHTML = allGroups.slice(0, 50).map(group => {
+                const cat = categories.categories.find(c => c.id === group.category);
+                return `
+                    <div class="group-item" onclick="openGroupDetails('${group.category}', ${JSON.stringify(group).replace(/"/g, '&quot;')})">
+                        <div class="group-header">
+                            <div>
+                                <span class="category-badge" style="background: ${cat ? cat.color : '#999'}">
+                                    ${cat ? cat.name : group.category}
+                                </span>
+                            </div>
+                            <span class="group-count">${group.count} benzer yorum</span>
+                        </div>
+                        <div class="group-text">${group.representative.text}</div>
+                        <div class="group-meta">
+                            <span class="channel-badge">${CHANNEL_ICONS[group.representative.channel]} ${CHANNEL_NAMES[group.representative.channel]}</span>
+                            <span style="margin-left: 10px;">${group.representative.author || 'Anonim'}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function openGroupDetails(category, group) {
+            const allComments = [group.representative, ...group.similar];
+            document.getElementById('commentsModalTitle').textContent = `Benzer Yorumlar (${group.count} adet)`;
+            
+            const content = document.getElementById('commentsContent');
+            content.innerHTML = allComments.map(comment => {
+                const cat = categories.categories.find(c => c.id === comment.category);
+                const timestamp = new Date(comment.timestamp).toLocaleString('tr-TR', {
+                    day: 'numeric',
+                    month: 'short',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                
+                return `
+                    <div class="comment-item">
+                        <div class="comment-header">
+                            <div class="comment-meta">
+                                <strong>${comment.author}</strong> &middot; 
+                                ${CHANNEL_ICONS[comment.channel]} ${CHANNEL_NAMES[comment.channel]} &middot; 
+                                ${timestamp}
+                            </div>
+                        </div>
+                        <div class="comment-text">${comment.text}</div>
+                        <div class="comment-footer">
+                            <div class="category-badge" style="background: ${cat ? cat.color : '#999'}">
+                                ${cat ? cat.name : comment.category}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('commentsModal').classList.add('active');
         }
 
         function quickFeedback(type, id, label) {

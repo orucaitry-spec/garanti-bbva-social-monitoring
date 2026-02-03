@@ -1,0 +1,175 @@
+{
+  "date": "2026-02-03",
+  "channels": {
+    "twitter": {
+      "status": "ok",
+      "lastFetch": "2026-02-03T21:00:00+03:00",
+      "mentionCount": 15,
+      "error": null
+    },
+    "linkedin": {
+      "status": "ok",
+      "lastFetch": "2026-02-03T21:00:00+03:00",
+      "mentionCount": 3,
+      "error": null
+    },
+    "ios_store": {
+      "status": "error",
+      "lastFetch": "2026-02-02T23:12:00+03:00",
+      "mentionCount": 0,
+      "error": "App Store API eriÅŸim hatasÄ±"
+    },
+    "android_store": {
+      "status": "ok",
+      "lastFetch": "2026-02-03T20:30:00+03:00",
+      "mentionCount": 8,
+      "error": null
+    }
+  },
+  "summary": {
+    "totalMentions": 26,
+    "criticalIssues": 2,
+    "storeRating": 2.2,
+    "avgResponseTime": "4sa"
+  },
+  "heatmap": {
+    "login": [3, 2, 1, 2, 4, 1, 0],
+    "performance": [2, 3, 2, 1, 0, 0, 0],
+    "payment": [0, 1, 0, 1, 2, 0, 0],
+    "ui": [1, 0, 2, 3, 2, 1, 0],
+    "feature": [0, 0, 1, 0, 0, 0, 0],
+    "other": [0, 1, 0, 0, 1, 0, 0]
+  },
+  "days": ["Pzt", "Sal", "Car", "Per", "Cum", "Cmt", "Paz"],
+  "issues": [
+    {
+      "id": "issue-001",
+      "title": "iOS FaceID Giris Hatasi",
+      "channel": "ios_store",
+      "version": "8.45.0",
+      "category": "login",
+      "impact": "Yuksek",
+      "status": "Devam ediyor",
+      "duration": "2+ gun",
+      "commentCount": 5,
+      "comments": [
+        {
+          "id": "comment-001",
+          "text": "FaceID calismiyor, sifre ile girmek zorunda kaliyorum",
+          "channel": "ios_store",
+          "category": "login",
+          "timestamp": "2026-02-02T14:30:00Z",
+          "sentiment": "negative",
+          "author": "kullanici_123"
+        },
+        {
+          "id": "comment-002",
+          "text": "@GarantiBBVA iOS uygulamasinda FaceID hata veriyor",
+          "channel": "twitter",
+          "category": "login",
+          "timestamp": "2026-02-02T15:45:00Z",
+          "sentiment": "negative",
+          "author": "@user_xyz"
+        },
+        {
+          "id": "comment-003",
+          "text": "FaceID sonrasi uygulama donuyor",
+          "channel": "ios_store",
+          "category": "login",
+          "timestamp": "2026-02-03T10:15:00Z",
+          "sentiment": "negative",
+          "author": "kullanici_456"
+        },
+        {
+          "id": "comment-004",
+          "text": "iOS 17'de FaceID calismaz oldu",
+          "channel": "twitter",
+          "category": "login",
+          "timestamp": "2026-02-03T12:30:00Z",
+          "sentiment": "negative",
+          "author": "@ios_user"
+        },
+        {
+          "id": "comment-005",
+          "text": "Dun guncellemeden beri FaceID sorunu var",
+          "channel": "ios_store",
+          "category": "login",
+          "timestamp": "2026-02-03T16:00:00Z",
+          "sentiment": "negative",
+          "author": "kullanici_789"
+        }
+      ]
+    },
+    {
+      "id": "issue-002",
+      "title": "Android Uygulama Acilmiyor",
+      "channel": "android_store",
+      "version": "8.45.2",
+      "category": "performance",
+      "impact": "Kritik",
+      "status": "Devam ediyor",
+      "duration": "3+ gun",
+      "commentCount": 8,
+      "comments": [
+        {
+          "id": "comment-006",
+          "text": "Uygulama acilmiyor Android 14'te",
+          "channel": "android_store",
+          "category": "performance",
+          "timestamp": "2026-02-01T09:00:00Z",
+          "sentiment": "negative",
+          "author": "android_user1"
+        },
+        {
+          "id": "comment-007",
+          "text": "Splash ekranda takili kaliyor",
+          "channel": "android_store",
+          "category": "performance",
+          "timestamp": "2026-02-01T11:30:00Z",
+          "sentiment": "negative",
+          "author": "android_user2"
+        },
+        {
+          "id": "comment-008",
+          "text": "@GarantiBBVA Android uygulama crash oluyor",
+          "channel": "twitter",
+          "category": "performance",
+          "timestamp": "2026-02-02T08:15:00Z",
+          "sentiment": "negative",
+          "author": "@mobile_user"
+        }
+      ]
+    },
+    {
+      "id": "issue-003",
+      "title": "Havale Islemi Yavas",
+      "channel": "twitter",
+      "version": "8.45.0",
+      "category": "payment",
+      "impact": "Orta",
+      "status": "Yeni",
+      "duration": "1 gun",
+      "commentCount": 4,
+      "comments": [
+        {
+          "id": "comment-009",
+          "text": "Havale yapmaya calisiyorum ama cok yavas",
+          "channel": "twitter",
+          "category": "payment",
+          "timestamp": "2026-02-03T13:00:00Z",
+          "sentiment": "negative",
+          "author": "@user_payment"
+        },
+        {
+          "id": "comment-010",
+          "text": "EFT islemi 5 dakika suruyor",
+          "channel": "linkedin",
+          "category": "payment",
+          "timestamp": "2026-02-03T14:30:00Z",
+          "sentiment": "negative",
+          "author": "Ahmet Y."
+        }
+      ]
+    }
+  ]
+}

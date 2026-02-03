@@ -3,25 +3,25 @@
   "channels": {
     "twitter": {
       "status": "ok",
-      "lastFetch": "2026-02-03T20:22:19.735Z",
+      "lastFetch": "2026-02-03T20:47:09.772Z",
       "mentionCount": 4,
       "error": null
     },
     "linkedin": {
       "status": "ok",
-      "lastFetch": "2026-02-03T20:22:19.735Z",
+      "lastFetch": "2026-02-03T20:47:09.772Z",
       "mentionCount": 6,
       "error": null
     },
     "ios_store": {
       "status": "ok",
-      "lastFetch": "2026-02-03T20:22:19.735Z",
+      "lastFetch": "2026-02-03T20:47:09.772Z",
       "mentionCount": 50,
       "error": null
     },
     "android_store": {
       "status": "ok",
-      "lastFetch": "2026-02-03T20:22:19.735Z",
+      "lastFetch": "2026-02-03T20:47:09.772Z",
       "mentionCount": 50,
       "error": null
     }
@@ -36,8 +36,17 @@
     "login": [
       2,
       1,
-      1,
       2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "fee": [
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
@@ -105,11 +114,20 @@
       0,
       0
     ],
-    "atm": [
+    "branch_staff": [
       0,
       0,
       0,
       1,
+      0,
+      0,
+      0
+    ],
+    "atm": [
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
@@ -141,7 +159,7 @@
       0,
       0
     ],
-    "bill": [
+    "bill_tax": [
       0,
       0,
       0,
@@ -168,7 +186,25 @@
       0,
       0
     ],
-    "security": [
+    "complaint": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "app_security": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "connection": [
       0,
       0,
       0,
@@ -186,7 +222,16 @@
       0,
       0
     ],
-    "ui": [
+    "battery": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ui_ux": [
       0,
       0,
       0,
@@ -203,6 +248,15 @@
       0,
       0,
       2
+    ],
+    "general_app": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "other": [
       0,
@@ -230,24 +284,15 @@
       "channel": "ios_store",
       "version": "N/A",
       "category": "transfer",
-      "impact": "Kritik",
+      "impact": "Yuksek",
       "status": "Devam ediyor",
       "duration": "1+ gun",
-      "commentCount": 10,
+      "commentCount": 3,
       "comments": [
         {
           "id": "ios-13704096927",
           "text": "Atm sorunu Atm para veremiyorsa eft işlemlerinden para almamalısınız.",
           "author": "hasancilek",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13703678367",
-          "text": "Maaş müsterisinden işlem ücreti alınamaz Maaş müşterisi olmamızdan dolayı para transferinde 16 lira işlem ücreti alınması adil değil.",
-          "author": "Sessizlik seven",
           "rating": 1,
           "category": "transfer",
           "channel": "ios_store",
@@ -263,51 +308,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-13693512987",
-          "text": "Eft ücreti Hiç çalışmadan 10 tl eft ücreti teşekkürler sizinlede çalışmıyoruz artık…",
-          "author": "zafer parlar.",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13692349052",
-          "text": "Eft havale Ücret almanız çok ama çok ayıp zanen sizde zaten kazanıyorsunuz",
-          "author": "Fearleşlord",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13691904668",
-          "text": "Para transfer ücretleri 2 bin tl ye 8 tl kestiniz hakkım haram olsun",
-          "author": "Mert__13",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13691860727",
-          "text": "Şikayet Emekliyim 17 TL eft ücreti alınıyor",
-          "author": "Şikayetskn",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13689055188",
-          "text": "Havale ücreti Bu zamanda havale ücretimi kaldı ya yıl 2026",
-          "author": "CanerKul",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-13ebe7de-f9d8-4195-97e0-5081e12c855a",
           "text": "berbat bir uygulama sabahtan beri giremiyorum kirk dereden su getirtiyor yine olmuyor yardim bolumunden mesaj gonderiyorum diyor gelmiyor mesaj falan da.",
           "author": "Yusuf Kocaman",
@@ -316,6 +316,82 @@
           "category": "transfer",
           "channel": "android_store",
           "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-fee",
+      "title": "Maaş müsterisinden işlem ücreti alınamaz Maaş müşt",
+      "channel": "ios_store",
+      "version": "N/A",
+      "category": "fee",
+      "impact": "Kritik",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 9,
+      "comments": [
+        {
+          "id": "ios-13703678367",
+          "text": "Maaş müsterisinden işlem ücreti alınamaz Maaş müşterisi olmamızdan dolayı para transferinde 16 lira işlem ücreti alınması adil değil.",
+          "author": "Sessizlik seven",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13693512987",
+          "text": "Eft ücreti Hiç çalışmadan 10 tl eft ücreti teşekkürler sizinlede çalışmıyoruz artık…",
+          "author": "zafer parlar.",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13692349052",
+          "text": "Eft havale Ücret almanız çok ama çok ayıp zanen sizde zaten kazanıyorsunuz",
+          "author": "Fearleşlord",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13691904668",
+          "text": "Para transfer ücretleri 2 bin tl ye 8 tl kestiniz hakkım haram olsun",
+          "author": "Mert__13",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13691860727",
+          "text": "Şikayet Emekliyim 17 TL eft ücreti alınıyor",
+          "author": "Şikayetskn",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13689055188",
+          "text": "Havale ücreti Bu zamanda havale ücretimi kaldı ya yıl 2026",
+          "author": "CanerKul",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13688825719",
+          "text": "Çok masraflı Çok masraf kesiyor",
+          "author": "Orjinal terzi",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
         },
         {
           "id": "android-b1b5b33c-86cc-4001-afed-660a54ad8315",
@@ -323,7 +399,17 @@
           "author": "hülya topal",
           "rating": 1,
           "timestamp": "2026-01-20T18:57:56.605Z",
-          "category": "transfer",
+          "category": "fee",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-3efb8830-1db8-4a2f-9a36-380546cbbe46",
+          "text": "1. Uygulama zaman zaman açılmıyor, 2. varlıklarım hesaplamaları garip şekilde yanlış yapılmış görünüyor neden sonra düzeliyor. 3. Emekli aylığı aldığım bu banka K.K. yıllık ücreti kesiliyor farkedip i",
+          "author": "İstanbul Cepte",
+          "rating": 1,
+          "timestamp": "2026-01-12T09:25:29.371Z",
+          "category": "fee",
           "channel": "android_store",
           "sentiment": "negative"
         }
@@ -338,7 +424,7 @@
       "impact": "Kritik",
       "status": "Devam ediyor",
       "duration": "1+ gun",
-      "commentCount": 12,
+      "commentCount": 13,
       "comments": [
         {
           "id": "ios-13700482212",
@@ -429,11 +515,11 @@
           "sentiment": "negative"
         },
         {
-          "id": "android-5cb69861-40d9-4f41-b2cf-94d72c2d023c",
-          "text": "Son güncelleme- 9 aralık 2025, v 17.1- ile uygulama sürekli arka planda çalışıyor ve pili çok hızlı tüketiyor. Ciddi bir problem var. ---- 10 ocak Ek yorum: Bankanın problemle ciddi şekilde ilgilendiğ",
-          "author": "Uğur Ünlüakın",
-          "rating": 2,
-          "timestamp": "2026-01-11T09:34:06.502Z",
+          "id": "android-3446cd1f-08da-4320-b7ec-76f29c451e05",
+          "text": "Taksitle beyaz eşya almak için kredi kartı limitini 150000 TL 'ye yükseltmek için talepte bulundum. Diğer bankalardaki limiti de düşürttüğüm halde yanıt alamadım. Bir problemim olmadığı halde sorunum",
+          "author": "Süleyman Keskin",
+          "rating": 1,
+          "timestamp": "2026-01-09T12:15:45.891Z",
           "category": "payment",
           "channel": "android_store",
           "sentiment": "negative"
@@ -449,7 +535,7 @@
       "impact": "Kritik",
       "status": "Devam ediyor",
       "duration": "1+ gun",
-      "commentCount": 6,
+      "commentCount": 5,
       "comments": [
         {
           "id": "ios-13693663313",
@@ -490,16 +576,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "android-3446cd1f-08da-4320-b7ec-76f29c451e05",
-          "text": "Taksitle beyaz eşya almak için kredi kartı limitini 150000 TL 'ye yükseltmek için talepte bulundum. Diğer bankalardaki limiti de düşürttüğüm halde yanıt alamadım. Bir problemim olmadığı halde sorunum",
-          "author": "Süleyman Keskin",
-          "rating": 1,
-          "timestamp": "2026-01-09T12:15:45.891Z",
-          "category": "card",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-568492e2-73d6-4522-8e77-3534fe471cbc",
           "text": "Kredi karti harcama kısmı cok anlasilir degil..Yaptigim harcamalar dijital ve asil kart net olarak anlaşılmıyor..Yapi Kredi mobil uygulamasi daha anlasilir ve net..lutfen guncelleme ile duzeltin",
           "author": "ENES EYİGÜN",
@@ -512,43 +588,11 @@
       ]
     },
     {
-      "id": "issue-account",
-      "title": "Mustafa Benim ek hesabım neden açılmıyor",
-      "channel": "ios_store",
-      "version": "N/A",
-      "category": "account",
-      "impact": "Orta",
-      "status": "Devam ediyor",
-      "duration": "1+ gun",
-      "commentCount": 2,
-      "comments": [
-        {
-          "id": "ios-13692964144",
-          "text": "Mustafa Benim ek hesabım neden açılmıyor",
-          "author": "Ek hesap açın bana",
-          "rating": 1,
-          "category": "account",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-3efb8830-1db8-4a2f-9a36-380546cbbe46",
-          "text": "1. Uygulama zaman zaman açılmıyor, 2. varlıklarım hesaplamaları garip şekilde yanlış yapılmış görünüyor neden sonra düzeliyor. 3. Emekli aylığı aldığım bu banka K.K. yıllık ücreti kesiliyor farkedip i",
-          "author": "İstanbul Cepte",
-          "rating": 1,
-          "timestamp": "2026-01-12T09:25:29.371Z",
-          "category": "account",
-          "channel": "android_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-atm",
+      "id": "issue-branch_staff",
       "title": "İlgi Şubelerinizde ilgi alaka problem sorun çözme ",
       "channel": "ios_store",
       "version": "N/A",
-      "category": "atm",
+      "category": "branch_staff",
       "impact": "Orta",
       "status": "Devam ediyor",
       "duration": "1+ gun",
@@ -559,7 +603,7 @@
           "text": "İlgi Şubelerinizde ilgi alaka problem sorun çözme sıfır",
           "author": "Qvkfkdşidjfjckcmckfk",
           "rating": 1,
-          "category": "atm",
+          "category": "branch_staff",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -569,7 +613,7 @@
           "author": "Zeynep Şensoyer",
           "rating": 1,
           "timestamp": "2026-01-31T18:14:39.853Z",
-          "category": "atm",
+          "category": "branch_staff",
           "channel": "android_store",
           "sentiment": "negative"
         }

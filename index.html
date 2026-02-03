@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garanti BBVA Sosyal Medya Ä°zleme</title>
+    <title>Garanti BBVA Sosyal Medya İzleme</title>
     <style>
         * {
             margin: 0;
@@ -242,46 +242,46 @@
 <body>
     <div class="container">
         <header>
-            <h1>ğŸ“Š Garanti BBVA Sosyal Medya Ä°zleme</h1>
-            <div class="last-update">Son gÃ¼ncelleme: <span id="lastUpdate">3 Åubat 2026, 21:00</span></div>
+            <h1>📊 Garanti BBVA Sosyal Medya İzleme</h1>
+            <div class="last-update">Son güncelleme: <span id="lastUpdate">3 Şubat 2026, 21:00</span></div>
         </header>
 
         <div class="date-nav">
-            <span>ğŸ“… Tarih SeÃ§:</span>
-            <button class="date-btn active" data-date="2026-02-03">BugÃ¼n (3 Åub)</button>
-            <button class="date-btn" data-date="2026-02-02">DÃ¼n (2 Åub)</button>
-            <button class="date-btn" data-date="2026-02-01">1 Åub</button>
+            <span>📅 Tarih Seç:</span>
+            <button class="date-btn active" data-date="2026-02-03">Bugün (3 Şub)</button>
+            <button class="date-btn" data-date="2026-02-02">Dün (2 Şub)</button>
+            <button class="date-btn" data-date="2026-02-01">1 Şub</button>
             <select id="monthSelect">
-                <option value="2026-02">Åubat 2026</option>
+                <option value="2026-02">Şubat 2026</option>
                 <option value="2026-01">Ocak 2026</option>
             </select>
         </div>
 
         <div class="stats-grid" id="statsGrid">
             <div class="stat-card">
-                <div class="stat-label">ğŸ“± Toplam Mention</div>
+                <div class="stat-label">📱 Toplam Mention</div>
                 <div class="stat-value" id="totalMentions">-</div>
-                <div class="stat-trend trend-up">â†‘ +2 bugÃ¼n</div>
+                <div class="stat-trend trend-up">↑ +2 bugün</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">ğŸ”´ Kritik Sorunlar</div>
+                <div class="stat-label">🔴 Kritik Sorunlar</div>
                 <div class="stat-value" id="criticalIssues">-</div>
-                <div class="stat-trend trend-down">â†“ 1 dÃ¼ÅŸÃ¼k</div>
+                <div class="stat-trend trend-down">↓ 1 düşük</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">â­ Store Rating</div>
+                <div class="stat-label">⭐ Store Rating</div>
                 <div class="stat-value" id="storeRating">-</div>
-                <div class="stat-trend trend-down">â†“ 0.3 azaldÄ±</div>
+                <div class="stat-trend trend-down">↓ 0.3 azaldı</div>
             </div>
             <div class="stat-card">
-                <div class="stat-label">â±ï¸ Avg Response Time</div>
+                <div class="stat-label">⏱️ Avg Response Time</div>
                 <div class="stat-value" id="responseTime">-</div>
-                <div class="stat-trend trend-down">â†“ 2sa iyileÅŸti</div>
+                <div class="stat-trend trend-down">↓ 2sa iyileşti</div>
             </div>
         </div>
 
         <div class="heatmap">
-            <h2>ğŸ”¥ Aktivite IsÄ± HaritasÄ± (7 GÃ¼n)</h2>
+            <h2>🔥 Aktivite Isı Haritası (7 Gün)</h2>
             <div class="heatmap-grid" id="heatmapGrid"></div>
             <div class="legend">
                 <div class="legend-item">
@@ -308,7 +308,7 @@
         </div>
 
         <div class="issues-list">
-            <h2 style="margin-bottom: 20px;">ğŸš¨ Devam Eden Kritik Sorunlar</h2>
+            <h2 style="margin-bottom: 20px;">🚨 Devam Eden Kritik Sorunlar</h2>
             <div id="issuesList"></div>
         </div>
     </div>
@@ -325,20 +325,20 @@
                 responseTime: '4sa',
                 issues: [
                     {
-                        title: 'iOS FaceID GiriÅŸ HatasÄ±',
+                        title: 'iOS FaceID Giriş Hatası',
                         platform: 'App Store',
                         version: '8.45.0',
-                        impact: 'YÃ¼ksek',
+                        impact: 'Yüksek',
                         status: 'Devam ediyor',
-                        duration: '2+ gÃ¼n'
+                        duration: '2+ gün'
                     },
                     {
-                        title: 'Android Uygulama AÃ§Ä±lmÄ±yor',
+                        title: 'Android Uygulama Açılmıyor',
                         platform: 'Google Play',
                         version: '8.45.2',
                         impact: 'Kritik',
                         status: 'Devam ediyor',
-                        duration: '3+ gÃ¼n'
+                        duration: '3+ gün'
                     }
                 ],
                 heatmap: generateSampleHeatmap()
@@ -350,12 +350,12 @@
                 responseTime: '6sa',
                 issues: [
                     {
-                        title: 'iOS FaceID GiriÅŸ HatasÄ±',
+                        title: 'iOS FaceID Giriş Hatası',
                         platform: 'App Store',
                         version: '8.45.0',
-                        impact: 'YÃ¼ksek',
+                        impact: 'Yüksek',
                         status: 'Yeni',
-                        duration: '1 gÃ¼n'
+                        duration: '1 gün'
                     }
                 ],
                 heatmap: generateSampleHeatmap()
@@ -363,7 +363,7 @@
         };
 
         function generateSampleHeatmap() {
-            const days = ['Pzt', 'Sal', 'Ã‡ar', 'Per', 'Cum', 'Cmt', 'Paz'];
+            const days = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
             const data = {};
             days.forEach(day => {
                 data[day] = Array.from({length: 24}, () => Math.floor(Math.random() * 5));
@@ -429,11 +429,11 @@
             container.innerHTML = issues.map(issue => `
                 <div class="issue-item">
                     <div class="issue-title">${issue.title}</div>
-                    <div>${issue.platform} Â· v${issue.version}</div>
+                    <div>${issue.platform} · v${issue.version}</div>
                     <div class="issue-meta">
-                        <span>ğŸ“ Etki: <strong>${issue.impact}</strong></span>
-                        <span>â±ï¸ SÃ¼re: ${issue.duration}</span>
-                        <span>ğŸ”„ Durum: ${issue.status}</span>
+                        <span>📍 Etki: <strong>${issue.impact}</strong></span>
+                        <span>⏱️ Süre: ${issue.duration}</span>
+                        <span>🔄 Durum: ${issue.status}</span>
                     </div>
                 </div>
             `).join('');

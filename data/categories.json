@@ -1,25 +1,160 @@
 {
-  "version": "2.0",
   "categories": [
-    { "id": "login", "name": "GiriÅŸ & Kimlik", "color": "#e74c3c", "keywords": ["giris", "giriÅŸ", "ÅŸifre", "sifre", "faceid", "face id", "touchid", "touch id", "parmak izi", "otp", "sms kodu", "doÄŸrulama", "dogrulama", "kimlik", "giriÅŸ yapamÄ±yorum", "sifreyi unuttum", "biyometrik"] },
-    { "id": "transfer", "name": "Para Transferi", "color": "#3498db", "keywords": ["havale", "eft", "virman", "transfer", "gÃ¶nder", "gonder", "para yolla", "fast", "instant", "hÄ±zlÄ± transfer", "hizli transfer"] },
-    { "id": "payment", "name": "Fatura & Ã–deme", "color": "#9b59b6", "keywords": ["fatura", "Ã¶deme", "odeme", "elektrik", "su", "dogalgaz", "doÄŸalgaz", "telefon", "internet", "Ã¶deme yap", "odeme yap", "borcum"] },
-    { "id": "card", "name": "Kart Ä°ÅŸlemleri", "color": "#e67e22", "keywords": ["kart", "kredi kartÄ±", "kredi karti", "banka kartÄ±", "banka karti", "bonus", "paracard", "kart ekle", "kart sil", "kart limiti", "taksit", "ekstreyi", "ekstre"] },
-    { "id": "loan", "name": "Kredi & Limit", "color": "#1abc9c", "keywords": ["kredi", "limit", "avans", "Ã§ek", "cek", "kredim", "Ã¶dÃ¼nÃ§", "odunc", "nakit", "borÃ§", "borc", "taksit", "ihtiyaÃ§ kredisi", "ihtiyac kredisi", "kredi baÅŸvurusu", "kredi basvurusu"] },
-    { "id": "investment", "name": "YatÄ±rÄ±m & Borsa", "color": "#f39c12", "keywords": ["hisse", "borsa", "fon", "yatÄ±rÄ±m", "yatirim", "dÃ¶viz", "doviz", "altÄ±n", "altin", "euro", "dolar", "kripto", "bitcoin", "ethereum", "etrader"] },
-    { "id": "account", "name": "Hesap YÃ¶netimi", "color": "#34495e", "keywords": ["hesap", "bakiye", "hesabÄ±m", "hesabim", "mevduat", "vadeli", "vadesiz", "iban", "hesap aÃ§ma", "hesap acma", "hesap kapatma"] },
-    { "id": "notification", "name": "Bildirim & SMS", "color": "#95a5a6", "keywords": ["bildirim", "sms", "mesaj", "uyarÄ±", "uyari", "push", "notification", "e-posta", "mail"] },
-    { "id": "atm", "name": "ATM & Åube", "color": "#16a085", "keywords": ["atm", "ÅŸube", "sube", "para Ã§ek", "para cek", "yatÄ±rma", "yatirma", "bankamatik", "ÅŸubemi", "subemi", "qr kod", "qr ile"] },
-    { "id": "insurance", "name": "Sigorta", "color": "#8e44ad", "keywords": ["sigorta", "poliÃ§e", "police", "trafik sigortasÄ±", "trafik sigortasi", "kasko", "dask", "saÄŸlÄ±k sigortasÄ±", "saglik sigortasi", "seyahat sigortasÄ±", "seyahat sigortasi"] },
-    { "id": "pension", "name": "Emeklilik", "color": "#2c3e50", "keywords": ["emeklilik", "bes", "digibes", "bireysel emeklilik", "katkÄ±", "katki", "birikim"] },
-    { "id": "hgs", "name": "HGS & OGS", "color": "#27ae60", "keywords": ["hgs", "ogs", "kÃ¶prÃ¼", "kopru", "otoyol", "geÃ§iÅŸ", "gecis", "yÃ¼kleme"] },
-    { "id": "bill", "name": "MTV & Vergi", "color": "#d35400", "keywords": ["mtv", "motorlu taÅŸÄ±t", "motorlu tasit", "vergi", "sgk", "sgk prim", "trafik cezasÄ±", "trafik cezasi"] },
-    { "id": "appointment", "name": "Randevu", "color": "#c0392b", "keywords": ["randevu", "gÃ¶rÃ¼ÅŸme", "gorusme", "sÄ±ra", "sira", "ÅŸube randevusu", "sube randevusu"] },
-    { "id": "customer_service", "name": "MÃ¼ÅŸteri Hizmetleri", "color": "#7f8c8d", "keywords": ["mÃ¼ÅŸteri", "musteri", "destek", "yardÄ±m", "yardim", "call center", "444", "ÅŸikayet", "sikayet", "talep", "danÄ±ÅŸman", "danisman"] },
-    { "id": "security", "name": "GÃ¼venlik", "color": "#e74c3c", "keywords": ["gÃ¼venlik", "guvenlik", "dolandÄ±rÄ±cÄ±lÄ±k", "dolandiricilik", "fraud", "sahte", "phishing", "gÃ¼venli", "guvenli", "Ã§alÄ±ndÄ±", "calindi", "hack", "ÅŸÃ¼pheli", "supheli"] },
-    { "id": "performance", "name": "Performans", "color": "#c0392b", "keywords": ["yavaÅŸ", "yavas", "donma", "donuyor", "crash", "kapanÄ±yor", "kapaniyor", "aÃ§Ä±lmÄ±yor", "acilmiyor", "takÄ±lÄ±", "takili", "hata", "bug", "Ã§Ã¶kme", "cokme", "kasma"] },
-    { "id": "ui", "name": "TasarÄ±m & ArayÃ¼z", "color": "#3498db", "keywords": ["tasarÄ±m", "tasarim", "buton", "menÃ¼", "menu", "gÃ¶rÃ¼nÃ¼m", "gorunum", "arayÃ¼z", "arayuz", "renk", "tema", "font", "yazÄ± boyutu", "yazi boyutu"] },
-    { "id": "feature", "name": "Ã–zellik Talebi", "color": "#2ecc71", "keywords": ["istiyorum", "eklensin", "olsa", "iyi olur", "Ã¶zellik", "ozellik", "olmalÄ±", "olmali", "yapÄ±lsa", "yapilsa", "gelmeli", "lazÄ±m", "lazim"] },
-    { "id": "other", "name": "DiÄŸer", "color": "#95a5a6", "keywords": [] }
+    {
+      "id": "login",
+      "name": "Giriş & Kimlik",
+      "color": "#e74c3c",
+      "keywords": ["giriş", "giris", "şifre", "sifre", "faceid", "face id", "touchid", "touch id", "parmak izi", "biyometrik", "otp", "sms kod", "doğrulama", "dogrulama", "kimlik doğrulama", "giriş yapamıyorum", "sifreyi unuttum"]
+    },
+    {
+      "id": "fee",
+      "name": "İşlem Ücreti",
+      "color": "#e67e22",
+      "keywords": ["eft ücreti", "havale ücreti", "işlem ücreti", "masraf", "komisyon", "ücret", "kesinti", "aidat", "hesap işletim ücreti", "kart yıllık ücret", "17 tl", "ücretlendir"]
+    },
+    {
+      "id": "transfer",
+      "name": "Para Transferi",
+      "color": "#f39c12",
+      "keywords": ["havale", "eft", "virman", "transfer", "gönder", "gonder", "para yolla", "fast", "instant", "hızlı transfer", "hizli transfer", "para gönderme", "aktarım"]
+    },
+    {
+      "id": "payment",
+      "name": "Fatura & Ödeme",
+      "color": "#f1c40f",
+      "keywords": ["fatura", "ödeme", "odeme", "elektrik", "su", "dogalgaz", "doğalgaz", "telefon", "internet", "ödeme yap", "borcum", "taksit", "kredi kartı ödemesi"]
+    },
+    {
+      "id": "card",
+      "name": "Kart İşlemleri",
+      "color": "#3498db",
+      "keywords": ["kart", "kredi kartı", "kredi karti", "banka kartı", "banka karti", "bonus", "paracard", "kart ekle", "kart sil", "kart limiti", "ekstre", "taksit seçeneği"]
+    },
+    {
+      "id": "loan",
+      "name": "Kredi & Limit",
+      "color": "#9b59b6",
+      "keywords": ["kredi", "limit", "avans", "çek", "cek", "kredim", "ödünç", "odunc", "nakit", "borç", "borc", "ihtiyaç kredisi", "kredi başvurusu", "kredi basvurusu", "kredi talebi"]
+    },
+    {
+      "id": "investment",
+      "name": "Yatırım & Borsa",
+      "color": "#1abc9c",
+      "keywords": ["hisse", "borsa", "fon", "yatırım", "yatirim", "döviz", "doviz", "altın", "altin", "euro", "dolar", "kripto", "bitcoin", "ethereum", "etrader", "portföy"]
+    },
+    {
+      "id": "account",
+      "name": "Hesap İşlemleri",
+      "color": "#16a085",
+      "keywords": ["hesap", "bakiye", "hesabım", "hesabim", "mevduat", "vadeli", "vadesiz", "iban", "hesap açma", "hesap acma", "hesap kapatma", "hesap özeti", "hesap hareketi"]
+    },
+    {
+      "id": "notification",
+      "name": "Bildirim & SMS",
+      "color": "#34495e",
+      "keywords": ["bildirim", "sms", "mesaj", "uyarı", "uyari", "push", "notification", "e-posta", "mail", "bilgilendirme"]
+    },
+    {
+      "id": "branch_staff",
+      "name": "Şube & Personel",
+      "color": "#95a5a6",
+      "keywords": ["şube", "sube", "personel", "müdür", "mudur", "danışman", "danisman", "yetkili", "memur", "ilgisiz", "saygısız", "kaba", "muhatap", "şube çalışanı"]
+    },
+    {
+      "id": "atm",
+      "name": "ATM & Para Çekme",
+      "color": "#7f8c8d",
+      "keywords": ["atm", "bankamatik", "para çek", "para cek", "yatırma", "yatirma", "qr kod", "qr ile", "temassız", "contactless"]
+    },
+    {
+      "id": "insurance",
+      "name": "Sigorta",
+      "color": "#d35400",
+      "keywords": ["sigorta", "poliçe", "police", "trafik sigortası", "kasko", "dask", "sağlık sigortası", "saglik sigortasi", "seyahat sigortası"]
+    },
+    {
+      "id": "pension",
+      "name": "Emeklilik & BES",
+      "color": "#c0392b",
+      "keywords": ["emeklilik", "bes", "digibes", "bireysel emeklilik", "katkı", "katki", "birikim", "emekli maaşı"]
+    },
+    {
+      "id": "hgs",
+      "name": "HGS & OGS",
+      "color": "#27ae60",
+      "keywords": ["hgs", "ogs", "köprü", "kopru", "otoyol", "geçiş", "gecis", "yükleme", "bakiye yükleme"]
+    },
+    {
+      "id": "bill_tax",
+      "name": "MTV & Vergi",
+      "color": "#2c3e50",
+      "keywords": ["mtv", "motorlu taşıt", "motorlu tasit", "vergi", "sgk", "sgk prim", "trafik cezası", "ceza ödeme"]
+    },
+    {
+      "id": "appointment",
+      "name": "Randevu",
+      "color": "#8e44ad",
+      "keywords": ["randevu", "görüşme", "gorusme", "sıra", "sira", "şube randevusu", "online randevu"]
+    },
+    {
+      "id": "customer_service",
+      "name": "Müşteri Hizmetleri",
+      "color": "#2980b9",
+      "keywords": ["müşteri", "musteri", "destek", "yardım", "yardim", "call center", "444", "çağrı merkezi", "çözüm", "cozum"]
+    },
+    {
+      "id": "complaint",
+      "name": "Şikayet Genel",
+      "color": "#c0392b",
+      "keywords": ["şikayet", "sikayet", "memnun değilim", "berbat", "rezalet", "kötü", "kotu", "hayal kırıklığı", "mağdur", "magdur"]
+    },
+    {
+      "id": "app_security",
+      "name": "Uygulama Güvenliği",
+      "color": "#e74c3c",
+      "keywords": ["güvenlik", "guvenlik", "ekran görüntüsü", "screenshot", "kopyalama", "dolandırıcılık", "dolandiricilik", "fraud", "sahte", "phishing", "çalındı", "calindi", "hack", "şüpheli işlem"]
+    },
+    {
+      "id": "connection",
+      "name": "Bağlantı Sorunları",
+      "color": "#e67e22",
+      "keywords": ["bağlanamıyor", "baglanmiyor", "internet", "wifi", "ağ", "ag", "bağlantı", "baglanti", "sunucu", "server", "erişim sorunu", "erisim", "açılmıyor", "acilmiyor"]
+    },
+    {
+      "id": "performance",
+      "name": "Performans & Hız",
+      "color": "#f39c12",
+      "keywords": ["yavaş", "yavas", "donma", "donuyor", "crash", "kapanıyor", "kapaniyor", "takılı", "takili", "hata", "bug", "çökme", "cokme", "kasma", "geç açılıyor"]
+    },
+    {
+      "id": "battery",
+      "name": "Pil Tüketimi",
+      "color": "#27ae60",
+      "keywords": ["pil", "batarya", "şarj", "sarj", "pil tüketimi", "arka planda", "enerji", "aşırı tüketim", "batarya harcar"]
+    },
+    {
+      "id": "ui_ux",
+      "name": "Kullanıcı Deneyimi",
+      "color": "#3498db",
+      "keywords": ["tasarım", "tasarim", "arayüz", "arayuz", "kullanışsız", "kullanissiz", "karmaşık", "karmasik", "buton", "menü", "menu", "görünüm", "gorunum", "ux", "ui", "renk", "tema", "font", "deneyim"]
+    },
+    {
+      "id": "feature",
+      "name": "Özellik Talebi",
+      "color": "#9b59b6",
+      "keywords": ["istiyorum", "eklensin", "olsa", "iyi olur", "özellik", "ozellik", "olmalı", "olmali", "yapılsa", "yapilsa", "gelmeli", "lazım", "lazim", "talep", "öneri", "oneri"]
+    },
+    {
+      "id": "general_app",
+      "name": "Uygulama Genel",
+      "color": "#34495e",
+      "keywords": ["uygulama", "app", "mobil", "android", "ios", "versiyon", "güncelleme", "guncelleme", "yeni versiyon", "eski hali", "sistem"]
+    },
+    {
+      "id": "other",
+      "name": "Diğer",
+      "color": "#95a5a6",
+      "keywords": []
+    }
   ]
 }

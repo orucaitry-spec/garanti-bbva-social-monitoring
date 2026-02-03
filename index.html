@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garanti BBVA Sosyal Medya Izleme</title>
+    <title>Garanti BBVA Sosyal Medya Izleme v3</title>
     <style>
         * {
             margin: 0;
@@ -41,6 +41,76 @@
         .last-update {
             color: #666;
             font-size: 0.9em;
+        }
+
+        .channel-status {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .channel-status h2 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .channels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .channel-card {
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+
+        .channel-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .channel-card.ok {
+            background: #e8f8f5;
+            border-color: #27ae60;
+        }
+
+        .channel-card.error {
+            background: #fdedec;
+            border-color: #e74c3c;
+        }
+
+        .channel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .channel-name {
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .channel-status-icon {
+            font-size: 1.5em;
+        }
+
+        .channel-meta {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .channel-count {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-top: 5px;
         }
 
         .date-nav {
@@ -136,6 +206,13 @@
             font-weight: 600;
             color: #666;
             font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .heatmap-label:hover {
+            background: #f0f0f0;
+            border-radius: 6px;
         }
 
         .heatmap-day {
@@ -228,26 +305,29 @@
             flex-wrap: wrap;
         }
 
-        .feedback-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
+        .channel-badge {
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 0.75em;
+            background: #3498db;
+            color: white;
+            display: inline-block;
+        }
+
+        .view-comments-btn {
             background: #667eea;
             color: white;
             border: none;
-            padding: 15px 25px;
-            border-radius: 50px;
-            font-size: 1em;
-            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.85em;
             cursor: pointer;
-            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+            margin-top: 10px;
             transition: all 0.3s;
-            z-index: 100;
         }
 
-        .feedback-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        .view-comments-btn:hover {
+            background: #764ba2;
         }
 
         .modal {
@@ -272,7 +352,7 @@
             background: white;
             padding: 30px;
             border-radius: 15px;
-            max-width: 600px;
+            max-width: 800px;
             width: 100%;
             max-height: 80vh;
             overflow-y: auto;
@@ -283,10 +363,13 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
         }
 
         .modal-header h2 {
             margin: 0;
+            color: #333;
         }
 
         .close-btn {
@@ -296,6 +379,85 @@
             cursor: pointer;
             color: #999;
             line-height: 1;
+            transition: all 0.3s;
+        }
+
+        .close-btn:hover {
+            color: #333;
+            transform: rotate(90deg);
+        }
+
+        .comment-item {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 3px solid #667eea;
+        }
+
+        .comment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .comment-meta {
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .comment-text {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .comment-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .feedback-btn-small {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.75em;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .feedback-btn-small:hover {
+            background: #2980b9;
+        }
+
+        .feedback-btn-main {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s;
+            z-index: 100;
+        }
+
+        .feedback-btn-main:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
         }
 
         .form-group {
@@ -382,7 +544,7 @@
                 padding: 15px;
             }
 
-            .stats-grid {
+            .stats-grid, .channels-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
 
@@ -390,7 +552,7 @@
                 padding: 15px;
             }
 
-            .feedback-btn {
+            .feedback-btn-main {
                 bottom: 10px;
                 right: 10px;
                 padding: 12px 20px;
@@ -403,11 +565,11 @@
         }
 
         @media (max-width: 480px) {
-            .stats-grid {
+            .stats-grid, .channels-grid {
                 grid-template-columns: 1fr;
             }
 
-            .issue-meta {
+            .issue-meta, .comment-footer {
                 flex-direction: column;
                 gap: 5px;
             }
@@ -417,9 +579,14 @@
 <body>
     <div class="container">
         <header>
-            <h1>&#128200; Garanti BBVA Sosyal Medya Izleme</h1>
+            <h1>&#128200; Garanti BBVA Sosyal Medya Izleme v3</h1>
             <div class="last-update">Son guncelleme: <span id="lastUpdate">Yukleniyor...</span></div>
         </header>
+
+        <div class="channel-status">
+            <h2>&#128202; Kanal Durumu</h2>
+            <div class="channels-grid" id="channelsGrid"></div>
+        </div>
 
         <div class="date-nav">
             <span>&#128197; Tarih:</span>
@@ -441,10 +608,22 @@
         </div>
     </div>
 
-    <button class="feedback-btn" onclick="openFeedbackModal()">
+    <button class="feedback-btn-main" onclick="openFeedbackModal()">
         &#128172; Geri Bildirim
     </button>
 
+    <!-- Comments Modal -->
+    <div class="modal" id="commentsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="commentsModalTitle">Yorumlar</h2>
+                <button class="close-btn" onclick="closeCommentsModal()">&times;</button>
+            </div>
+            <div id="commentsContent"></div>
+        </div>
+    </div>
+
+    <!-- Feedback Modal -->
     <div class="modal" id="feedbackModal">
         <div class="modal-content">
             <div class="modal-header">
@@ -458,7 +637,9 @@
                         <option value="">Seciniz</option>
                         <option value="category-rename">Kategori Adini Degistir</option>
                         <option value="category-new">Yeni Kategori Onerisi</option>
-                        <option value="comment-recategorize">Yorum Kategori Degisikli??i</option>
+                        <option value="comment-recategorize">Yorum Kategori Degisikligi</option>
+                        <option value="issue-status">Sorun Durum Guncelleme</option>
+                        <option value="channel-issue">Kanal Erisim Sorunu</option>
                         <option value="other">Diger</option>
                     </select>
                 </div>
@@ -467,9 +648,10 @@
                     <textarea id="feedbackDescription" required placeholder="Detayli aciklama yaziniz..."></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Kategori / Yorum ID (Opsiyonel)</label>
-                    <input type="text" id="feedbackTarget" placeholder="Ornek: login, comment-001">
+                    <label>Hedef ID (Opsiyonel)</label>
+                    <input type="text" id="feedbackTarget" placeholder="Ornek: login, comment-001, issue-002">
                 </div>
+                <input type="hidden" id="feedbackContext">
                 <button type="submit" class="submit-btn">Gonder</button>
                 <div class="success-message" id="successMessage">
                     &#10003; Geri bildiriminiz kaydedildi!
@@ -481,18 +663,30 @@
     <div class="tooltip" id="tooltip"></div>
 
     <script>
-        // Configuration - Token removed for security
         const DATA_BASE_URL = 'https://raw.githubusercontent.com/orucaitry-spec/garanti-bbva-social-monitoring/main/data/';
         const GIST_API_URL = 'https://api.github.com/gists';
-        // Token will be injected by environment or user input
         
         let currentReport = null;
         let categories = null;
         let userToken = null;
 
+        const CHANNEL_NAMES = {
+            twitter: 'Twitter',
+            linkedin: 'LinkedIn',
+            ios_store: 'iOS Store',
+            android_store: 'Android Store'
+        };
+
+        const CHANNEL_ICONS = {
+            twitter: '&#128038;',
+            linkedin: '&#128100;',
+            ios_store: '&#63743;',
+            android_store: '&#129302;'
+        };
+
         async function loadData(date) {
             try {
-                const reportUrl = `${DATA_BASE_URL}${date}.json`;
+                const reportUrl = `${DATA_BASE_URL}${date}-full.json`;
                 const categoriesUrl = `${DATA_BASE_URL}categories.json`;
                 
                 const [reportRes, catRes] = await Promise.all([
@@ -503,6 +697,7 @@
                 currentReport = await reportRes.json();
                 categories = await catRes.json();
 
+                renderChannels(currentReport.channels);
                 renderStats(currentReport.summary);
                 renderHeatmap(currentReport);
                 renderIssues(currentReport.issues);
@@ -510,45 +705,65 @@
                 document.getElementById('lastUpdate').textContent = new Date(currentReport.date).toLocaleDateString('tr-TR');
             } catch (error) {
                 console.error('Data yukleme hatasi:', error);
-                // Fallback sample data
                 loadSampleData();
             }
         }
 
         function loadSampleData() {
-            currentReport = {
-                date: '2026-02-03',
-                summary: { totalMentions: 16, criticalIssues: 2, storeRating: 2.2, avgResponseTime: '4sa' },
-                heatmap: {
-                    login: [3, 2, 1, 2, 4, 1, 0],
-                    performance: [2, 3, 2, 1, 0, 0, 0],
-                    payment: [0, 1, 0, 1, 2, 0, 0],
-                    ui: [1, 0, 2, 3, 2, 1, 0],
-                    feature: [0, 0, 1, 0, 0, 0, 0],
-                    other: [0, 1, 0, 0, 1, 0, 0]
-                },
-                days: ['Pzt', 'Sal', 'Car', 'Per', 'Cum', 'Cmt', 'Paz'],
-                issues: [
-                    { id: 'issue-001', title: 'iOS FaceID Giris Hatasi', platform: 'App Store', version: '8.45.0', category: 'login', impact: 'Yuksek', status: 'Devam ediyor', duration: '2+ gun', mentions: 5 },
-                    { id: 'issue-002', title: 'Android Uygulama Acilmiyor', platform: 'Google Play', version: '8.45.2', category: 'performance', impact: 'Kritik', status: 'Devam ediyor', duration: '3+ gun', mentions: 8 }
-                ]
-            };
-            
-            categories = {
-                categories: [
-                    { id: 'login', name: 'Giris Sorunlari', color: '#e74c3c' },
-                    { id: 'performance', name: 'Performans', color: '#f39c12' },
-                    { id: 'payment', name: 'Odeme', color: '#e67e22' },
-                    { id: 'ui', name: 'Arayuz', color: '#3498db' },
-                    { id: 'feature', name: 'Ozellik Talebi', color: '#9b59b6' },
-                    { id: 'other', name: 'Diger', color: '#95a5a6' }
-                ]
-            };
+            fetch('report-2026-02-03-full.json')
+                .then(r => r.json())
+                .then(data => {
+                    currentReport = data;
+                    
+                    categories = {
+                        categories: [
+                            { id: 'login', name: 'Giris Sorunlari', color: '#e74c3c' },
+                            { id: 'performance', name: 'Performans', color: '#f39c12' },
+                            { id: 'payment', name: 'Odeme', color: '#e67e22' },
+                            { id: 'ui', name: 'Arayuz', color: '#3498db' },
+                            { id: 'feature', name: 'Ozellik Talebi', color: '#9b59b6' },
+                            { id: 'other', name: 'Diger', color: '#95a5a6' }
+                        ]
+                    };
 
-            renderStats(currentReport.summary);
-            renderHeatmap(currentReport);
-            renderIssues(currentReport.issues);
-            document.getElementById('lastUpdate').textContent = '3 Subat 2026, 21:30';
+                    renderChannels(currentReport.channels);
+                    renderStats(currentReport.summary);
+                    renderHeatmap(currentReport);
+                    renderIssues(currentReport.issues);
+                    document.getElementById('lastUpdate').textContent = '3 Subat 2026, 22:00';
+                })
+                .catch(() => {
+                    alert('Veri yuklenemedi. Lutfen sayfayi yenileyin.');
+                });
+        }
+
+        function renderChannels(channels) {
+            const grid = document.getElementById('channelsGrid');
+            grid.innerHTML = Object.entries(channels).map(([id, data]) => {
+                const statusClass = data.status === 'ok' ? 'ok' : 'error';
+                const statusIcon = data.status === 'ok' ? '&#9989;' : '&#10060;';
+                const lastFetch = new Date(data.lastFetch).toLocaleString('tr-TR', {
+                    day: 'numeric',
+                    month: 'short',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                
+                return `
+                    <div class="channel-card ${statusClass}">
+                        <div class="channel-header">
+                            <div>
+                                <span>${CHANNEL_ICONS[id]}</span>
+                                <span class="channel-name">${CHANNEL_NAMES[id]}</span>
+                            </div>
+                            <span class="channel-status-icon">${statusIcon}</span>
+                        </div>
+                        <div class="channel-meta">Son: ${lastFetch}</div>
+                        ${data.error ? `<div class="channel-meta" style="color: #e74c3c;">${data.error}</div>` : ''}
+                        <div class="channel-count">${data.mentionCount} mention</div>
+                    </div>
+                `;
+            }).join('');
         }
 
         function renderStats(summary) {
@@ -577,7 +792,6 @@
             const grid = document.getElementById('heatmapGrid');
             grid.innerHTML = '';
 
-            // Header row (days)
             grid.appendChild(document.createElement('div'));
             report.days.forEach(day => {
                 const dayLabel = document.createElement('div');
@@ -586,13 +800,14 @@
                 grid.appendChild(dayLabel);
             });
 
-            // Category rows
             Object.entries(report.heatmap).forEach(([catId, values]) => {
                 const cat = categories.categories.find(c => c.id === catId);
                 const catLabel = document.createElement('div');
                 catLabel.className = 'heatmap-label';
                 catLabel.textContent = cat ? cat.name : catId;
                 catLabel.style.color = cat ? cat.color : '#666';
+                catLabel.onclick = () => openCategoryFeedback(catId, cat ? cat.name : catId);
+                catLabel.title = 'Kategori hakkinda geri bildirim gonder';
                 grid.appendChild(catLabel);
 
                 values.forEach((count, dayIdx) => {
@@ -607,6 +822,7 @@
                     
                     cell.addEventListener('mouseenter', showTooltip);
                     cell.addEventListener('mouseleave', hideTooltip);
+                    cell.onclick = () => openHeatmapCellFeedback(catId, report.days[dayIdx], count);
                     
                     grid.appendChild(cell);
                 });
@@ -618,22 +834,99 @@
             container.innerHTML = issues.map(issue => {
                 const cat = categories.categories.find(c => c.id === issue.category);
                 return `
-                    <div class="issue-item" onclick="openIssueDetails('${issue.id}')">
+                    <div class="issue-item">
                         <div class="issue-header">
                             <div class="issue-title">${issue.title}</div>
                             <div class="category-badge" style="background: ${cat ? cat.color : '#999'}">
                                 ${cat ? cat.name : issue.category}
                             </div>
                         </div>
-                        <div>${issue.platform} &middot; v${issue.version}</div>
+                        <div style="margin-bottom: 8px;">
+                            <span class="channel-badge">${CHANNEL_ICONS[issue.channel]} ${CHANNEL_NAMES[issue.channel]}</span>
+                            <span style="margin-left: 10px; color: #666;">v${issue.version}</span>
+                        </div>
                         <div class="issue-meta">
                             <span>&#128205; ${issue.impact}</span>
                             <span>&#9201; ${issue.duration}</span>
-                            <span>&#128172; ${issue.mentions} mention</span>
+                            <span>&#128172; ${issue.commentCount} yorum</span>
+                        </div>
+                        <button class="view-comments-btn" onclick="openComments('${issue.id}')">
+                            Yorumlari Goruntule (${issue.commentCount})
+                        </button>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function openComments(issueId) {
+            const issue = currentReport.issues.find(i => i.id === issueId);
+            if (!issue) return;
+
+            document.getElementById('commentsModalTitle').textContent = `${issue.title} - Yorumlar (${issue.commentCount})`;
+            
+            const content = document.getElementById('commentsContent');
+            content.innerHTML = issue.comments.map(comment => {
+                const cat = categories.categories.find(c => c.id === comment.category);
+                const timestamp = new Date(comment.timestamp).toLocaleString('tr-TR', {
+                    day: 'numeric',
+                    month: 'short',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                
+                return `
+                    <div class="comment-item">
+                        <div class="comment-header">
+                            <div class="comment-meta">
+                                <strong>${comment.author}</strong> &middot; 
+                                ${CHANNEL_ICONS[comment.channel]} ${CHANNEL_NAMES[comment.channel]} &middot; 
+                                ${timestamp}
+                            </div>
+                        </div>
+                        <div class="comment-text">${comment.text}</div>
+                        <div class="comment-footer">
+                            <div class="category-badge" style="background: ${cat ? cat.color : '#999'}">
+                                ${cat ? cat.name : comment.category}
+                            </div>
+                            <button class="feedback-btn-small" onclick="openCommentFeedback('${comment.id}', '${issue.id}')">
+                                &#128172; Geri Bildirim
+                            </button>
                         </div>
                     </div>
                 `;
             }).join('');
+
+            document.getElementById('commentsModal').classList.add('active');
+        }
+
+        function closeCommentsModal() {
+            document.getElementById('commentsModal').classList.remove('active');
+        }
+
+        function openCategoryFeedback(catId, catName) {
+            document.getElementById('feedbackType').value = 'category-rename';
+            document.getElementById('feedbackTarget').value = catId;
+            document.getElementById('feedbackDescription').value = `Kategori: ${catName}\n\nOnerilen yeni ad: `;
+            document.getElementById('feedbackContext').value = JSON.stringify({ type: 'category', id: catId, name: catName });
+            openFeedbackModal();
+        }
+
+        function openHeatmapCellFeedback(catId, day, count) {
+            const cat = categories.categories.find(c => c.id === catId);
+            document.getElementById('feedbackType').value = 'other';
+            document.getElementById('feedbackTarget').value = catId;
+            document.getElementById('feedbackDescription').value = `${cat ? cat.name : catId} kategorisi - ${day} gunu:\n${count} mention var.\n\nGeri bildiriminiz: `;
+            document.getElementById('feedbackContext').value = JSON.stringify({ type: 'heatmap', category: catId, day, count });
+            openFeedbackModal();
+        }
+
+        function openCommentFeedback(commentId, issueId) {
+            document.getElementById('feedbackType').value = 'comment-recategorize';
+            document.getElementById('feedbackTarget').value = commentId;
+            document.getElementById('feedbackDescription').value = `Yorum ID: ${commentId}\nSorun: ${issueId}\n\nYeni kategori veya duzeltme: `;
+            document.getElementById('feedbackContext').value = JSON.stringify({ type: 'comment', commentId, issueId });
+            closeCommentsModal();
+            openFeedbackModal();
         }
 
         function showTooltip(e) {
@@ -642,7 +935,7 @@
             const cat = categories.categories.find(c => c.id === cell.dataset.category);
             const catName = cat ? cat.name : cell.dataset.category;
             
-            tooltip.textContent = `${catName} - ${cell.dataset.day}: ${cell.dataset.count} mention`;
+            tooltip.textContent = `${catName} - ${cell.dataset.day}: ${cell.dataset.count} mention (Geri bildirim icin tikla)`;
             tooltip.style.display = 'block';
             tooltip.style.left = e.pageX + 10 + 'px';
             tooltip.style.top = e.pageY + 10 + 'px';
@@ -650,11 +943,6 @@
 
         function hideTooltip() {
             document.getElementById('tooltip').style.display = 'none';
-        }
-
-        function openIssueDetails(issueId) {
-            // Future: Modal with issue details
-            console.log('Issue details:', issueId);
         }
 
         function openFeedbackModal() {
@@ -670,7 +958,6 @@
         document.getElementById('feedbackForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             
-            // Get or prompt for token
             if (!userToken) {
                 userToken = prompt('GitHub token giriniz (feedback gondermek icin):');
                 if (!userToken) {
@@ -682,12 +969,14 @@
             const type = document.getElementById('feedbackType').value;
             const description = document.getElementById('feedbackDescription').value;
             const target = document.getElementById('feedbackTarget').value;
+            const context = document.getElementById('feedbackContext').value;
             
             const feedback = {
                 timestamp: new Date().toISOString(),
                 type: type,
                 description: description,
                 target: target,
+                context: context ? JSON.parse(context) : null,
                 userAgent: navigator.userAgent,
                 currentReport: currentReport.date
             };
@@ -697,7 +986,6 @@
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Gonderiliyor...';
 
-                // Create Gist
                 const response = await fetch(GIST_API_URL, {
                     method: 'POST',
                     headers: {
@@ -741,7 +1029,6 @@
             });
         });
 
-        // Initial load
         loadSampleData();
     </script>
 </body>

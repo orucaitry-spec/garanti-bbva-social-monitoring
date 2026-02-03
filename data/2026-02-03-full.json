@@ -290,10 +290,10 @@
   "issues": [
     {
       "id": "issue-transfer",
-      "title": "transfer (3 yorum)",
+      "title": "transfer (2 yorum)",
       "channel": "ios_store",
       "category": "transfer",
-      "commentCount": 3,
+      "commentCount": 2,
       "comments": [
         {
           "id": "ios-13704096927",
@@ -312,29 +312,20 @@
           "category": "transfer",
           "channel": "ios_store",
           "sentiment": "negative"
-        },
-        {
-          "id": "ios-13652447628",
-          "text": "Transfer İnanılmaz karışık bir uygulamanız var. ne yaptıysam fast transfer yapamadım",
-          "author": "Volkan Alsan",
-          "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
         }
       ]
     },
     {
       "id": "issue-ui_ux",
-      "title": "ui_ux (52 yorum)",
+      "title": "ui_ux (43 yorum)",
       "channel": "ios_store",
       "category": "ui_ux",
-      "commentCount": 52,
+      "commentCount": 43,
       "comments": [
         {
-          "id": "ios-12595316692",
-          "text": "Yeni güncelleme Yeni güncelleme o kadar kötü ki. Kartımı kapatmamak için zor tutuyorum kendimi. Sanal kartıma para yükleyemiyorum. Başka kart açmaya çalışıyor. App aşırı kaotik. Teknolojik app bu mu ? Teknoloji insanların hayatını kolaylaştırır. Bu o kadar zorlaştırıyor ki delirecepim.",
-          "author": "zepsty",
+          "id": "ios-13652447628",
+          "text": "Transfer İnanılmaz karışık bir uygulamanız var. ne yaptıysam fast transfer yapamadım",
+          "author": "Volkan Alsan",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -344,15 +335,6 @@
           "id": "ios-12568330987",
           "text": "Güncelleme sonrası Yenilenmiş güya. İşkenceye dönmüş Sanal karta para aktarmayı bulamadım. Bir menünün açılması uzun sürüyor atta uygulamayı kapatmak zorunda kalıyorum.",
           "author": "Para ile rezil olmak",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9448649286",
-          "text": "Memnun değilim Banka işlemleri için son aramalarımda tam bir saat hatta bekletildim. Ve dayanamadım kapatmak zorunda kaldım. Aramam gereken durumlarda bankanız müşterisi olarak , saatlerce hatta bekletilmem beni epeyce yordu ve üzdü. Bu yüzden yeni yılda banka müşteriliğinizden ayrılma kararı alma noktasına geldim. Son hisse senetlerimi elden çıkardığımda, üzülerek söylemem gerekirse , banka hesabımı kapatacağım. Müşterisi olmadığım  bir banka olan yapı kredi de bugün itibari ile yeni açtırdığım",
-          "author": "AyşeZelihaKABAK",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -377,15 +359,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12598203208",
-          "text": "Sanal kart Sanal karta para aktarmak için ne yapmak lazım neden sistem bu kadar zorlaştırılır …😡",
-          "author": "Asil büyük",
-          "rating": 2,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-12585190460",
           "text": "Son güncelleme Sanal kartıma para aktarma yapamıyorum. Eski halinde çok daha rahat şekilde aktarabiliyordum. Lütfen eski haline döndürün. Çok kullanışsız.",
           "author": "b.tecer",
@@ -404,15 +377,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12570196725",
-          "text": "Berbat Bravo. Muhtesem yeniliginiz yuzunden internette kartimi kaydettigim her siteye yeni kart tanimlamam gerekecek. Ustune bir de sanal kartin asil ozelligi olan GUVENLIKten de vazgecmek zorundayim cunku para artik direkt hesabimdan cekilecekmis :D bravo size.",
-          "author": "mew_kuyrugu",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13622412809",
           "text": "Kotu tasarim Kullanmasi zor bi transfer yapicam 75 madde koymuslar doldurulacak",
           "author": "Dark rider 24",
@@ -425,15 +389,6 @@
           "id": "ios-13658114990",
           "text": "Menü çok zor Taksitli avans ödemesi yapacaktım buluncaya kadar canım çıktı, hiç pratik değil maalesef",
           "author": "DeliEfe35",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-1780380133",
-          "text": "Cikis butonu fazla gizli bir alanda. Ana ekranda olsa cikis yapmak daha kolay olurdu. Cikis butonu fazla gizli bir alanda. Ana ekranda olsa cikis yapmak daha kolay olurdu.",
-          "author": "Tudor--8-",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -497,53 +452,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-5338873435",
-          "text": "Zorunlu trafik sigorta Neden motorsiklet zorunlu trafik sigortası yapmıyorsunuz? Neden motorcular dışlanıyor.",
-          "author": "Sinançelen",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12533543537",
-          "text": "Sizi kimler etkiliyor Sayın bu işi yönetenler  uygulamanız gayet güzel ve kullanışlıyken neden zora sokarsınız  ve kim buna karar veriyor  saygılar",
-          "author": "barış tunçerr",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13680641576",
-          "text": "Kimlik Kartı Okutmak Zorunluluğu Her havale ya da eft işleminde kimlik kartı okutmak mı?\nPratiklik neresinde bunun?",
-          "author": "sureyuman",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-00067ac3-bd17-43ae-87a9-94380aecb36f",
-          "text": "Uygulama yatırım hesabından ana sayfaya geçerken kitleniyor, işlem yapmıyor. Her seferinde kapatıp yeniden açmak zorunda kalıyorum, düzeltilmesini rica ederim. Diğer alanlar problemsiz ,kullandığım kadarıyla .",
-          "author": "“Aron” A D",
-          "rating": 2,
-          "timestamp": "2025-11-07T07:20:17.717Z",
-          "category": "ui_ux",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-07ae1f67-7a41-4d33-9f20-676d51a237e0",
-          "text": "İyi akşamlar, birçok güncelleme geldi. Annemin emekli hesabına geçerken eşleştirme iptal oluyor. İşbankasındaki gibi yapmak çok mu zor ? Maaşı buradan alıyor olmasam, annemim emekli hesabını başka bankaya taşırım ve uygulamayı silerim!! Bizim isteklerimize cevap verin artık.!!!",
-          "author": "Ali ARSLAN",
-          "rating": 1,
-          "timestamp": "2026-01-28T20:38:29.234Z",
-          "category": "ui_ux",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-5942415726",
           "text": "Yenilenime Eski uygulamada olan garanti ile özdeşleşen yeşil renk daha güzeldi. Giriş ekranı olarak eskisi daha güzeldi, ve geç açılıyor. Ayrıca yeni güncelleme ile gözü kapalı bulduğum menüleri arar oldum iPhone için temassız özellik gelmeli. Garantiye bu uygulama yakışmadı.",
           "author": "Memkab",
@@ -591,15 +499,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12566189115",
-          "text": "Yeni Tasarım ve Sorunları Güzel uygulamayı ne hale getirmişsiniz. Yeni tasarımdan sonra uygulama kullanılmaz hale geldi. Tabloların en altındaki veriler maalesef gözükmüyor. Çok acil şekilde düzeltmeniz gerekiyor. Eğer tablo büyük ise en altındaki verilere tıklanamıyor.",
-          "author": "sonmohikan89",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-12568700938",
           "text": "Sanal Paracard iptal edildi. Ön yüklemeli sanal paracard’ın kafalarına göre iptal edilmesi sebebiyle bir yıldız. Yeni mobil arayüzün berbat tasarımı apayrı bir konu.  Uygulama geliştirme ekibi can sıkıntısına bir şeyler yapmış, mevcutu korumakta bir başarıdır arkadaşlar.",
           "author": "Poyrazabc123",
@@ -612,15 +511,6 @@
           "id": "ios-12555146707",
           "text": "Güncelleme Yeni güncelleme ile basit olan her şeyi zorlaştırdığınız için teşekkür ederiz. B”k gibi olmuş arayüzler",
           "author": "ozgurruuu",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12565371947",
-          "text": "SİZE MÜTHİŞ BİR TAVSİYEM VAR Derhal “bu iş yar*k gibi olmuş” diyebilen birini işe alın. Çünkü belli ki tasarımcılarınızın ve tasarımları onaylayan kişilerin bunu duymaya ihtiyaçları var. App’i eski hale getirmeniz dileğiyle. Sevgiler",
-          "author": "erenfromnowhere",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -708,33 +598,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12569975047",
-          "text": "Kötü Son güncellemesi ile oldukça kötü bir hale gelmiş.  Kullanıcı deneyimi iyileştirmesi arkasına sığınmak tasarım açısından ucuz bir kaçış olur. Bir uygulamayı sadeleştirmek bu şekilde yapılamaz. Deneyimsizce estetikten uzak bir tasarım.",
-          "author": "Giossu",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12542730489",
-          "text": "Tasarım ve kullanım kolaylığı kötüleşmiş En son sürümüzle tasarım ve kullanım kolaylığı daha kötü olmuş. Yeni işlem eklemeleri ve yazılım iyileştirmeleri yaparken kullanımı komplike hale getirmeseniz..",
-          "author": "Erişmiş",
-          "rating": 2,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12533788362",
-          "text": "Tasarım Yeni tasarım çok kötü.",
-          "author": "Mehmedcan Dinc",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-564b28f1-7a90-44bc-962a-35e969f95b7d",
           "text": "benim için hiçbir işe yaramayan, arayüzü berbat ve karışık, çoğu zaman teknik problemlerden dolayı giremediğim, olmaması gereken bir bankacılık uygulaması.",
           "author": "Mehmet ASLAN",
@@ -791,25 +654,1231 @@
           "category": "ui_ux",
           "channel": "android_store",
           "sentiment": "negative"
+        },
+        {
+          "id": "ios-12550487683",
+          "text": "Güncelleme Sanal karta para yükleme kaldırıldı mı ? Bu nasıl bir arayüz. Güncelleme demek yenileme, geliştirme demektir. Siz programı kötüleştirmişsiniz",
+          "author": "Ofcin1",
+          "rating": 1,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12511354984",
+          "text": "Sanal kart sorunu Son güncelleme sonrasında mobil uygulamadan sanal kartıma para aktaramıyorum. Keşke hiç arayüz değişikliği yapmasaydınız. Buradan IT ekibinizin amatörlüğünü tebrik ediyorum 👍🏻",
+          "author": "KafkafYgt",
+          "rating": 1,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12545127592",
+          "text": "Yeni arayüz çok kötü Bu güncelleme ile uygulama kullanılamaz bir hal aldı. Sanal karta para yükleme kalkmış bu inanılmaz bir şey mesela! Ve haftalardır bekliyorum asla düzeltilmiyor..",
+          "author": "Sedss",
+          "rating": 1,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12557073983",
+          "text": "leş gibi bir arayüz gui güncellemesi yapmışsınız, sanal karta para aktaramıyorum leş gibi olmuş yazılım mühendislerinize selamlar",
+          "author": "nguditxgkxktdktdky",
+          "rating": 1,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12160317751",
+          "text": "Yeni güncellemeler .. Merhaba,\nSon güncellemelerde özellikle hisse portgöy arayüzlerinden memnun değiliz. Günlük artış azalışlar takip edilebilir değil. Eski hali çok daha güzeldi.",
+          "author": "Gangnamstyla12",
+          "rating": 1,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12558691520",
+          "text": "Arayüz tasarımı Yeni sayfada hiçbir şeyi bulmak mümkün değil. korkunç bir tasarıma geçmişsiniz durup dururken.",
+          "author": "solodisko",
+          "rating": 2,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12544795809",
+          "text": "yeni uygulama igrenc yeni uygulama arayuzunuz (UI) igrenc berbat, eskisi çok guzeldi yillardir kullandigimiz arayuzu neden igrenc bir seyle degistirdiniz???",
+          "author": "Jiminin Oğlu",
+          "rating": 1,
+          "category": "ui_ux",
+          "channel": "ios_store",
+          "sentiment": "negative"
         }
       ]
     },
     {
-      "id": "issue-atm",
-      "title": "atm (16 yorum)",
+      "id": "issue-card",
+      "title": "card (43 yorum)",
       "channel": "ios_store",
-      "category": "atm",
-      "commentCount": 16,
+      "category": "card",
+      "commentCount": 43,
       "comments": [
+        {
+          "id": "ios-12595316692",
+          "text": "Yeni güncelleme Yeni güncelleme o kadar kötü ki. Kartımı kapatmamak için zor tutuyorum kendimi. Sanal kartıma para yükleyemiyorum. Başka kart açmaya çalışıyor. App aşırı kaotik. Teknolojik app bu mu ? Teknoloji insanların hayatını kolaylaştırır. Bu o kadar zorlaştırıyor ki delirecepim.",
+          "author": "zepsty",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12598203208",
+          "text": "Sanal kart Sanal karta para aktarmak için ne yapmak lazım neden sistem bu kadar zorlaştırılır …😡",
+          "author": "Asil büyük",
+          "rating": 2,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12570196725",
+          "text": "Berbat Bravo. Muhtesem yeniliginiz yuzunden internette kartimi kaydettigim her siteye yeni kart tanimlamam gerekecek. Ustune bir de sanal kartin asil ozelligi olan GUVENLIKten de vazgecmek zorundayim cunku para artik direkt hesabimdan cekilecekmis :D bravo size.",
+          "author": "mew_kuyrugu",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
         {
           "id": "ios-12569526438",
           "text": "Güncelleme Yeni güncellemede uygulamanız beş para etmez hale gelmiş. Önceki hali daha iyiydi. Sanal kartıma para atmak istiyorum fakat nerden aktarılacağını bir türlü bulamadım. Son güncelleme de şeyi nasıl b*ka çeviririmin örneği olmuş.",
           "author": "Tscasper",
           "rating": 1,
-          "category": "atm",
+          "category": "card",
           "channel": "ios_store",
           "sentiment": "negative"
         },
+        {
+          "id": "ios-12603928423",
+          "text": "Sanal kart sorunsalı Son güncellemeden sonra sanal karta para aktarmayı kaldırmışsınız kart dolandırıcılığı,kartlarımızın kayıtlı olduğu hesapların çalınması bu kadar yaygınken neden boyle bi karar verdiniz.Aranızdan hiç kimse sanal kart kullanmıyor mu?Biz sanal kartları daha guvenli alışveriş yapmak için çıkarttık bu heçtiğiniz sistemde adamın biri gece 3-4 te kartımdan para cekse ruhum duymuycak sabah kalkınca gor iptal etmeye ugras bi ton dert.Hali hazırda tüketici için kullanışlı ve guvenli ",
+          "author": "Tempuriel",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12549380222",
+          "text": "Sanal Kart Desteği Kaldırılmış Yıllardan beri çok basit bir şekilde kullandığımız sanal kart desteği kaldırılmış! Eskisi gibi kolay kullanımı yok, mümkün değil! Bu kötü yorumlar alıştığımız bir ürün değiştiği için değil ürün artık ihtiyacımızı karşılayamadığı için yapılıyor! Tasarımı istediğiniz gibi yapın ama sanal karta para aktarımı ve sanal karttan hesaba para aktarım butonunu düzeltin! Basılı tutup yararlıyı işaretleyin.",
+          "author": "Halktan Biri.",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12514436118",
+          "text": "Sanalkart’a para aktarımı Sanal karta paraatabiliyorduk hızlıca, kaldırılması saçma olmuş.",
+          "author": "xstrifex",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12573722117",
+          "text": "Sanal Karta Para Yüklenmiyor Yeni gelen güncelleme ile sanal karta para yükleme özelliği kaldırılmış, acaba ben mi bulamadım diye sorduğum yapay zeka asistan da aynını söylüyor.",
+          "author": "Ausannus",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12551815083",
+          "text": "Mümkünse artık güncellemeyin Rezalet yani batırdınız uygulamayı sanal kart oluşturuyoruz ama para aktarma butonu yok hadi onu boşverdim eski sanal kartıda kaldıramıyoruz e treaderı bozdunuz bunuda bozun yakında bununda uygulamasını sildirirsiniz hangi yazılım şirketi ile çalışıyorsanız bence sözleşmesine son verin",
+          "author": "İphoneksk",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12550793562",
+          "text": "Yeni güncelleme Yeni güncelleme ile sanal karta para aktarma özelliğini mobil uygulamadan kaldırarak türkiye içerisinde bir daha asla yanına yaklaşmayacağım bankalar arasına girdi tebrikler.",
+          "author": "Victoricardi",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12534427443",
+          "text": "sanal karta para aktarımı Son güncellemeden sonra sanal karta para aktarma seçeneği çıkmıyor",
+          "author": "riskal34",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12535942326",
+          "text": "Sanal karta para aktarımı Yeni tasarımda sanal kartlara para aktarımı butonu kalkmış",
+          "author": "meetztrk",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12602565560",
+          "text": "Son Gelen Güncelleme Son gelen güncellemeyle sanal kartıma nereden para aktaracağımı mobil üzerinden bulamıyorum. Bilgisayar üzerinden aktarım sağladım ancak sürekli pc den aktarmak benim için bir zulüm olacak!",
+          "author": "Kahvefalıdelisi",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12559011765",
+          "text": "Sanal karta para ekleme artık yapılamıyor Yeni güncelleme ile sanal karta para aktarım düğmesi artık yok.",
+          "author": "ZaLlama",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12549572341",
+          "text": "Güncellemede emeği geçenlerin ta … Bir uygulama güncelleme aldığında seviye atlar bu uygulama güncellemeden sonra berbat bi hal aldı sanal karttan daha gönderim çekim yapamıyoruz önceden tek tıkla yapılıyordu şimdi saçma sapan şeyler çıkartmış garanti bankasından sırf bu berbatlıgı yüzünden hesaplarımı kapatacağım",
+          "author": "ArrowZ52",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13656378510",
+          "text": "Vasat bir banka Bir tane kredi kartı gönderemeyen aciz bir banka (nokta)",
+          "author": "Ogzyigit",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13693663313",
+          "text": "Sanal kart sorunu Banka birden fazla kredi kartı veriyor ancak her kredi kartına sanal kart vermiyor, ikinci bir karta sanal kart üretmek için ilk kartın sanalını iptal ettiriyor, çok anlamsız bir uygulama.",
+          "author": "Apapse",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12558904170",
+          "text": "rezalet herşeyi mahvettiniz sanal kartıma para yükleyio geri kartıma aktaramıyorum bile alısverisimi onun sayesinde yapıyordum eski ara yüzü getirin lütfen 👍🏻",
+          "author": "silaclbi",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12515327913",
+          "text": "Sanal Kart Yeni güncelleme sonrası sanal karta para yükleme ve çekme yapılamıyor.",
+          "author": "ogc555",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12514966605",
+          "text": "Sanal karta para atamıyorum Yeni gelen güncelleme iyi güzel de sanal kartıma para atamıyorum yemek söyleyecektim söylemedim bu yüzden",
+          "author": "İlomilon",
+          "rating": 2,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12589890143",
+          "text": "Sanal Karta Para Aktarmak Uygulama mükemmeldi, fakat güncellemeden sonra sanal karta para aktaramıyorum hesabımdan. Böyle saçma bir güncelleme neden? Güncellemelerin uygulamayı geliştirmesi gerekir, berbat etmesi değil.",
+          "author": "NicknameJasmine007",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12572228560",
+          "text": "Artık kullanmıyorum Yeni güncelleme berbat olmuş , özellikle sanal kartı eskisi gibi kullanamadıktan sonra benim için hiç bir anlamı kalmadı garantinin. Bir daha görüşmemek üzere garanti hoşçakal.",
+          "author": "Uykumyoook",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12565192772",
+          "text": "Eski sürüm e dönülsün İlk defa yorum yapma gereği buldum , bütün online alışverşlerimi sanal kart ile yapardım ancak yenilenen mobil uygulama da bu özelliği kullanamıyoruz limit belirleme yapamıyoruz",
+          "author": "Xiydrix",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12557436833",
+          "text": "Sanal Kart Son güncelleme ile sanal karta para aktarılamıyor rezalet!!!",
+          "author": "Pandazuzu",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12511698160",
+          "text": "Berbat guncelleme Harika calisan biseyi mahvetmekte uzerinize yok. Sanal karta para yuklemede kalkmis saka gibi",
+          "author": "efanux",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12512108417",
+          "text": "yeni güncelleme kötü yeni güncelleme berbat!! sanal karta para atamıyorum.",
+          "author": "dilşat sevde",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13555906684",
+          "text": "Kart kartı limiti tanımlayamama! Kredi kartımı mobil uygulamada görebiliyorum. 10 gündür limit tanımlama bekliyorum. Nitekim 3 gün önce Garanti BBVA üzerinden mesajla limitimin tanımlandığı bilgisi gelmesine rağmen mobil uygulamada limit tanımlanmamış görünüyor. Diğer banka kredi kartlarımdan limit düşürmeme rağmen hala sonuç aynı. Tutarsız işler sebebiyle oldukça keyfim kaçtı. Mesajla tanımladık deyip, mobilde uygulayamıyorsanız bu uygulama ne işe yarar? Acil destek lütfen!!!!",
+          "author": "cadovan",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13186464044",
+          "text": "Memnuniyetsizlik Mobil bankacılıktan bir yıla yakın zaman içerisinde aylık gelirimi güncelledim. Kredi kartımı iptal ettirmek için bu gün Müşteri temsilcisi ile yaptığım görüşmede bana, mobilden aylık gelir bilgisinin güncellenmesinin yeterli olmayacağını ayrıca en yakın banka şubesine gidip işlem yaptırmam gerektiği bilgisini aktardı. Ben bunu yeni duyuyorum. Mobilden işlem yaptığımda tarafıma herhangi bir mail-sms gibi kanallardan bilgilendirme mesajı gelmedi. 2008 den beri  kredi kartımın lim",
+          "author": "tamerbry68",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13160077602",
+          "text": "Sadece pişmanlık Kredi kartı olunca 10 kere arıyolar vermek için ama kredi olunca ne başvuru onaylanıyo nede müşteri temsilcileri arayıp ilgileniyo hepsi işi görülesiye kadar o yüzden bu bankayla tüm ilişkimi kesicem",
+          "author": "Esen tolga",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13524446055",
+          "text": "Kredi kartı Kredi kartımın limitini yükseltmek istiyorum ama olmuyor 1 milyon limit istiyorum",
+          "author": "kredi kartı ￼",
+          "rating": 2,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12648257484",
+          "text": "Sanal Karta Hesaptan Para Yüklenemiyor Yeni güncellemeyle mobil uygulamadan sanal karta para aktaramıyoruz! Uygulamayı yapan arkadaşlar bunu nasıl gözden kaçırdı kimse kontrol etmedi mi hiç anlamadım. Webde böyle bir sorun yok. Tek bir uygulamayla halledebildiğimiz işi artık yapamıyoruz. Umarım düzelir.",
+          "author": "CdvH86",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12599936834",
+          "text": "Sanal kart para aktarimi Sanal karta para aktarilamiyor",
+          "author": "Kaya Taş",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12598400185",
+          "text": "yeni güncelleme O KADAR KÖTÜ BİR GÜNCELLEME OLMUŞ Kİ SANAL KARTA PARA YÜKLEYEMİYORUM AHRAZLAR MAAŞ HESABIM OLMASA ASSLA KULLANMAYACAĞIM BİR BANKA",
+          "author": "nnnaaazzzzzzlllll",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12592987802",
+          "text": "Son gelen güncelleme BERBAT Güncelleme ile sanal karta hiçbir şekilde para aktaramıyorum uygulama tamamen çöp oldu. Emeği geçen yazılımca arkadaşlara teşekkürler.",
+          "author": "Kralkadir23",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12585834393",
+          "text": "Sanal karta para aktarma kısmı yok Sanal karta para aktarma kısmı yok. Limit tanımlayamıyorum.",
+          "author": "Aha140975",
+          "rating": 2,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12566678849",
+          "text": "Sanal Kart Sorunu Sanal kart bakiyem kullanılmaz hale geldi!",
+          "author": "perababyy",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12554981622",
+          "text": "Sanal Kart Sanal karta para aktarmak için eskiyi silip yeniden sanal kart oluşturmak gerekiyormuş",
+          "author": "Musas74",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12533920121",
+          "text": "Son güncelleme Son güncellemede bazı butonlar sığmadı mı sevgili ui geliştirici arkadaşlar. Sanal karta para yüklemek için 5 yıl sonra web sitesini kullandım. Sanal karta para yüklenmiyor diyorum cevabınız para karta para yüklemek için oluyor. Ekip mi değişti sevgili bbva?",
+          "author": "Gahhah344",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12533212162",
+          "text": "Sanal karta para yükleme butonu Sanal karta para yükleme butonu kayboldu",
+          "author": "nazimmertbilgi",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12531533531",
+          "text": "Sanal banka kartına para atılmıyor Sanal banka kartı için sadece bu bankadaki hesabımı kullanıyorum sanal banka kartına limit tanımlayamadığım için garanti bankası hiç bir işimi görmüyor birkaç güne düzelmezse hesaplarımı kapatıp yüksek faiz getirisi olan bir bankaya geçeceğim. Uygulamanının önceki hali son derece kullanışlı idi üç gündür elimi kolumu bağladınız sanal kartıma para atamadığım için bankadaki param hiç bir işe yaramıyor",
+          "author": "yoldakalan",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13670331899",
+          "text": "Eleştiri Kartımı bulamadığım için kartı yeniledim ama bulunduğum adres e gelmeyip teslim alındı diye mesaj aldım kartı ben almamıştım oysaki tekrar iptal ettim kart çıkartmak için müşteri hizmetlerine  ulaşıyorum telefonuma onay kodu gelmiyor en sonunda vazgeçtim kredi kartı çıkartmak dan basit\nBir işlemde bile iyi yordu garanti",
+          "author": "Bay çiçek",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12594515264",
+          "text": "BBVA güncellemele Yeni güncellemeden hiç memnun değilim sanal kartım para aktaramıyorum her şeyin yerini değiştirmişsiniz uğraştırıyorsunuz insani senelerdir alıştım bir uygulama neden değişiyor bana kolaylık sağlamıyor",
+          "author": "Dina_4217",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13663985403",
+          "text": "Msj Birde bonu filaş eskisi gibi bonus vermiyorsunuz her alışverişimizi kartlarla ayapıyoruz  ama bonus ta cimrilik yapmaya başlandı eskiden böyle değildi para kartımı kullanıyorum genelde ama boş şimdi şubesiz bankalar %10 nakit iade veriyor artık para krtımı kulanmıyacağım iyi çalışmalar",
+          "author": "emre5320",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-investment",
+      "title": "investment (16 yorum)",
+      "channel": "ios_store",
+      "category": "investment",
+      "commentCount": 16,
+      "comments": [
+        {
+          "id": "ios-9448649286",
+          "text": "Memnun değilim Banka işlemleri için son aramalarımda tam bir saat hatta bekletildim. Ve dayanamadım kapatmak zorunda kaldım. Aramam gereken durumlarda bankanız müşterisi olarak , saatlerce hatta bekletilmem beni epeyce yordu ve üzdü. Bu yüzden yeni yılda banka müşteriliğinizden ayrılma kararı alma noktasına geldim. Son hisse senetlerimi elden çıkardığımda, üzülerek söylemem gerekirse , banka hesabımı kapatacağım. Müşterisi olmadığım  bir banka olan yapı kredi de bugün itibari ile yeni açtırdığım",
+          "author": "AyşeZelihaKABAK",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-00067ac3-bd17-43ae-87a9-94380aecb36f",
+          "text": "Uygulama yatırım hesabından ana sayfaya geçerken kitleniyor, işlem yapmıyor. Her seferinde kapatıp yeniden açmak zorunda kalıyorum, düzeltilmesini rica ederim. Diğer alanlar problemsiz ,kullandığım kadarıyla .",
+          "author": "“Aron” A D",
+          "rating": 2,
+          "timestamp": "2025-11-07T07:20:17.717Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12566189115",
+          "text": "Yeni Tasarım ve Sorunları Güzel uygulamayı ne hale getirmişsiniz. Yeni tasarımdan sonra uygulama kullanılmaz hale geldi. Tabloların en altındaki veriler maalesef gözükmüyor. Çok acil şekilde düzeltmeniz gerekiyor. Eğer tablo büyük ise en altındaki verilere tıklanamıyor.",
+          "author": "sonmohikan89",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12659735504",
+          "text": "eğer bir kere daha eğer bir kere daha uygulamaya girişte beni safariye yönlendirip oradan da appstorea sokarsa çığlık atarak imha edeceğim telefonumu",
+          "author": "elifsuke",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-10483227663",
+          "text": "Yeni sürüm Merhabalar telefonum iPhone 6 ve yeni sürümü desteklemiyor biran önce bu sorunu çözmenizi arz ediyorum",
+          "author": "selami 2323",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13585498067",
+          "text": "Cep boyutunda Tablette cep telefonundan boyutunda uygulama kullanılabilir değil",
+          "author": "Aticus3",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d853a27c-dcf1-440d-8455-6ac1df016346",
+          "text": "son güncellemeden sonra yatirimlar ekraninda donup kaliyor cikis veya geri gitme yapmıyor bilginize......",
+          "author": "hasan özdemir",
+          "rating": 2,
+          "timestamp": "2026-01-08T10:59:33.326Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-10175912930",
+          "text": "Hisse alım satımı Asla ve asla tercih etmeyin 5 gündür sattığım hissemin parası blokeli gözüküyordu artık blokeli bile gözükmüyor kendi paramın peşinden koşturuyorlar alırken anında almayı biliyorlar",
+          "author": "batuhan000420",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12592287521",
+          "text": "Rezalet. Çalışan bir şeyi neden bozma ihtiyacı hissettiniz? Gördüğüm en kötü mobil uygulama güncellemesi. İnsana banka değiştirtir.",
+          "author": "ycsonmez",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-1a18a5c7-efa6-48cc-b8a8-8adc93148fa5",
+          "text": "uygulama çok iyiydi, ama birdenbire borsa verileri gecikmeli gösterilmeye başlandı. Anlık göstermek için sözleşme imzalamam gerekiyormuş!! Bu da nereden çıktı?",
+          "author": "Semanur Temiz",
+          "rating": 1,
+          "timestamp": "2025-12-09T09:43:40.401Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-ae5016b1-993c-42d9-b405-15e6af093f43",
+          "text": "Lot altı hisse senetlerinin hibe satışı mümkün değil. Çağ dışı bir durum",
+          "author": "Mahmut S.",
+          "rating": 1,
+          "timestamp": "2025-09-12T07:29:35.438Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-5b32fe58-a053-4497-acb8-89516ee80fe1",
+          "text": "olmadı son güncellemeyle örneğin yatırım portföyüme giriyorum geri gelemiyor ana ekrana dönüş yok",
+          "author": "Serhat Kurt",
+          "rating": 2,
+          "timestamp": "2025-10-31T20:19:43.176Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12187826881",
+          "text": "Berbat Kendi bankasının olsun diye fon aldım fonu bozdum başka bankaya aktarmak istedim EFT yoluyla. 10.000 TL limit varmış. limitimi arttırıncaya kadar canım çıktı. müşteri hizmet yetkilisine bağlanıncaya kadar çok zaman geçti sırada bekledim görüntülü görüşme yapmak istedim mobilden kesinlikle müşteri temsilcisine bağlanamadım.  üstelik 30 saniye diyorlardı hiç de 30 saniye olmadı müşteri hizmetlerindeki kız çok yardımcı oldu gece saat 19:20 ancak yapabildim. Ödemem bir gün ertelendi alacaklıy",
+          "author": "Gökalp Kurut",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12100797316",
+          "text": "Çözüm odaklı değil İnsandan yardım alınması gereken konularda muhatap bulmak imkansız 2 saat telefonda kafayı yedikten sonra gerçek insan ile konuşabiliyor ve 5 dk olmadan sorun çözülüyor . Daha fazla personel çalıştırılmalı",
+          "author": "Garanti zorbalık yapıyor",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12533281040",
+          "text": "Berbat En kötü en ilgisiz sırunu çözemeyen müşteri temsilcisine sahip olan tek banka imzalarım altını",
+          "author": "Ern ylmz",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12095873382",
+          "text": "Müşteri Hizmetleri! Müşteri hizmetleri hiç kalite hizmet vermiyor. 20 dk boyunca telefonu 5 kişiye birden aktarmalarına rağmen hiç biri sorunumu çözmedi.",
+          "author": "ahajakalalala",
+          "rating": 1,
+          "category": "investment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-feature",
+      "title": "feature (9 yorum)",
+      "channel": "ios_store",
+      "category": "feature",
+      "commentCount": 9,
+      "comments": [
+        {
+          "id": "ios-1780380133",
+          "text": "Cikis butonu fazla gizli bir alanda. Ana ekranda olsa cikis yapmak daha kolay olurdu. Cikis butonu fazla gizli bir alanda. Ana ekranda olsa cikis yapmak daha kolay olurdu.",
+          "author": "Tudor--8-",
+          "rating": 1,
+          "category": "feature",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13190333701",
+          "text": "ATM Ne zaman lazım olsa bozuk",
+          "author": "barkodlarafısıldayanadam",
+          "rating": 1,
+          "category": "feature",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-622f4d5e-b4f0-42c7-8d94-d560af0736f6",
+          "text": "ATM 00915CRS014.para yok..az çalışıyorsa kaldırın,yada gözünüx gibi takip ediniz.",
+          "author": "Orhan Apay",
+          "rating": 1,
+          "timestamp": "2025-09-16T04:48:25.812Z",
+          "category": "feature",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13676887983",
+          "text": "Karbon ayak izi Karbon ayak izi uygulamasını hiç beğenmedim kaldırın",
+          "author": "Jojobabibe",
+          "rating": 2,
+          "category": "feature",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-4d9dd6ae-48a8-4ee8-a697-ef5611e364bf",
+          "text": "Hisse fiyatı sayfasında güncelleme veya yenile gibi bir tuş olsa hisse fiyatını anında görmek iyi olurdu.",
+          "author": "Erhan ATASEVER",
+          "rating": 2,
+          "timestamp": "2025-12-04T15:22:25.590Z",
+          "category": "feature",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13677552233",
+          "text": "Sıra al butonu eklenmeli Vatandaşın saatlerce bankada sıra beklemesi hoşunuza mı gidiyor ? Mobil uygulamadan en yakın şubeden sıra alma butonu neden yok ? Gitmeden sıra alıp sıra saatine göre bankaya gidip boşa zaman kaybetmesek olmaz mı ? Neden bu çözüm getirilmiyor bi çok banka geçti buna.",
+          "author": "Davutt 1984",
+          "rating": 1,
+          "category": "feature",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13655972178",
+          "text": "Apple pay Vakit gelmedi mi artık ?",
+          "author": "hasancanksdl",
+          "rating": 2,
+          "category": "feature",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-a7a172d4-8080-4d3e-8008-f2d8c6e41ec8",
+          "text": "Yatırımlar bölümünde ekran görüntüsü alınmıyor. Bu bence bizim sorumluluğumuz altında olmalı açıp kapatabiliriz özellik gelirse. Yatırım fonları renkli şema haline gelebilir. Widget ekranı eklenip yatırımımız görünebilr.",
+          "author": "Fatih Ünlü",
+          "rating": 1,
+          "timestamp": "2025-12-25T19:25:28.920Z",
+          "category": "feature",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12151794108",
+          "text": "T Bütün dünya Apple Pay‘e geçti siz hâlâ  geçemediniz Apple Pay‘e geçin artık şu Apple Pay’i",
+          "author": "gyfhhgbf",
+          "rating": 1,
+          "category": "feature",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-other",
+      "title": "other (24 yorum)",
+      "channel": "ios_store",
+      "category": "other",
+      "commentCount": 24,
+      "comments": [
+        {
+          "id": "ios-5338873435",
+          "text": "Zorunlu trafik sigorta Neden motorsiklet zorunlu trafik sigortası yapmıyorsunuz? Neden motorcular dışlanıyor.",
+          "author": "Sinançelen",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12533543537",
+          "text": "Sizi kimler etkiliyor Sayın bu işi yönetenler  uygulamanız gayet güzel ve kullanışlıyken neden zora sokarsınız  ve kim buna karar veriyor  saygılar",
+          "author": "barış tunçerr",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13680641576",
+          "text": "Kimlik Kartı Okutmak Zorunluluğu Her havale ya da eft işleminde kimlik kartı okutmak mı?\nPratiklik neresinde bunun?",
+          "author": "sureyuman",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12565371947",
+          "text": "SİZE MÜTHİŞ BİR TAVSİYEM VAR Derhal “bu iş yar*k gibi olmuş” diyebilen birini işe alın. Çünkü belli ki tasarımcılarınızın ve tasarımları onaylayan kişilerin bunu duymaya ihtiyaçları var. App’i eski hale getirmeniz dileğiyle. Sevgiler",
+          "author": "erenfromnowhere",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12121242359",
+          "text": "Ödemeler Kredi ödemesine girildiğinde kaçıncı taksit ödendiğini göstermiyor , ödedikten sonra dekont üzerinde yazıyor",
+          "author": "Gencay Ayhan",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-79b56b4c-b414-4d9f-b024-b42fceb3439e",
+          "text": "şuan işlem yapamıyorum şuanda işleminizi gerekleştiremiyorum sonra tekrar deneyin diye uyarı çıkmakta",
+          "author": "Tayfur Yuva",
+          "rating": 2,
+          "timestamp": "2026-01-02T13:13:06.588Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-8b2a588f-05bb-4706-a356-0cfc1543db03",
+          "text": "Uygulama güncellendi yeni güncellenen programı indirin diye bildirim geliyor amauygulama yüklenmiyor",
+          "author": "Ms2uba",
+          "rating": 1,
+          "timestamp": "2026-01-10T21:20:03.527Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-f49a9673-7cf9-4f0a-b115-b006c632da4e",
+          "text": "Uygulamadan SMS gelmiyor.",
+          "author": "Skylue",
+          "rating": 1,
+          "timestamp": "2026-01-05T16:27:15.721Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-86cbba3e-46f1-4051-97e1-50f4f809c994",
+          "text": "uygulamanızdan şüpheli işlem bildirimi yapamıyorum , siz de mi dolandiricisiniz",
+          "author": "İsmail Karakaya",
+          "rating": 1,
+          "timestamp": "2026-01-21T11:17:13.210Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12554103126",
+          "text": "AMATÖR UYGULAMA O kadar ticari hesap var o kadar iş adamları var o kadar para çeviriyorsunuz bu uygulama böyle olmaması gerekiyor içinden çıkılmaz bir hal almış. Kimse son güncellemeyi beğenmedi haberiniz olsun",
+          "author": "Burcu Altınsuyu",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13573916717",
+          "text": "Tefeci Bankamısınız tefecimi yorumsuz",
+          "author": "Poyraz 005",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-5904854089",
+          "text": "Yeni güncelleme!! Yeni güncelleme hiç güzel değil eskisi daha kullanışlıydı ara yüzü karman çorman yapmışsınız hiç beğenmedim bence eskisini geri getirin o kullanışlı ve estetikti. Yorumun üzerine basılı tutun yararlıyı işaretleyin üstte kalsın",
+          "author": "Damn it game",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-10463878061",
+          "text": "Uygulama 2haftadan fazladır uygulamayı kullanamıyoruz bu sorunu derhal çözün artık koskoca Garanti bankası bi güncelleme getiremiyor mu acaba ya bunca insanı madur etmeye ne hakkınız acaba",
+          "author": "yasin Örs",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12559322175",
+          "text": "Son gelen güncelleme Ne kadar kullanılmaz bir hale getirmişsiniz on numara giden bişeyi neden değiştirir ki bi insan",
+          "author": "Kdlsödö",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12549508249",
+          "text": "Güncelleme Yeni halini beğenmedim ne gerek vardı alıştığımız sistemi görseli değiştirmeye",
+          "author": "Motherofselen",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13004301064",
+          "text": "Mobil uygulama Mobil uygulaması hiç anlaşılır değil. Enpara uygulamasını inceleyin",
+          "author": "henç123",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12599338096",
+          "text": "Güncelleme Çokmu iyi oldu güncelleyince sade ve en kullanışlı uygulamalardan birini Arap saçına çevirdiniz",
+          "author": "Şikayeçi",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12531337517",
+          "text": "Güncelleme hakkında Garanti BBVA mobil güncellenmeden önce daha iyiydi eski halini istiyoruz yeni güncellemeyi  sevmedim",
+          "author": "Lavinia yuce",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13622980093",
+          "text": "MESLEK BİLGİSİ MESLEK GÜNCELLEMESİ GELSİN ARTIK TENİKER YOK TEKNİSYEN VAR ? Garanti nerede",
+          "author": "Lionsssss1905",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-10481380412",
+          "text": "İphone 5s Kullaniyorum İphone 5s Kullaniyorum Uygulama Acilmiyo",
+          "author": "mustafa mürteza",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13011283409",
+          "text": "Eft ödemesi Hala eft ye filan para almak nedir ya herşeyimizi sizden yapıyoruz zaten ayıptır",
+          "author": "Eyüphan yıldız",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12122613765",
+          "text": "EFT Para limiti artırımını kabul etmiyor yüksek bedel isteniyor ayırınca sistem beni beş kez dışarı attı",
+          "author": "Garanaklsms",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12128814127",
+          "text": "İhtiyaç kredisi Hiçbir şekilde  ihtiyaç kredisi  vermiyor hesabım 6 ay yakın açtım bir daha garantiye uğramam  kusura bakmayın .",
+          "author": "Ayıboğan21",
+          "rating": 1,
+          "category": "other",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-a239509a-ccda-423b-b5e4-3148bbec3428",
+          "text": "mobil uygulamadan bağlantı hatası alıyorum tarayıcıdan giriş yapabiliyorum güncelleme var sandım oda yok",
+          "author": "Enes Celik",
+          "rating": 1,
+          "timestamp": "2026-01-07T09:41:07.171Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-performance",
+      "title": "performance (8 yorum)",
+      "channel": "android_store",
+      "category": "performance",
+      "commentCount": 8,
+      "comments": [
+        {
+          "id": "android-07ae1f67-7a41-4d33-9f20-676d51a237e0",
+          "text": "İyi akşamlar, birçok güncelleme geldi. Annemin emekli hesabına geçerken eşleştirme iptal oluyor. İşbankasındaki gibi yapmak çok mu zor ? Maaşı buradan alıyor olmasam, annemim emekli hesabını başka bankaya taşırım ve uygulamayı silerim!! Bizim isteklerimize cevap verin artık.!!!",
+          "author": "Ali ARSLAN",
+          "rating": 1,
+          "timestamp": "2026-01-28T20:38:29.234Z",
+          "category": "performance",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12603015696",
+          "text": "son güncellemeden sonra uygulama inanılmaz yavaşladı son güncellemeden sonra uygulamada bakiyeyi görmek için en az 2-3 dk beklemek gerekiyor. sürekli dönüyor da dönüyor. diğer şeylere de erişim için ciddi bir sabır gerekiyor. güncelleme eksik kalmış kesinlikle geliştirilme gerekli.",
+          "author": "Sudis666",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12052181757",
+          "text": "Memnun değilim Kusursuz kredi geçmişim var kredi vermiyorsunuz \nBoşuna reklam yapmayın",
+          "author": "üfjvslb",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13067852503",
+          "text": "Sorunların ve yavaşlıkların öncüsü mobil uygulama Sürekli bir delay varmış gibi çalışan bir app yapmayı nasıl başardınız? Testte mi yok!",
+          "author": "GnCrk",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-13f4395b-a1cd-48fe-ae5b-25e0040dd5c8",
+          "text": "Yavaş ve faiz oranları olan üstü yüksek maş hesabı olmasa kapatıcam",
+          "author": "Burak Gürdursun",
+          "rating": 1,
+          "timestamp": "2026-02-02T13:21:37.590Z",
+          "category": "performance",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12603936383",
+          "text": "Sanal card Uygulamayı bir güncellediniz, içinden geçtiniz. Yardımcı olması için asistana yazıyorum ama beni yönlendirdiği yerde bahsettiği sekme yok.",
+          "author": "Abcnlbi",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13612140831",
+          "text": "Faiz oranı 7 küsür faizden kredi veriyor insanla dalga geçer gibi kullanmayın bu bankayı",
+          "author": "X/aU",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-bfb8a1f3-16fb-401f-96c8-ec808b7d7d3d",
+          "text": "garanti bankasından hiç memnun değilim. garanti mobilden de memnun değilim. maaşımı garanti bankasından aldığım halde bana tüketici kredisi vermiyor. Başka bankadan rahatça alabiliyorum. hiç memnun değilim. yakında başka bankaya geçmeyi düşünüyorum",
+          "author": "Nuray Sertler",
+          "rating": 1,
+          "timestamp": "2026-01-08T00:10:06.609Z",
+          "category": "performance",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-complaint",
+      "title": "complaint (20 yorum)",
+      "channel": "ios_store",
+      "category": "complaint",
+      "commentCount": 20,
+      "comments": [
+        {
+          "id": "ios-12569975047",
+          "text": "Kötü Son güncellemesi ile oldukça kötü bir hale gelmiş.  Kullanıcı deneyimi iyileştirmesi arkasına sığınmak tasarım açısından ucuz bir kaçış olur. Bir uygulamayı sadeleştirmek bu şekilde yapılamaz. Deneyimsizce estetikten uzak bir tasarım.",
+          "author": "Giossu",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12542730489",
+          "text": "Tasarım ve kullanım kolaylığı kötüleşmiş En son sürümüzle tasarım ve kullanım kolaylığı daha kötü olmuş. Yeni işlem eklemeleri ve yazılım iyileştirmeleri yaparken kullanımı komplike hale getirmeseniz..",
+          "author": "Erişmiş",
+          "rating": 2,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12533788362",
+          "text": "Tasarım Yeni tasarım çok kötü.",
+          "author": "Mehmedcan Dinc",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d71e9179-3ffa-4e24-a860-5b78bb9a88a9",
+          "text": "böyle rezalet uygulama yok numaramı giriyorum numaralar gözükmüyor kod istiyorum kod gelmiyor başka bankalars baş vurun",
+          "author": "Sevil Güney",
+          "rating": 1,
+          "timestamp": "2025-10-25T15:57:55.196Z",
+          "category": "complaint",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13201018473",
+          "text": "Berbat uygulama Muhatap bulamadığın rezalet bir banka.",
+          "author": "Saltuk Kazan",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13515690229",
+          "text": "Garanti bank rezalet Maaş müşterinizim yıllardır bir faydanızı görmedim",
+          "author": "Songül özt",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12573961645",
+          "text": "Eski versiyona dönün Gerçekten berbat olmuş app neyin nerede olduğu belli değil",
+          "author": "Gamevwres",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13685748482",
+          "text": "Berbat bir banka Rezil bir banka",
+          "author": "Müşteri55.",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12599315875",
+          "text": "Rezalet Beş para etmez bir banka uygulama kullanımı berbat o kadar pişmanım ki",
+          "author": "Çağattaaayy",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12194143361",
+          "text": "Berbat Sıfır güven hırsızlar kol geziyor",
+          "author": "Soyulan müşt",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12119861914",
+          "text": "Berbat 1 puanı bile haketmiyor bunun eline kimseyi düşürmesin allah",
+          "author": "yalçın48",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13597732766",
+          "text": "Uzak durun işleyiş berbat kimseye tavsiye etmiyorum.",
+          "author": "Timurr Sahipkıran",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-9472047256",
+          "text": "Uygulama Okadar berbat bi uygulamaki açılmıyo hiç bi zaman böyle saçma bi uygulama görmedim ya",
+          "author": "usrgı",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-9470910576",
+          "text": "Garanti Berbat bir uygulamanız var",
+          "author": "mutu55",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-9447609411",
+          "text": "Çok kötü Berbat bir bankacılık sisteminiz var",
+          "author": "tekno cep",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12576222474",
+          "text": "Güncelleme Güncellenmiş hali berbat olmuş teşekkürler",
+          "author": "Ahhdhshaha",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13515929738",
+          "text": "Berbatsınız Rezilsiniz",
+          "author": "mamaharlı",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12558451328",
+          "text": "Yeni güncelleme Yeni güncelleme berbat olmuş eski versiyon çok iyiydi!",
+          "author": "Çelebi ferhat 222222",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12553831365",
+          "text": "Çok kötü Berbat",
+          "author": "isl12222222222222222",
+          "rating": 1,
+          "category": "complaint",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-e6a2003a-d67b-42cb-aa91-27d41774c955",
+          "text": "berbat",
+          "author": "Osman Üstün",
+          "rating": 1,
+          "timestamp": "2026-01-22T20:22:50.605Z",
+          "category": "complaint",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-atm",
+      "title": "atm (14 yorum)",
+      "channel": "ios_store",
+      "category": "atm",
+      "commentCount": 14,
+      "comments": [
         {
           "id": "ios-13643862785",
           "text": "Atm Nispetiye şubesindeki atm yıllardır bozuk ve problemli",
@@ -817,16 +1886,6 @@
           "rating": 1,
           "category": "atm",
           "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-d35bef7a-84cb-4c7c-80bf-683b7e804443",
-          "text": "uygulamadan sürekli Birlikte Yaparız diye bildirim geliyor. saat başı ve bazen üst üste. birkaç gündür devam ediyor. çok rahatsız edici. bunu düzeltin lütfen. uygulamanın bildirimlerini kapatmak istemiyorum.",
-          "author": "Melike Açari",
-          "rating": 1,
-          "timestamp": "2026-01-04T05:53:26.878Z",
-          "category": "atm",
-          "channel": "android_store",
           "sentiment": "negative"
         },
         {
@@ -953,156 +2012,686 @@
       ]
     },
     {
-      "id": "issue-feature",
-      "title": "feature (16 yorum)",
-      "channel": "ios_store",
-      "category": "feature",
-      "commentCount": 16,
+      "id": "issue-notification",
+      "title": "notification (3 yorum)",
+      "channel": "android_store",
+      "category": "notification",
+      "commentCount": 3,
       "comments": [
         {
-          "id": "ios-13190333701",
-          "text": "ATM Ne zaman lazım olsa bozuk",
-          "author": "barkodlarafısıldayanadam",
+          "id": "android-d35bef7a-84cb-4c7c-80bf-683b7e804443",
+          "text": "uygulamadan sürekli Birlikte Yaparız diye bildirim geliyor. saat başı ve bazen üst üste. birkaç gündür devam ediyor. çok rahatsız edici. bunu düzeltin lütfen. uygulamanın bildirimlerini kapatmak istemiyorum.",
+          "author": "Melike Açari",
           "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-622f4d5e-b4f0-42c7-8d94-d560af0736f6",
-          "text": "ATM 00915CRS014.para yok..az çalışıyorsa kaldırın,yada gözünüx gibi takip ediniz.",
-          "author": "Orhan Apay",
-          "rating": 1,
-          "timestamp": "2025-09-16T04:48:25.812Z",
-          "category": "feature",
+          "timestamp": "2026-01-04T05:53:26.878Z",
+          "category": "notification",
           "channel": "android_store",
           "sentiment": "negative"
         },
         {
-          "id": "ios-12603928423",
-          "text": "Sanal kart sorunsalı Son güncellemeden sonra sanal karta para aktarmayı kaldırmışsınız kart dolandırıcılığı,kartlarımızın kayıtlı olduğu hesapların çalınması bu kadar yaygınken neden boyle bi karar verdiniz.Aranızdan hiç kimse sanal kart kullanmıyor mu?Biz sanal kartları daha guvenli alışveriş yapmak için çıkarttık bu heçtiğiniz sistemde adamın biri gece 3-4 te kartımdan para cekse ruhum duymuycak sabah kalkınca gor iptal etmeye ugras bi ton dert.Hali hazırda tüketici için kullanışlı ve guvenli ",
-          "author": "Tempuriel",
+          "id": "ios-13642558765",
+          "text": "Garanti kurumsal Tüm bildirimleri sil butonu basıldıktan sonra bildirimleri temizliyor tekrar girdiğinde aynı bildirimi tekrar görünüyor elle silmen gerekiyor",
+          "author": "nuriozc",
           "rating": 1,
-          "category": "feature",
+          "category": "notification",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "ios-12549380222",
-          "text": "Sanal Kart Desteği Kaldırılmış Yıllardan beri çok basit bir şekilde kullandığımız sanal kart desteği kaldırılmış! Eskisi gibi kolay kullanımı yok, mümkün değil! Bu kötü yorumlar alıştığımız bir ürün değiştiği için değil ürün artık ihtiyacımızı karşılayamadığı için yapılıyor! Tasarımı istediğiniz gibi yapın ama sanal karta para aktarımı ve sanal karttan hesaba para aktarım butonunu düzeltin! Basılı tutup yararlıyı işaretleyin.",
-          "author": "Halktan Biri.",
-          "rating": 1,
-          "category": "feature",
+          "id": "ios-13689214277",
+          "text": "Uygulama ikonu Sürekli bildirim işareti kalıyor gitmiyor",
+          "author": "Keroskomergana",
+          "rating": 2,
+          "category": "notification",
           "channel": "ios_store",
           "sentiment": "negative"
-        },
-        {
-          "id": "ios-12514436118",
-          "text": "Sanalkart’a para aktarımı Sanal karta paraatabiliyorduk hızlıca, kaldırılması saçma olmuş.",
-          "author": "xstrifex",
-          "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12573722117",
-          "text": "Sanal Karta Para Yüklenmiyor Yeni gelen güncelleme ile sanal karta para yükleme özelliği kaldırılmış, acaba ben mi bulamadım diye sorduğum yapay zeka asistan da aynını söylüyor.",
-          "author": "Ausannus",
-          "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12551815083",
-          "text": "Mümkünse artık güncellemeyin Rezalet yani batırdınız uygulamayı sanal kart oluşturuyoruz ama para aktarma butonu yok hadi onu boşverdim eski sanal kartıda kaldıramıyoruz e treaderı bozdunuz bunuda bozun yakında bununda uygulamasını sildirirsiniz hangi yazılım şirketi ile çalışıyorsanız bence sözleşmesine son verin",
-          "author": "İphoneksk",
-          "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12550793562",
-          "text": "Yeni güncelleme Yeni güncelleme ile sanal karta para aktarma özelliğini mobil uygulamadan kaldırarak türkiye içerisinde bir daha asla yanına yaklaşmayacağım bankalar arasına girdi tebrikler.",
-          "author": "Victoricardi",
-          "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12550487683",
-          "text": "Güncelleme Sanal karta para yükleme kaldırıldı mı ? Bu nasıl bir arayüz. Güncelleme demek yenileme, geliştirme demektir. Siz programı kötüleştirmişsiniz",
-          "author": "Ofcin1",
-          "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-fee",
+      "title": "fee (53 yorum)",
+      "channel": "ios_store",
+      "category": "fee",
+      "commentCount": 53,
+      "comments": [
         {
           "id": "ios-4058492841",
           "text": "Garanti one Garanti one uygulamasındaki para transferi muafiyeti kullanıcılara geri verilsin",
           "author": "kaanthos",
           "rating": 1,
-          "category": "feature",
+          "category": "fee",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "ios-13676887983",
-          "text": "Karbon ayak izi Karbon ayak izi uygulamasını hiç beğenmedim kaldırın",
-          "author": "Jojobabibe",
-          "rating": 2,
-          "category": "feature",
+          "id": "ios-13632626601",
+          "text": "Kart aidat ücreti Kartı kapatmak istiyorum , yıllardır kesilmedi şimdi neden aidat ücreti kesiliyor",
+          "author": "insble",
+          "rating": 1,
+          "category": "fee",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "android-4d9dd6ae-48a8-4ee8-a697-ef5611e364bf",
-          "text": "Hisse fiyatı sayfasında güncelleme veya yenile gibi bir tuş olsa hisse fiyatını anında görmek iyi olurdu.",
-          "author": "Erhan ATASEVER",
-          "rating": 2,
-          "timestamp": "2025-12-04T15:22:25.590Z",
-          "category": "feature",
+          "id": "ios-13509834472",
+          "text": "Şikayet var Akşam ATM den para çektim limit 20 bin 10 bin çektim ikinc 10 binde 15 binden sonra % belirli miktar  para keseceğini yazdı bu bankanın benim için tamamen bittiği andır benim paramdan nasıl paramı kesersin nasıl bir adaletsiz haksız bir bankasınız çalıştığım iş yeri bu bankaya patronu yatırdığı için buradayım patronlarda bu konuları görüşeceğim her yerdede bu şikayetimi dile getireceğim kapandığınız battığınız günüde görürüz inşallah.😡",
+          "author": "Seven ♥️ 💕",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-a14ce7f3-dd24-47c3-a4b3-eff410dec0c9",
+          "text": "hesab açtığım şube dışında bankamatik den para çekiyorum ve bunun için hizmet bedeli kesiliyor. dünyanın hiç bir yerinde yok bu uygulama sonuçta başka bir bankadan değil garantiyi kullanıyorum. böyle keklenmemek için paramın hepsini çekip cebimde taşıyacağım 35000 tl çekim için 450tl faiz aldılar. Hizmet değil tamamen vatandaşı silkelemek adına kurulmuş bir sistem.",
+          "author": "Emre Karakaya",
+          "rating": 1,
+          "timestamp": "2025-12-26T07:41:18.272Z",
+          "category": "fee",
           "channel": "android_store",
           "sentiment": "negative"
         },
+        {
+          "id": "ios-13703632587",
+          "text": "Maas hesabim ama eft havale ucreti kesiyor Maas hesabim ama ucret kesiyor kullanmicam bankayi",
+          "author": "Makfkskdksk",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13692349052",
+          "text": "Eft havale Ücret almanız çok ama çok ayıp zanen sizde zaten kazanıyorsunuz",
+          "author": "Fearleşlord",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13667365124",
+          "text": "Eft havale ücretleri Eft havale çok para kesiyor",
+          "author": "12.456cvbmll",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13661845483",
+          "text": "Rezillik Maaş müşterisiyim EFT yaparken 12,80 TL para kesiyor rezillik böyle bir şey yok bir de talimat verdiler maaş müşterisine EFT ücretsiz diye rezil bir banka",
+          "author": "Zfhchjvg",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13644181411",
+          "text": "Şikayet Para transferlerinde ve ödeme yaparken ücret kesmesi hiç hoş değil   Üstelik aynı banka üzerinden işlem yapılırken",
+          "author": "Avcıım3333",
+          "rating": 2,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13638728713",
+          "text": "İşlem ücreti Az önce 3 bin lira gönderdim 8 küsur para aldınız. Maaş müşterisiyim ben.\nMüşteriye küfür etmek gibi bir şey bu",
+          "author": "Aydiniseli",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12223693595",
+          "text": "İŞLEM ÜCRETLERİ Çok aşırı derecede pahalı işlem ücretleri garantiye kullanacağına Enpara’yı kullanıyorum kafan rahat istediğin dakika havale ücretsiz",
+          "author": "CARASOBİ",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12168489926",
+          "text": "Maaş Maaş müşterisi olarak havale için ücret almak neden anlamıyorum",
+          "author": "Lina raya",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12159566843",
+          "text": "Havale ücretleri Nedir bu havale ücret tarifesi anlamadım bir çok banka  ücretsiz yıllardır aktif bir şekilde kullandığım bir banka kredi kartıda o şekilde biran önce çözüm bulun.",
+          "author": "Erdikur",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13631955893",
+          "text": "İşlem ücretleri İşlem ücreti havale ücretleri çok fazla",
+          "author": "Kuzzgunn..",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13627436639",
+          "text": "Havale ücretleri Bi havale / eft yada fast ücreti  8 küsur lira olmamalı",
+          "author": "Aözge",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12105585088",
+          "text": "İşlem ücreti Yıl 2025 olacak ve hala her işlemime 5-20 tl arası eft havale parası ödenen tek banka!! Yakın zamanda inşallah kurtulmak dileğiyle…",
+          "author": "Baron2011",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13605855735",
+          "text": "Maas musterisi olmanin dezavantaji 10 yildir garanti maas musterisiyim maasimi hep buradan aliyorum buna ragmen hala benden havale ve islem ucreti kesiyor!",
+          "author": "Savaş Z",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13605375488",
+          "text": "Havale eft ücretleri 🧐 Bu nedir yahu insan kendi şubelerinin arasındaki para transferine de para almaz ki ayıp",
+          "author": "Zümrüt 72",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13703678367",
+          "text": "Maaş müsterisinden işlem ücreti alınamaz Maaş müşterisi olmamızdan dolayı para transferinde 16 lira işlem ücreti alınması adil değil.",
+          "author": "Sessizlik seven",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13693512987",
+          "text": "Eft ücreti Hiç çalışmadan 10 tl eft ücreti teşekkürler sizinlede çalışmıyoruz artık…",
+          "author": "zafer parlar.",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13691860727",
+          "text": "Şikayet Emekliyim 17 TL eft ücreti alınıyor",
+          "author": "Şikayetskn",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13689055188",
+          "text": "Havale ücreti Bu zamanda havale ücretimi kaldı ya yıl 2026",
+          "author": "CanerKul",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-4066654226",
+          "text": "Havale eft ücreti Garantione ı kapatırken bu hizmetleri diğer uygulamaya almışlardır diye düşünülüyodu.hiçbir avantajı olmayan uygulamayı boş yere indirdik.eft ve havale ücreti tekrar gelmiş.bir iyi yönü vardı onuda kaldırmışlar.indirmeyin.",
+          "author": "sairavcisi",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-4057783829",
+          "text": "Garanti One Garanti one kullanırken 18-25 yaş aralığı kapsamında işlem ücreti vermiyordum. Garanti one kalktı normal uygulamadan işlem ücreti kesiliyor.",
+          "author": "Rafet1907",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13684940367",
+          "text": "EFT parası Kesintisi çok kesiyor",
+          "author": "Yasin irfan",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13675706635",
+          "text": "Havale ücreti alınması Maaş hesabıma bu bankaya geçirdim bir önceki bankada havalelerimden ücret alınmıyordu burada almanız etik değil daha önceden de böyle bir şeyin bana bilgisi verilmedi",
+          "author": "King of Anatolia",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13666877456",
+          "text": "İşlem ücreti Berbat bir banka 100 liralık para transferinde bile 8 liranın üzerinde işlem ücreti alıyor çoğu bankadan binlerde bile trafsferde almazken bu banka en az para transferinde bile yüksek işlem ücreti alıyor berbat berbat berbat",
+          "author": "mehmet.alkn",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12166046140",
+          "text": "İşlem ücreti Çok fazla işlem ücreti kesiliyor. Hesabı tamamen kapatacağım bu gidişle. Farklı bankaları kullanacağım",
+          "author": "Zeynep.tumay1214",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12154834152",
+          "text": "İşlem ücreti Kaç yıldır müşterinizim fakat x isimli banka ciddi anlamda işlem ücreti diye birşey almıyor benden..fakat sizin gibi köklü ve büyük bir yapıya sahip bankaya işlem ücreti kesmesi yakışmıyor en kısa süre zarfında ödemelerimi size tamamladıktan sonra sizinle aramızdaki müşteri ilişkisini keseceğim umarım eski müşterilerinize nasıl ayrıcalık verebiliriz yansıtabiliriz diye harekete geçersiniz ve kendinizi geliştirebilirseniz daha iyi olur mutlu günler dilerim.",
+          "author": "Nuri akgül",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13665684401",
+          "text": "Kesinti Kendi maaş müşterisinden bile havale için ücret kesen bir banka sizin neyinizden memnun kalayım ki.",
+          "author": "Mdh dk fmdk",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13661765863",
+          "text": "Havale ücreti Ben maaşlı müşteriyim başka bankalarda havale ücreti yok sizde niye var",
+          "author": "oryaal",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13014939477",
+          "text": "Kesinti Maaşlı müşterilerden para göndermeye para kesiyorsunuz",
+          "author": "735256890,((())",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12598554563",
+          "text": "Eft Eft ücretleri çok yüksek maaş müşterisiyiz yinede eft ücreti ödüyoruz",
+          "author": "Sssaannnss",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13646704193",
+          "text": "Havale ücretş Maaş hesabı olmasına rapmen çok yüksek kesinti alıyor",
+          "author": "Ayşe Merve Aydın",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13643554406",
+          "text": "Dolandırıcılık Bir hesaptan 16 tl havale ücreti almak nedir ya bukadarda olmaz",
+          "author": "Duygu Özer",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13639749163",
+          "text": "Bıraktım Herşeye komisyon, en düşük mevduat faizi, en yüksek ihtiyaç kredisi faizi %7.49 şaka gibi. Şubeleri apayrı bir konu 30dk'da 2 kişi ilerlemez, çoğu şeyi yapamaz ya internet şubesine ya da telefona müşteri hizmetlerine yönlendirir. İnternet şubesine girersin işleminize şubeden devam edin der.. Gittiğim şubeye 3 aydır bir hgs gelemedi. Ben başka bankaya geçtim isim vermeyeyim reklam olmasın ama gidin araştırın öyle karar verin. Yıldım ben buradan.",
+          "author": "CermanK",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13636278255",
+          "text": "Havale ücreti Maaş müşterisiyim  16 lira havale parası kesiyorsunuz",
+          "author": "vaymaaa",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13635035158",
+          "text": "Kendi hesabıma para gönderiyorum na bile eft ücreti alıyor yazık Kendi hesabıma para gönderiyorum ona bile eft ücreti alıyorsunuz yazık",
+          "author": "24horoz20",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12238355512",
+          "text": "Para gönderirken kesinti Kredi kartı kullanıyorum kullandığım halde havale eft ücreti kesiliyor müşteri memnuniyeti sıfır",
+          "author": "ufuk çobanoğlu",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12192053871",
+          "text": "EFT Fiyatları Çok Yüksek 2006 yılı öncesinden beridir müşterisiyim hep eft ve diğer masrafları pahalı birde bankadaki sıra sistemi akıl almaz halde. Sadece cep Uygulama basit ve kolay olduğu için bırakamıyorum ama artık diğer bankadan ücretsiz eft ve diğer ödemeler yapıyorum",
+          "author": "#milligurur",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12180183966",
+          "text": "Havale ücreti Hesabı açarken iki adet otomatik ödeme talimatı ver havale ücreti ödeme denmişti ama şimdi sanırım bunu sadece ben hatırlıyorum nedense",
+          "author": "onur4152",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12163745066",
+          "text": "Maaş müşterisine İşlem ücreti Saat 16:33 oldu diye maaş müşterisi olduğum halde işlem ücreti alıyorsunuz, bende herhangi bir saatte tüm parayı diğer bankama aktarıyorum, geçinip gidiyoruz 😂",
+          "author": "yusuf.tnc",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12163095719",
+          "text": "EFT ÜCRETİ Maaş müşterisinden mesai saatleri içinde 12.80₺ EFT ücreti almak nedir? Bu kadar aç gözlü banka olamaz.",
+          "author": "Jokerinizz_",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12162469937",
+          "text": "Kazık Havale ücreti çok pahalı",
+          "author": "Fadimeanadinc",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12158742214",
+          "text": "eft ücreti çok fazla eft ücreti çok fazla",
+          "author": "civo concept",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13613868209",
+          "text": "Havale eft Havale eft ücreti cok fazla",
+          "author": "Xxxjdjdınnr",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13609131525",
+          "text": "2026'da hala havale eft parası olmamalı Şu çakallığı bırakın artık size bir maaliyeti olmayan işler için ücret alıyorsunuz. enpara masraf almıyor cebinden ödediğini sanmıyorum.",
+          "author": "imkarakul",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12126627060",
+          "text": "Kesinti Maaş müşterisinden havale yaparken para kesintisini çok yanlış buldum.İş yerimin garantiye geçmesine sevinmiştim ama bunu öğrendiğim için şimdi üzgünüm",
+          "author": "E yavru",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12085570460",
+          "text": "Ücret İnternet bankacılığınız güzel lakin havale ücreti gereksiz bir ücret çoğu banka almıyor",
+          "author": "baba 0825",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12031780326",
+          "text": "Havale ücreti Havale işlemlerinin mesai saatleri dışındada ücretsiz olmasını istiyorum.",
+          "author": "yurtcum",
+          "rating": 1,
+          "category": "fee",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-app_security",
+      "title": "app_security (5 yorum)",
+      "channel": "android_store",
+      "category": "app_security",
+      "commentCount": 5,
+      "comments": [
         {
           "id": "android-c6e79f8e-721f-4c6c-a5dd-b4f39562f9d5",
           "text": "Ekran görüntüsü almayı kaldırmışsınız saçmalık",
           "author": "ömer",
           "rating": 1,
           "timestamp": "2026-01-26T07:10:27.266Z",
-          "category": "feature",
+          "category": "app_security",
           "channel": "android_store",
           "sentiment": "negative"
         },
         {
-          "id": "ios-13677552233",
-          "text": "Sıra al butonu eklenmeli Vatandaşın saatlerce bankada sıra beklemesi hoşunuza mı gidiyor ? Mobil uygulamadan en yakın şubeden sıra alma butonu neden yok ? Gitmeden sıra alıp sıra saatine göre bankaya gidip boşa zaman kaybetmesek olmaz mı ? Neden bu çözüm getirilmiyor bi çok banka geçti buna.",
-          "author": "Davutt 1984",
+          "id": "android-d749c8a7-f8f3-4b7f-8793-d1030d6edec1",
+          "text": "Uygulamayi yarim saat once yukledim ve yarim saattir giris ekrani oylece bekliyor. Verdiginiz linke tiklanmiyor ve kopyalanamiyor!",
+          "author": "Aquaizm",
           "rating": 1,
-          "category": "feature",
-          "channel": "ios_store",
+          "timestamp": "2025-11-04T21:01:43.350Z",
+          "category": "app_security",
+          "channel": "android_store",
           "sentiment": "negative"
         },
+        {
+          "id": "android-d9c0d78a-9ea5-43ca-b78d-495172c5ffbb",
+          "text": "ekran görüntüsü alınmasını engellemek kötü olmuş",
+          "author": "adem aslantekin",
+          "rating": 1,
+          "timestamp": "2026-01-22T19:11:16.147Z",
+          "category": "app_security",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-bfacb0a6-e033-438e-a12d-4a4274946084",
+          "text": "Uygulama içi ekran görüntüsü alamıyorum artık. Ben tüm işlemlerimi bu şekilde takip ediyordum. Sırf bu yüzden bankamı değiştirebilirim",
+          "author": "Duygum Bulanik",
+          "rating": 1,
+          "timestamp": "2026-01-07T11:59:50.377Z",
+          "category": "app_security",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-1d5a53d9-9b0a-4afa-924d-fdf704e190f8",
+          "text": "ekran görüntüsü alınmıyor mu? daha önce alınıyordu? redmi note 14 pro",
+          "author": "ulvi guven",
+          "rating": 1,
+          "timestamp": "2026-01-30T08:04:39.588Z",
+          "category": "app_security",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-branch_staff",
+      "title": "branch_staff (13 yorum)",
+      "channel": "ios_store",
+      "category": "branch_staff",
+      "commentCount": 13,
+      "comments": [
         {
           "id": "ios-12983391551",
           "text": "Cep şube Sadece bir firma için giriş yapabiliyorum . Diğer firmama girmek için bütün kullanıcı bilgilerimi kaldırmam lazım. Çözüm yok",
           "author": "Kopçanıaçarım41",
           "rating": 1,
-          "category": "feature",
+          "category": "branch_staff",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "ios-13558681934",
-          "text": "Uygulamadan atıyor Beş kuruş etmiyor sim blokesi var blokeyi kaldırmaya çalışıyorum tam oluyor hata veriyor uylumadan atıyor koskocaman garanti bankası böyle bir rezalete düşüyor madem yapamıyor sunuz o zaman kapatın mobil bankacılığı",
-          "author": "Mahmut drrr",
+          "id": "ios-13692252762",
+          "text": "İlgi Şubelerinizde ilgi alaka problem sorun çözme sıfır",
+          "author": "Qvkfkdşidjfjckcmckfk",
           "rating": 1,
-          "category": "feature",
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13662269142",
+          "text": "Gereksiz bir uygulama Onaylamayacakları başvurular için insanları şubeye yönlendirip uğraştıran uygulama uzak durun bu bankadan",
+          "author": "Rezilgaranti",
+          "rating": 1,
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13624903934",
+          "text": "Şube kötü Çok bekletiyor kampanyalarda hiç\nBir bilgi yok temsilcimiz dönüşte yapmıyor",
+          "author": "KyC90",
+          "rating": 1,
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13526960287",
+          "text": "Çok kötü Manavgat sanayi şubenize gittim para yok grup saati dediler yazık",
+          "author": "Ferdi Tayfur YETER",
+          "rating": 1,
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-fa031aa3-f9e8-497c-9881-e88ef8835c47",
+          "text": "Gereksiz, müşteri profilinden bi haber, Reklamlar ve Sesli aramalarınızdan gına geldi. Mümkün olan en kısa sürede, Bankanızla olan iletişimimi keseceğim. Bu kadar reklamla insanları rahatsız edeceğinize,, Hizmet kalitenizi artırın.! 2025 Ağustos ayında, Sıra nomu aldım, abartısız tamı, tamına, 3 saat 15 dakika bekledim. öğlen mesaisinde de sözde çalıyordu, Didim şubeniz. En azından insanları bilgilendirin ki, gitsinler ihtiyaçlarını görsünler.! O günden bu güne, 2 defa bile gitmedim.",
+          "author": "Müslüme Özdemir",
+          "rating": 1,
+          "timestamp": "2026-01-23T13:03:26.990Z",
+          "category": "branch_staff",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-735cae3c-09c7-449f-b831-e2870903f60c",
+          "text": "Çok seviyorum çok kullanışlı bir şey bu uygulamayla şubeye gitmeden herşeyi çok rahat yapabilirsiniz teşekkürler garanti",
+          "author": "Ercan Ekiz",
+          "rating": 1,
+          "timestamp": "2026-01-30T17:26:57.280Z",
+          "category": "branch_staff",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-00c2e0d3-3116-4d7c-9995-b7b410beaa2c",
+          "text": "Ben grnti BBVA ile çalıştım Zekeriyaköy şubesinde fakat insan yerine konulmadım artık yabancı bankalar ile Tüsiadçıların bankasına gitmiyorum",
+          "author": "gürkan soydan",
+          "rating": 1,
+          "timestamp": "2026-01-28T22:37:04.738Z",
+          "category": "branch_staff",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13688226978",
+          "text": "Saygısızlık ve ilğilisizler Küçükyalı şubesi memurları çok saygısız alaylı konuşmaları bir şey soruyorsun cevap yok",
+          "author": "veratesisat",
+          "rating": 1,
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13601364568",
+          "text": "Online destek yok! Cruise gemisi çalışanıyım uluslararası bir bankadan kendi garanti dolar hesabıma 1000 dolar para attım 3 aydır param havada yaklaşık 10 kez mail formu doldurmama rağmen,gerekli tüm belgeleri sağlayabilicek olmama rağmen, gemide hattımın cekmediğini söyledigim halde her seferinde şubenizi arayınız cevabını aldım. Online destekten aciz bu tembel banka icin müsterilerine sabır diliyorum. En acil işim bu bankayı bırakmak ve etrafımdakilerin de bırakmasını sağlamak olacaktır şuan b",
+          "author": "doasef",
+          "rating": 1,
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13564438817",
+          "text": "Şube işlemlerinde yavaşlık Genel olarak şubelerde; banka personelinin işlemleri yavaş gerçekleştirmesi, insanları gereksiz yere uzun süre bekletmesi ve insanlara tepeden bakan yaklaşımlarla karşılaşıyorum.",
+          "author": "Takarım takmam sana ne",
+          "rating": 2,
+          "category": "branch_staff",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-a53ada07-e7b0-41a2-8fbe-55570411a9c0",
+          "text": "yalancılar müşteri ol 50 bin kredi faizsiz katıldım ön onay olumlu sonra şube git kampanyadan da şubeye gidersen Geçersiz diyordu tek kelime ile rezalet muhatap yok.",
+          "author": "Fatih ÖZTÜRK",
+          "rating": 1,
+          "timestamp": "2025-12-25T03:44:43.558Z",
+          "category": "branch_staff",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13681250599",
+          "text": "GÖRÜNTÜLÜ GÖRÜŞMEYLE HESAP AÇILMIYOR ŞUBEYE GİDİN DİYOR ! Geçtiğimiz gün GarantiBBVA'dan görüntülü görüşmeyle hesap açmaya çalıştım fakat bir türlü görüntülü görüşmeye bağlanmadı ve en son ekrana en yakın şubemize gidin yazısı geldi. Ancak şu anda bulunduğum ilçede Eskişehir/Sivrihisar GarantiBBVA şubesi yok en kısa sürede görüntülü görüşmeyle hesap açma işleminin düzeltilmesini talep ediyorum. Sırf hesap açmak için en yakın şubenize gitmek için 100 km'den fazla yol yapmam gerekiyor bu resmen sa",
+          "author": "RUFUS {KLC} [BKN]",
+          "rating": 1,
+          "category": "branch_staff",
           "channel": "ios_store",
           "sentiment": "negative"
         }
@@ -1110,24 +2699,24 @@
     },
     {
       "id": "issue-app_crash",
-      "title": "app_crash (52 yorum)",
+      "title": "app_crash (59 yorum)",
       "channel": "ios_store",
       "category": "app_crash",
-      "commentCount": 52,
+      "commentCount": 59,
       "comments": [
         {
-          "id": "ios-13665692421",
-          "text": "hesabım blokelendi boş yere hesabım kapatıldı ilk maaş hesabı kurulan iş yerim yüzünden şimdi hesabıma giriş yapamıyorum sadece atm üzerinden para çekebilirsiniz diyorlar 3 seneye yakın olucak garanti kullanıyorum severek blokelenmesi kötü oldu tekrardan açılırsa çok sevinirim",
-          "author": "wkaankaya",
+          "id": "ios-13558681934",
+          "text": "Uygulamadan atıyor Beş kuruş etmiyor sim blokesi var blokeyi kaldırmaya çalışıyorum tam oluyor hata veriyor uylumadan atıyor koskocaman garanti bankası böyle bir rezalete düşüyor madem yapamıyor sunuz o zaman kapatın mobil bankacılığı",
+          "author": "Mahmut drrr",
           "rating": 1,
           "category": "app_crash",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "ios-12534427443",
-          "text": "sanal karta para aktarımı Son güncellemeden sonra sanal karta para aktarma seçeneği çıkmıyor",
-          "author": "riskal34",
+          "id": "ios-13665692421",
+          "text": "hesabım blokelendi boş yere hesabım kapatıldı ilk maaş hesabı kurulan iş yerim yüzünden şimdi hesabıma giriş yapamıyorum sadece atm üzerinden para çekebilirsiniz diyorlar 3 seneye yakın olucak garanti kullanıyorum severek blokelenmesi kötü oldu tekrardan açılırsa çok sevinirim",
+          "author": "wkaankaya",
           "rating": 1,
           "category": "app_crash",
           "channel": "ios_store",
@@ -1572,1052 +3161,68 @@
       ]
     },
     {
-      "id": "issue-fee",
-      "title": "fee (50 yorum)",
+      "id": "issue-connection",
+      "title": "connection (5 yorum)",
       "channel": "ios_store",
-      "category": "fee",
-      "commentCount": 50,
-      "comments": [
-        {
-          "id": "ios-13632626601",
-          "text": "Kart aidat ücreti Kartı kapatmak istiyorum , yıllardır kesilmedi şimdi neden aidat ücreti kesiliyor",
-          "author": "insble",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13509834472",
-          "text": "Şikayet var Akşam ATM den para çektim limit 20 bin 10 bin çektim ikinc 10 binde 15 binden sonra % belirli miktar  para keseceğini yazdı bu bankanın benim için tamamen bittiği andır benim paramdan nasıl paramı kesersin nasıl bir adaletsiz haksız bir bankasınız çalıştığım iş yeri bu bankaya patronu yatırdığı için buradayım patronlarda bu konuları görüşeceğim her yerdede bu şikayetimi dile getireceğim kapandığınız battığınız günüde görürüz inşallah.😡",
-          "author": "Seven ♥️ 💕",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-a14ce7f3-dd24-47c3-a4b3-eff410dec0c9",
-          "text": "hesab açtığım şube dışında bankamatik den para çekiyorum ve bunun için hizmet bedeli kesiliyor. dünyanın hiç bir yerinde yok bu uygulama sonuçta başka bir bankadan değil garantiyi kullanıyorum. böyle keklenmemek için paramın hepsini çekip cebimde taşıyacağım 35000 tl çekim için 450tl faiz aldılar. Hizmet değil tamamen vatandaşı silkelemek adına kurulmuş bir sistem.",
-          "author": "Emre Karakaya",
-          "rating": 1,
-          "timestamp": "2025-12-26T07:41:18.272Z",
-          "category": "fee",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13703632587",
-          "text": "Maas hesabim ama eft havale ucreti kesiyor Maas hesabim ama ucret kesiyor kullanmicam bankayi",
-          "author": "Makfkskdksk",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13692349052",
-          "text": "Eft havale Ücret almanız çok ama çok ayıp zanen sizde zaten kazanıyorsunuz",
-          "author": "Fearleşlord",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13667365124",
-          "text": "Eft havale ücretleri Eft havale çok para kesiyor",
-          "author": "12.456cvbmll",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13661845483",
-          "text": "Rezillik Maaş müşterisiyim EFT yaparken 12,80 TL para kesiyor rezillik böyle bir şey yok bir de talimat verdiler maaş müşterisine EFT ücretsiz diye rezil bir banka",
-          "author": "Zfhchjvg",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13644181411",
-          "text": "Şikayet Para transferlerinde ve ödeme yaparken ücret kesmesi hiç hoş değil   Üstelik aynı banka üzerinden işlem yapılırken",
-          "author": "Avcıım3333",
-          "rating": 2,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13638728713",
-          "text": "İşlem ücreti Az önce 3 bin lira gönderdim 8 küsur para aldınız. Maaş müşterisiyim ben.\nMüşteriye küfür etmek gibi bir şey bu",
-          "author": "Aydiniseli",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12223693595",
-          "text": "İŞLEM ÜCRETLERİ Çok aşırı derecede pahalı işlem ücretleri garantiye kullanacağına Enpara’yı kullanıyorum kafan rahat istediğin dakika havale ücretsiz",
-          "author": "CARASOBİ",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12168489926",
-          "text": "Maaş Maaş müşterisi olarak havale için ücret almak neden anlamıyorum",
-          "author": "Lina raya",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12159566843",
-          "text": "Havale ücretleri Nedir bu havale ücret tarifesi anlamadım bir çok banka  ücretsiz yıllardır aktif bir şekilde kullandığım bir banka kredi kartıda o şekilde biran önce çözüm bulun.",
-          "author": "Erdikur",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13631955893",
-          "text": "İşlem ücretleri İşlem ücreti havale ücretleri çok fazla",
-          "author": "Kuzzgunn..",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13627436639",
-          "text": "Havale ücretleri Bi havale / eft yada fast ücreti  8 küsur lira olmamalı",
-          "author": "Aözge",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12105585088",
-          "text": "İşlem ücreti Yıl 2025 olacak ve hala her işlemime 5-20 tl arası eft havale parası ödenen tek banka!! Yakın zamanda inşallah kurtulmak dileğiyle…",
-          "author": "Baron2011",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13605855735",
-          "text": "Maas musterisi olmanin dezavantaji 10 yildir garanti maas musterisiyim maasimi hep buradan aliyorum buna ragmen hala benden havale ve islem ucreti kesiyor!",
-          "author": "Savaş Z",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13605375488",
-          "text": "Havale eft ücretleri 🧐 Bu nedir yahu insan kendi şubelerinin arasındaki para transferine de para almaz ki ayıp",
-          "author": "Zümrüt 72",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13703678367",
-          "text": "Maaş müsterisinden işlem ücreti alınamaz Maaş müşterisi olmamızdan dolayı para transferinde 16 lira işlem ücreti alınması adil değil.",
-          "author": "Sessizlik seven",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13693512987",
-          "text": "Eft ücreti Hiç çalışmadan 10 tl eft ücreti teşekkürler sizinlede çalışmıyoruz artık…",
-          "author": "zafer parlar.",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13691860727",
-          "text": "Şikayet Emekliyim 17 TL eft ücreti alınıyor",
-          "author": "Şikayetskn",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13689055188",
-          "text": "Havale ücreti Bu zamanda havale ücretimi kaldı ya yıl 2026",
-          "author": "CanerKul",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-4066654226",
-          "text": "Havale eft ücreti Garantione ı kapatırken bu hizmetleri diğer uygulamaya almışlardır diye düşünülüyodu.hiçbir avantajı olmayan uygulamayı boş yere indirdik.eft ve havale ücreti tekrar gelmiş.bir iyi yönü vardı onuda kaldırmışlar.indirmeyin.",
-          "author": "sairavcisi",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-4057783829",
-          "text": "Garanti One Garanti one kullanırken 18-25 yaş aralığı kapsamında işlem ücreti vermiyordum. Garanti one kalktı normal uygulamadan işlem ücreti kesiliyor.",
-          "author": "Rafet1907",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13684940367",
-          "text": "EFT parası Kesintisi çok kesiyor",
-          "author": "Yasin irfan",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13675706635",
-          "text": "Havale ücreti alınması Maaş hesabıma bu bankaya geçirdim bir önceki bankada havalelerimden ücret alınmıyordu burada almanız etik değil daha önceden de böyle bir şeyin bana bilgisi verilmedi",
-          "author": "King of Anatolia",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13666877456",
-          "text": "İşlem ücreti Berbat bir banka 100 liralık para transferinde bile 8 liranın üzerinde işlem ücreti alıyor çoğu bankadan binlerde bile trafsferde almazken bu banka en az para transferinde bile yüksek işlem ücreti alıyor berbat berbat berbat",
-          "author": "mehmet.alkn",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12166046140",
-          "text": "İşlem ücreti Çok fazla işlem ücreti kesiliyor. Hesabı tamamen kapatacağım bu gidişle. Farklı bankaları kullanacağım",
-          "author": "Zeynep.tumay1214",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12154834152",
-          "text": "İşlem ücreti Kaç yıldır müşterinizim fakat x isimli banka ciddi anlamda işlem ücreti diye birşey almıyor benden..fakat sizin gibi köklü ve büyük bir yapıya sahip bankaya işlem ücreti kesmesi yakışmıyor en kısa süre zarfında ödemelerimi size tamamladıktan sonra sizinle aramızdaki müşteri ilişkisini keseceğim umarım eski müşterilerinize nasıl ayrıcalık verebiliriz yansıtabiliriz diye harekete geçersiniz ve kendinizi geliştirebilirseniz daha iyi olur mutlu günler dilerim.",
-          "author": "Nuri akgül",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13665684401",
-          "text": "Kesinti Kendi maaş müşterisinden bile havale için ücret kesen bir banka sizin neyinizden memnun kalayım ki.",
-          "author": "Mdh dk fmdk",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13661765863",
-          "text": "Havale ücreti Ben maaşlı müşteriyim başka bankalarda havale ücreti yok sizde niye var",
-          "author": "oryaal",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13014939477",
-          "text": "Kesinti Maaşlı müşterilerden para göndermeye para kesiyorsunuz",
-          "author": "735256890,((())",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12598554563",
-          "text": "Eft Eft ücretleri çok yüksek maaş müşterisiyiz yinede eft ücreti ödüyoruz",
-          "author": "Sssaannnss",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13646704193",
-          "text": "Havale ücretş Maaş hesabı olmasına rapmen çok yüksek kesinti alıyor",
-          "author": "Ayşe Merve Aydın",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13643554406",
-          "text": "Dolandırıcılık Bir hesaptan 16 tl havale ücreti almak nedir ya bukadarda olmaz",
-          "author": "Duygu Özer",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13639749163",
-          "text": "Bıraktım Herşeye komisyon, en düşük mevduat faizi, en yüksek ihtiyaç kredisi faizi %7.49 şaka gibi. Şubeleri apayrı bir konu 30dk'da 2 kişi ilerlemez, çoğu şeyi yapamaz ya internet şubesine ya da telefona müşteri hizmetlerine yönlendirir. İnternet şubesine girersin işleminize şubeden devam edin der.. Gittiğim şubeye 3 aydır bir hgs gelemedi. Ben başka bankaya geçtim isim vermeyeyim reklam olmasın ama gidin araştırın öyle karar verin. Yıldım ben buradan.",
-          "author": "CermanK",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13636278255",
-          "text": "Havale ücreti Maaş müşterisiyim  16 lira havale parası kesiyorsunuz",
-          "author": "vaymaaa",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13635035158",
-          "text": "Kendi hesabıma para gönderiyorum na bile eft ücreti alıyor yazık Kendi hesabıma para gönderiyorum ona bile eft ücreti alıyorsunuz yazık",
-          "author": "24horoz20",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12238355512",
-          "text": "Para gönderirken kesinti Kredi kartı kullanıyorum kullandığım halde havale eft ücreti kesiliyor müşteri memnuniyeti sıfır",
-          "author": "ufuk çobanoğlu",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12192053871",
-          "text": "EFT Fiyatları Çok Yüksek 2006 yılı öncesinden beridir müşterisiyim hep eft ve diğer masrafları pahalı birde bankadaki sıra sistemi akıl almaz halde. Sadece cep Uygulama basit ve kolay olduğu için bırakamıyorum ama artık diğer bankadan ücretsiz eft ve diğer ödemeler yapıyorum",
-          "author": "#milligurur",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12180183966",
-          "text": "Havale ücreti Hesabı açarken iki adet otomatik ödeme talimatı ver havale ücreti ödeme denmişti ama şimdi sanırım bunu sadece ben hatırlıyorum nedense",
-          "author": "onur4152",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12163745066",
-          "text": "Maaş müşterisine İşlem ücreti Saat 16:33 oldu diye maaş müşterisi olduğum halde işlem ücreti alıyorsunuz, bende herhangi bir saatte tüm parayı diğer bankama aktarıyorum, geçinip gidiyoruz 😂",
-          "author": "yusuf.tnc",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12163095719",
-          "text": "EFT ÜCRETİ Maaş müşterisinden mesai saatleri içinde 12.80₺ EFT ücreti almak nedir? Bu kadar aç gözlü banka olamaz.",
-          "author": "Jokerinizz_",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12162469937",
-          "text": "Kazık Havale ücreti çok pahalı",
-          "author": "Fadimeanadinc",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12158742214",
-          "text": "eft ücreti çok fazla eft ücreti çok fazla",
-          "author": "civo concept",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13613868209",
-          "text": "Havale eft Havale eft ücreti cok fazla",
-          "author": "Xxxjdjdınnr",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13609131525",
-          "text": "2026'da hala havale eft parası olmamalı Şu çakallığı bırakın artık size bir maaliyeti olmayan işler için ücret alıyorsunuz. enpara masraf almıyor cebinden ödediğini sanmıyorum.",
-          "author": "imkarakul",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12126627060",
-          "text": "Kesinti Maaş müşterisinden havale yaparken para kesintisini çok yanlış buldum.İş yerimin garantiye geçmesine sevinmiştim ama bunu öğrendiğim için şimdi üzgünüm",
-          "author": "E yavru",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12085570460",
-          "text": "Ücret İnternet bankacılığınız güzel lakin havale ücreti gereksiz bir ücret çoğu banka almıyor",
-          "author": "baba 0825",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12031780326",
-          "text": "Havale ücreti Havale işlemlerinin mesai saatleri dışındada ücretsiz olmasını istiyorum.",
-          "author": "yurtcum",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-11781378539",
-          "text": "Eft ücreti Eft ücreti ödemiyorum ama 16:00 sonrası alıyor",
-          "author": "İstemiyorjm",
-          "rating": 1,
-          "category": "fee",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-card",
-      "title": "card (35 yorum)",
-      "channel": "ios_store",
-      "category": "card",
-      "commentCount": 35,
-      "comments": [
-        {
-          "id": "ios-12535942326",
-          "text": "Sanal karta para aktarımı Yeni tasarımda sanal kartlara para aktarımı butonu kalkmış",
-          "author": "meetztrk",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12602565560",
-          "text": "Son Gelen Güncelleme Son gelen güncellemeyle sanal kartıma nereden para aktaracağımı mobil üzerinden bulamıyorum. Bilgisayar üzerinden aktarım sağladım ancak sürekli pc den aktarmak benim için bir zulüm olacak!",
-          "author": "Kahvefalıdelisi",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12559011765",
-          "text": "Sanal karta para ekleme artık yapılamıyor Yeni güncelleme ile sanal karta para aktarım düğmesi artık yok.",
-          "author": "ZaLlama",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12549572341",
-          "text": "Güncellemede emeği geçenlerin ta … Bir uygulama güncelleme aldığında seviye atlar bu uygulama güncellemeden sonra berbat bi hal aldı sanal karttan daha gönderim çekim yapamıyoruz önceden tek tıkla yapılıyordu şimdi saçma sapan şeyler çıkartmış garanti bankasından sırf bu berbatlıgı yüzünden hesaplarımı kapatacağım",
-          "author": "ArrowZ52",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13656378510",
-          "text": "Vasat bir banka Bir tane kredi kartı gönderemeyen aciz bir banka (nokta)",
-          "author": "Ogzyigit",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13693663313",
-          "text": "Sanal kart sorunu Banka birden fazla kredi kartı veriyor ancak her kredi kartına sanal kart vermiyor, ikinci bir karta sanal kart üretmek için ilk kartın sanalını iptal ettiriyor, çok anlamsız bir uygulama.",
-          "author": "Apapse",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12558904170",
-          "text": "rezalet herşeyi mahvettiniz sanal kartıma para yükleyio geri kartıma aktaramıyorum bile alısverisimi onun sayesinde yapıyordum eski ara yüzü getirin lütfen 👍🏻",
-          "author": "silaclbi",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12515327913",
-          "text": "Sanal Kart Yeni güncelleme sonrası sanal karta para yükleme ve çekme yapılamıyor.",
-          "author": "ogc555",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12514966605",
-          "text": "Sanal karta para atamıyorum Yeni gelen güncelleme iyi güzel de sanal kartıma para atamıyorum yemek söyleyecektim söylemedim bu yüzden",
-          "author": "İlomilon",
-          "rating": 2,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12511354984",
-          "text": "Sanal kart sorunu Son güncelleme sonrasında mobil uygulamadan sanal kartıma para aktaramıyorum. Keşke hiç arayüz değişikliği yapmasaydınız. Buradan IT ekibinizin amatörlüğünü tebrik ediyorum 👍🏻",
-          "author": "KafkafYgt",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12589890143",
-          "text": "Sanal Karta Para Aktarmak Uygulama mükemmeldi, fakat güncellemeden sonra sanal karta para aktaramıyorum hesabımdan. Böyle saçma bir güncelleme neden? Güncellemelerin uygulamayı geliştirmesi gerekir, berbat etmesi değil.",
-          "author": "NicknameJasmine007",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12572228560",
-          "text": "Artık kullanmıyorum Yeni güncelleme berbat olmuş , özellikle sanal kartı eskisi gibi kullanamadıktan sonra benim için hiç bir anlamı kalmadı garantinin. Bir daha görüşmemek üzere garanti hoşçakal.",
-          "author": "Uykumyoook",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12565192772",
-          "text": "Eski sürüm e dönülsün İlk defa yorum yapma gereği buldum , bütün online alışverşlerimi sanal kart ile yapardım ancak yenilenen mobil uygulama da bu özelliği kullanamıyoruz limit belirleme yapamıyoruz",
-          "author": "Xiydrix",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12557436833",
-          "text": "Sanal Kart Son güncelleme ile sanal karta para aktarılamıyor rezalet!!!",
-          "author": "Pandazuzu",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12545127592",
-          "text": "Yeni arayüz çok kötü Bu güncelleme ile uygulama kullanılamaz bir hal aldı. Sanal karta para yükleme kalkmış bu inanılmaz bir şey mesela! Ve haftalardır bekliyorum asla düzeltilmiyor..",
-          "author": "Sedss",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12511698160",
-          "text": "Berbat guncelleme Harika calisan biseyi mahvetmekte uzerinize yok. Sanal karta para yuklemede kalkmis saka gibi",
-          "author": "efanux",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12512108417",
-          "text": "yeni güncelleme kötü yeni güncelleme berbat!! sanal karta para atamıyorum.",
-          "author": "dilşat sevde",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13555906684",
-          "text": "Kart kartı limiti tanımlayamama! Kredi kartımı mobil uygulamada görebiliyorum. 10 gündür limit tanımlama bekliyorum. Nitekim 3 gün önce Garanti BBVA üzerinden mesajla limitimin tanımlandığı bilgisi gelmesine rağmen mobil uygulamada limit tanımlanmamış görünüyor. Diğer banka kredi kartlarımdan limit düşürmeme rağmen hala sonuç aynı. Tutarsız işler sebebiyle oldukça keyfim kaçtı. Mesajla tanımladık deyip, mobilde uygulayamıyorsanız bu uygulama ne işe yarar? Acil destek lütfen!!!!",
-          "author": "cadovan",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13186464044",
-          "text": "Memnuniyetsizlik Mobil bankacılıktan bir yıla yakın zaman içerisinde aylık gelirimi güncelledim. Kredi kartımı iptal ettirmek için bu gün Müşteri temsilcisi ile yaptığım görüşmede bana, mobilden aylık gelir bilgisinin güncellenmesinin yeterli olmayacağını ayrıca en yakın banka şubesine gidip işlem yaptırmam gerektiği bilgisini aktardı. Ben bunu yeni duyuyorum. Mobilden işlem yaptığımda tarafıma herhangi bir mail-sms gibi kanallardan bilgilendirme mesajı gelmedi. 2008 den beri  kredi kartımın lim",
-          "author": "tamerbry68",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13160077602",
-          "text": "Sadece pişmanlık Kredi kartı olunca 10 kere arıyolar vermek için ama kredi olunca ne başvuru onaylanıyo nede müşteri temsilcileri arayıp ilgileniyo hepsi işi görülesiye kadar o yüzden bu bankayla tüm ilişkimi kesicem",
-          "author": "Esen tolga",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13524446055",
-          "text": "Kredi kartı Kredi kartımın limitini yükseltmek istiyorum ama olmuyor 1 milyon limit istiyorum",
-          "author": "kredi kartı ￼",
-          "rating": 2,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12648257484",
-          "text": "Sanal Karta Hesaptan Para Yüklenemiyor Yeni güncellemeyle mobil uygulamadan sanal karta para aktaramıyoruz! Uygulamayı yapan arkadaşlar bunu nasıl gözden kaçırdı kimse kontrol etmedi mi hiç anlamadım. Webde böyle bir sorun yok. Tek bir uygulamayla halledebildiğimiz işi artık yapamıyoruz. Umarım düzelir.",
-          "author": "CdvH86",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12599936834",
-          "text": "Sanal kart para aktarimi Sanal karta para aktarilamiyor",
-          "author": "Kaya Taş",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12598400185",
-          "text": "yeni güncelleme O KADAR KÖTÜ BİR GÜNCELLEME OLMUŞ Kİ SANAL KARTA PARA YÜKLEYEMİYORUM AHRAZLAR MAAŞ HESABIM OLMASA ASSLA KULLANMAYACAĞIM BİR BANKA",
-          "author": "nnnaaazzzzzzlllll",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12592987802",
-          "text": "Son gelen güncelleme BERBAT Güncelleme ile sanal karta hiçbir şekilde para aktaramıyorum uygulama tamamen çöp oldu. Emeği geçen yazılımca arkadaşlara teşekkürler.",
-          "author": "Kralkadir23",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12585834393",
-          "text": "Sanal karta para aktarma kısmı yok Sanal karta para aktarma kısmı yok. Limit tanımlayamıyorum.",
-          "author": "Aha140975",
-          "rating": 2,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12566678849",
-          "text": "Sanal Kart Sorunu Sanal kart bakiyem kullanılmaz hale geldi!",
-          "author": "perababyy",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12557073983",
-          "text": "leş gibi bir arayüz gui güncellemesi yapmışsınız, sanal karta para aktaramıyorum leş gibi olmuş yazılım mühendislerinize selamlar",
-          "author": "nguditxgkxktdktdky",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12554981622",
-          "text": "Sanal Kart Sanal karta para aktarmak için eskiyi silip yeniden sanal kart oluşturmak gerekiyormuş",
-          "author": "Musas74",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12533920121",
-          "text": "Son güncelleme Son güncellemede bazı butonlar sığmadı mı sevgili ui geliştirici arkadaşlar. Sanal karta para yüklemek için 5 yıl sonra web sitesini kullandım. Sanal karta para yüklenmiyor diyorum cevabınız para karta para yüklemek için oluyor. Ekip mi değişti sevgili bbva?",
-          "author": "Gahhah344",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12533212162",
-          "text": "Sanal karta para yükleme butonu Sanal karta para yükleme butonu kayboldu",
-          "author": "nazimmertbilgi",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12531533531",
-          "text": "Sanal banka kartına para atılmıyor Sanal banka kartı için sadece bu bankadaki hesabımı kullanıyorum sanal banka kartına limit tanımlayamadığım için garanti bankası hiç bir işimi görmüyor birkaç güne düzelmezse hesaplarımı kapatıp yüksek faiz getirisi olan bir bankaya geçeceğim. Uygulamanının önceki hali son derece kullanışlı idi üç gündür elimi kolumu bağladınız sanal kartıma para atamadığım için bankadaki param hiç bir işe yaramıyor",
-          "author": "yoldakalan",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13670331899",
-          "text": "Eleştiri Kartımı bulamadığım için kartı yeniledim ama bulunduğum adres e gelmeyip teslim alındı diye mesaj aldım kartı ben almamıştım oysaki tekrar iptal ettim kart çıkartmak için müşteri hizmetlerine  ulaşıyorum telefonuma onay kodu gelmiyor en sonunda vazgeçtim kredi kartı çıkartmak dan basit\nBir işlemde bile iyi yordu garanti",
-          "author": "Bay çiçek",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12594515264",
-          "text": "BBVA güncellemele Yeni güncellemeden hiç memnun değilim sanal kartım para aktaramıyorum her şeyin yerini değiştirmişsiniz uğraştırıyorsunuz insani senelerdir alıştım bir uygulama neden değişiyor bana kolaylık sağlamıyor",
-          "author": "Dina_4217",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12121242359",
-          "text": "Ödemeler Kredi ödemesine girildiğinde kaçıncı taksit ödendiğini göstermiyor , ödedikten sonra dekont üzerinde yazıyor",
-          "author": "Gencay Ayhan",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-other",
-      "title": "other (26 yorum)",
-      "channel": "ios_store",
-      "category": "other",
-      "commentCount": 26,
+      "category": "connection",
+      "commentCount": 5,
       "comments": [
         {
           "id": "ios-12601615607",
           "text": "Hesap kapattırır O kadar kötü bir güncelleme ki ..garantiye ait kartına para gönderemiyorsun ..böyle kalırsa hesabı kapatacağım o derece kötü !",
           "author": "e.elite",
           "rating": 1,
-          "category": "other",
+          "category": "connection",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "android-79b56b4c-b414-4d9f-b024-b42fceb3439e",
-          "text": "şuan işlem yapamıyorum şuanda işleminizi gerekleştiremiyorum sonra tekrar deneyin diye uyarı çıkmakta",
-          "author": "Tayfur Yuva",
-          "rating": 2,
-          "timestamp": "2026-01-02T13:13:06.588Z",
-          "category": "other",
+          "id": "ios-9501793524",
+          "text": "Rezalet Rezalet hiç bir şekilde müşteri temsilcisine bağlanılmıyor",
+          "author": "blbdumbh",
+          "rating": 1,
+          "category": "connection",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13568300485",
+          "text": "Credi Nakit avansımı yükseltmiyorsunuz.ihtiyaç kredisi vermiyorsunuz.müşterisi olmadığım İNG BANK.kredi verdi benim bankam garanti vermiyor.bende İNG li oldum ve en kısa zamanda garanti BBA ile ilişkimi sonlandıracağım.",
+          "author": "bros auto",
+          "rating": 1,
+          "category": "connection",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-49bf947d-b413-4d93-b9d7-e15abe3c4fc5",
+          "text": "konut kredisi çektiğinizde çok dikkat edin onayınız olmadan 5-6 tane sigorta yaptırıyorlar parasını da alıyorlar iptal de etmiyorlar sonra da biz onaylı kağıt aldık diyorlar",
+          "author": "Ahmet ARAS",
+          "rating": 1,
+          "timestamp": "2025-11-12T21:52:22.203Z",
+          "category": "connection",
           "channel": "android_store",
           "sentiment": "negative"
         },
         {
-          "id": "android-8b2a588f-05bb-4706-a356-0cfc1543db03",
-          "text": "Uygulama güncellendi yeni güncellenen programı indirin diye bildirim geliyor amauygulama yüklenmiyor",
-          "author": "Ms2uba",
+          "id": "android-1636e8a4-c388-460f-a4c9-4ff6ce56f54d",
+          "text": "Adınıza şu oran da krediniz hazır diyip ayaklarına kadar çağırıp farklı oranda kredi çektirmeye çalışan sözüne itimat edilmeyecek bir banka. Uygulamasını da sildim numaralarını da engelledim.",
+          "author": "Adem Bozan",
           "rating": 1,
-          "timestamp": "2026-01-10T21:20:03.527Z",
-          "category": "other",
+          "timestamp": "2025-10-07T08:19:03.719Z",
+          "category": "connection",
           "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-f49a9673-7cf9-4f0a-b115-b006c632da4e",
-          "text": "Uygulamadan SMS gelmiyor.",
-          "author": "Skylue",
-          "rating": 1,
-          "timestamp": "2026-01-05T16:27:15.721Z",
-          "category": "other",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-86cbba3e-46f1-4051-97e1-50f4f809c994",
-          "text": "uygulamanızdan şüpheli işlem bildirimi yapamıyorum , siz de mi dolandiricisiniz",
-          "author": "İsmail Karakaya",
-          "rating": 1,
-          "timestamp": "2026-01-21T11:17:13.210Z",
-          "category": "other",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10436358330",
-          "text": "Girilmiyor Bugün yaptığım güncellemeden sonra direk programdan atıyor girilmiyor.Telefon ıphone 6",
-          "author": "programdan atma sorunu",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12659735504",
-          "text": "eğer bir kere daha eğer bir kere daha uygulamaya girişte beni safariye yönlendirip oradan da appstorea sokarsa çığlık atarak imha edeceğim telefonumu",
-          "author": "elifsuke",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12554103126",
-          "text": "AMATÖR UYGULAMA O kadar ticari hesap var o kadar iş adamları var o kadar para çeviriyorsunuz bu uygulama böyle olmaması gerekiyor içinden çıkılmaz bir hal almış. Kimse son güncellemeyi beğenmedi haberiniz olsun",
-          "author": "Burcu Altınsuyu",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10483227663",
-          "text": "Yeni sürüm Merhabalar telefonum iPhone 6 ve yeni sürümü desteklemiyor biran önce bu sorunu çözmenizi arz ediyorum",
-          "author": "selami 2323",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13585498067",
-          "text": "Cep boyutunda Tablette cep telefonundan boyutunda uygulama kullanılabilir değil",
-          "author": "Aticus3",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13573916717",
-          "text": "Tefeci Bankamısınız tefecimi yorumsuz",
-          "author": "Poyraz 005",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-5904854089",
-          "text": "Yeni güncelleme!! Yeni güncelleme hiç güzel değil eskisi daha kullanışlıydı ara yüzü karman çorman yapmışsınız hiç beğenmedim bence eskisini geri getirin o kullanışlı ve estetikti. Yorumun üzerine basılı tutun yararlıyı işaretleyin üstte kalsın",
-          "author": "Damn it game",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10463878061",
-          "text": "Uygulama 2haftadan fazladır uygulamayı kullanamıyoruz bu sorunu derhal çözün artık koskoca Garanti bankası bi güncelleme getiremiyor mu acaba ya bunca insanı madur etmeye ne hakkınız acaba",
-          "author": "yasin Örs",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10474572917",
-          "text": "iPhone 6 uygulamaya girmeden atıyor İPhone 6 kullanıyorum yazılımsalmı sorun bilmiyorum ama sildim geri yükledim hala düzelmiyor uygulamaya girmeden atıyor!",
-          "author": "gökhan455",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12559322175",
-          "text": "Son gelen güncelleme Ne kadar kullanılmaz bir hale getirmişsiniz on numara giden bişeyi neden değiştirir ki bi insan",
-          "author": "Kdlsödö",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12549508249",
-          "text": "Güncelleme Yeni halini beğenmedim ne gerek vardı alıştığımız sistemi görseli değiştirmeye",
-          "author": "Motherofselen",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13655972178",
-          "text": "Apple pay Vakit gelmedi mi artık ?",
-          "author": "hasancanksdl",
-          "rating": 2,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9395100570",
-          "text": "Uygulama atıyor Uygulamaya asla griş yapamıyorum",
-          "author": "fatmanur 👍",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13004301064",
-          "text": "Mobil uygulama Mobil uygulaması hiç anlaşılır değil. Enpara uygulamasını inceleyin",
-          "author": "henç123",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12599338096",
-          "text": "Güncelleme Çokmu iyi oldu güncelleyince sade ve en kullanışlı uygulamalardan birini Arap saçına çevirdiniz",
-          "author": "Şikayeçi",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12531337517",
-          "text": "Güncelleme hakkında Garanti BBVA mobil güncellenmeden önce daha iyiydi eski halini istiyoruz yeni güncellemeyi  sevmedim",
-          "author": "Lavinia yuce",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13622980093",
-          "text": "MESLEK BİLGİSİ MESLEK GÜNCELLEMESİ GELSİN ARTIK TENİKER YOK TEKNİSYEN VAR ? Garanti nerede",
-          "author": "Lionsssss1905",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10481380412",
-          "text": "İphone 5s Kullaniyorum İphone 5s Kullaniyorum Uygulama Acilmiyo",
-          "author": "mustafa mürteza",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13011283409",
-          "text": "Eft ödemesi Hala eft ye filan para almak nedir ya herşeyimizi sizden yapıyoruz zaten ayıptır",
-          "author": "Eyüphan yıldız",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12122613765",
-          "text": "EFT Para limiti artırımını kabul etmiyor yüksek bedel isteniyor ayırınca sistem beni beş kez dışarı attı",
-          "author": "Garanaklsms",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12087647704",
-          "text": "Makascılar sızı Euroyu bozundurunca cok makas atıyorsunuz o yuzden bende yatırılan maaşımın havalesını başka bankaya aldım",
-          "author": "Yusefffffystr",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
           "sentiment": "negative"
         }
       ]
     },
     {
       "id": "issue-login",
-      "title": "login (42 yorum)",
+      "title": "login (40 yorum)",
       "channel": "ios_store",
       "category": "login",
-      "commentCount": 42,
+      "commentCount": 40,
       "comments": [
-        {
-          "id": "ios-12569014148",
-          "text": "Sürekli yeniden giriş istiyor Yeni sürümde para transfer ekranında sürekli giriş yap hatası veriyor",
-          "author": "Parmamaniac",
-          "rating": 1,
-          "category": "login",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
         {
           "id": "ios-6226818994",
           "text": "BIKTIM YENİ ŞİFRE BULMAKTAN!!! Ya durup durup şifremi değiştirtiyo uygulama. Kullanmadığım kombinasyon kalmadı. Ben kimseyle paylaşmıyorum arkadaşım zaten şifremi. Bi güvenlik ihlali sezersem de kendim değiştirim. Lütfen bi sal bizi artık ya!!",
@@ -2754,16 +3359,6 @@
           "author": "Sezgin Aydın",
           "rating": 1,
           "timestamp": "2025-12-25T06:05:43.171Z",
-          "category": "login",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-74001bf9-a9f0-48ea-ba6c-116e38ba4c0c",
-          "text": "Kartım geldi şifre alamıyorum SMS atıyorum sim kart değişikliğinden dolayı mesaj gelmiyor.Yardım merkezinden sim kart değişikliği yapıyorum NFC işlem sırasında hata oluştu diyor.Müşteri hizmetlerini arıyorum kart şifresi istiyor yok diyorum mobil uygulama şifresi istiyor hiç bir türlü sorunum çözülmüyor.Çıldırmamak elde değil.",
-          "author": "asuman özcan",
-          "rating": 1,
-          "timestamp": "2025-12-26T12:14:26.402Z",
           "category": "login",
           "channel": "android_store",
           "sentiment": "negative"
@@ -3021,677 +3616,18 @@
       ]
     },
     {
-      "id": "issue-investment",
-      "title": "investment (9 yorum)",
-      "channel": "android_store",
-      "category": "investment",
+      "id": "issue-customer_service",
+      "title": "customer_service (9 yorum)",
+      "channel": "ios_store",
+      "category": "customer_service",
       "commentCount": 9,
       "comments": [
-        {
-          "id": "android-d853a27c-dcf1-440d-8455-6ac1df016346",
-          "text": "son güncellemeden sonra yatirimlar ekraninda donup kaliyor cikis veya geri gitme yapmıyor bilginize......",
-          "author": "hasan özdemir",
-          "rating": 2,
-          "timestamp": "2026-01-08T10:59:33.326Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-b557e5c4-943a-4a24-83b5-c83df2568857",
-          "text": "Bu nasıl uygulama redmi note 11 pro 5g kullanıyorum uygulama sürekli beyaz ekran düşüyor silip yüklüyoruz hep aynı işlem birde yatırım hesabına geçiyorum dön babam dön bu ne biçim bir iş",
-          "author": "DOĞAN TÜRKOĞLU",
-          "rating": 1,
-          "timestamp": "2026-01-29T17:44:41.716Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10175912930",
-          "text": "Hisse alım satımı Asla ve asla tercih etmeyin 5 gündür sattığım hissemin parası blokeli gözüküyordu artık blokeli bile gözükmüyor kendi paramın peşinden koşturuyorlar alırken anında almayı biliyorlar",
-          "author": "batuhan000420",
-          "rating": 1,
-          "category": "investment",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12592287521",
-          "text": "Rezalet. Çalışan bir şeyi neden bozma ihtiyacı hissettiniz? Gördüğüm en kötü mobil uygulama güncellemesi. İnsana banka değiştirtir.",
-          "author": "ycsonmez",
-          "rating": 1,
-          "category": "investment",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-1a18a5c7-efa6-48cc-b8a8-8adc93148fa5",
-          "text": "uygulama çok iyiydi, ama birdenbire borsa verileri gecikmeli gösterilmeye başlandı. Anlık göstermek için sözleşme imzalamam gerekiyormuş!! Bu da nereden çıktı?",
-          "author": "Semanur Temiz",
-          "rating": 1,
-          "timestamp": "2025-12-09T09:43:40.401Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-ae5016b1-993c-42d9-b405-15e6af093f43",
-          "text": "Lot altı hisse senetlerinin hibe satışı mümkün değil. Çağ dışı bir durum",
-          "author": "Mahmut S.",
-          "rating": 1,
-          "timestamp": "2025-09-12T07:29:35.438Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-5b32fe58-a053-4497-acb8-89516ee80fe1",
-          "text": "olmadı son güncellemeyle örneğin yatırım portföyüme giriyorum geri gelemiyor ana ekrana dönüş yok",
-          "author": "Serhat Kurt",
-          "rating": 2,
-          "timestamp": "2025-10-31T20:19:43.176Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12160317751",
-          "text": "Yeni güncellemeler .. Merhaba,\nSon güncellemelerde özellikle hisse portgöy arayüzlerinden memnun değiliz. Günlük artış azalışlar takip edilebilir değil. Eski hali çok daha güzeldi.",
-          "author": "Gangnamstyla12",
-          "rating": 1,
-          "category": "investment",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-a7a172d4-8080-4d3e-8008-f2d8c6e41ec8",
-          "text": "Yatırımlar bölümünde ekran görüntüsü alınmıyor. Bu bence bizim sorumluluğumuz altında olmalı açıp kapatabiliriz özellik gelirse. Yatırım fonları renkli şema haline gelebilir. Widget ekranı eklenip yatırımımız görünebilr.",
-          "author": "Fatih Ünlü",
-          "rating": 1,
-          "timestamp": "2025-12-25T19:25:28.920Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-notification",
-      "title": "notification (2 yorum)",
-      "channel": "ios_store",
-      "category": "notification",
-      "commentCount": 2,
-      "comments": [
-        {
-          "id": "ios-13642558765",
-          "text": "Garanti kurumsal Tüm bildirimleri sil butonu basıldıktan sonra bildirimleri temizliyor tekrar girdiğinde aynı bildirimi tekrar görünüyor elle silmen gerekiyor",
-          "author": "nuriozc",
-          "rating": 1,
-          "category": "notification",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13689214277",
-          "text": "Uygulama ikonu Sürekli bildirim işareti kalıyor gitmiyor",
-          "author": "Keroskomergana",
-          "rating": 2,
-          "category": "notification",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-performance",
-      "title": "performance (12 yorum)",
-      "channel": "ios_store",
-      "category": "performance",
-      "commentCount": 12,
-      "comments": [
-        {
-          "id": "ios-12187826881",
-          "text": "Berbat Kendi bankasının olsun diye fon aldım fonu bozdum başka bankaya aktarmak istedim EFT yoluyla. 10.000 TL limit varmış. limitimi arttırıncaya kadar canım çıktı. müşteri hizmet yetkilisine bağlanıncaya kadar çok zaman geçti sırada bekledim görüntülü görüşme yapmak istedim mobilden kesinlikle müşteri temsilcisine bağlanamadım.  üstelik 30 saniye diyorlardı hiç de 30 saniye olmadı müşteri hizmetlerindeki kız çok yardımcı oldu gece saat 19:20 ancak yapabildim. Ödemem bir gün ertelendi alacaklıy",
-          "author": "Gökalp Kurut",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12598076286",
-          "text": "İş çözme kabiliyeti sıfır Bu kadar yavaş uygulama hayatımda hiç görmedim ne kopyaladığım ibanı yapıştırmaya izin veriyor ne anımda para transferi yapıyor diğer tüm bankaların uygulamaları tıkır tıkır işliyor bu da dakikalarca acaba işlem yapacak mı diye bekliyorum yazıklar olsun",
-          "author": "Pofi3553",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12603015696",
-          "text": "son güncellemeden sonra uygulama inanılmaz yavaşladı son güncellemeden sonra uygulamada bakiyeyi görmek için en az 2-3 dk beklemek gerekiyor. sürekli dönüyor da dönüyor. diğer şeylere de erişim için ciddi bir sabır gerekiyor. güncelleme eksik kalmış kesinlikle geliştirilme gerekli.",
-          "author": "Sudis666",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
         {
           "id": "ios-13617813672",
           "text": "Müşteri hizmetleri hakkında Yanlışlıkla bi hesaba para attım dalga geçer gibi karşının onay vermesi lazım dedi",
           "author": "Kaansaew",
           "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12052181757",
-          "text": "Memnun değilim Kusursuz kredi geçmişim var kredi vermiyorsunuz \nBoşuna reklam yapmayın",
-          "author": "üfjvslb",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12151794108",
-          "text": "T Bütün dünya Apple Pay‘e geçti siz hâlâ  geçemediniz Apple Pay‘e geçin artık şu Apple Pay’i",
-          "author": "gyfhhgbf",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12558691520",
-          "text": "Arayüz tasarımı Yeni sayfada hiçbir şeyi bulmak mümkün değil. korkunç bir tasarıma geçmişsiniz durup dururken.",
-          "author": "solodisko",
-          "rating": 2,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13067852503",
-          "text": "Sorunların ve yavaşlıkların öncüsü mobil uygulama Sürekli bir delay varmış gibi çalışan bir app yapmayı nasıl başardınız? Testte mi yok!",
-          "author": "GnCrk",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-13f4395b-a1cd-48fe-ae5b-25e0040dd5c8",
-          "text": "Yavaş ve faiz oranları olan üstü yüksek maş hesabı olmasa kapatıcam",
-          "author": "Burak Gürdursun",
-          "rating": 1,
-          "timestamp": "2026-02-02T13:21:37.590Z",
-          "category": "performance",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12603936383",
-          "text": "Sanal card Uygulamayı bir güncellediniz, içinden geçtiniz. Yardımcı olması için asistana yazıyorum ama beni yönlendirdiği yerde bahsettiği sekme yok.",
-          "author": "Abcnlbi",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13612140831",
-          "text": "Faiz oranı 7 küsür faizden kredi veriyor insanla dalga geçer gibi kullanmayın bu bankayı",
-          "author": "X/aU",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-bfb8a1f3-16fb-401f-96c8-ec808b7d7d3d",
-          "text": "garanti bankasından hiç memnun değilim. garanti mobilden de memnun değilim. maaşımı garanti bankasından aldığım halde bana tüketici kredisi vermiyor. Başka bankadan rahatça alabiliyorum. hiç memnun değilim. yakında başka bankaya geçmeyi düşünüyorum",
-          "author": "Nuray Sertler",
-          "rating": 1,
-          "timestamp": "2026-01-08T00:10:06.609Z",
-          "category": "performance",
-          "channel": "android_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-app_security",
-      "title": "app_security (4 yorum)",
-      "channel": "android_store",
-      "category": "app_security",
-      "commentCount": 4,
-      "comments": [
-        {
-          "id": "android-d749c8a7-f8f3-4b7f-8793-d1030d6edec1",
-          "text": "Uygulamayi yarim saat once yukledim ve yarim saattir giris ekrani oylece bekliyor. Verdiginiz linke tiklanmiyor ve kopyalanamiyor!",
-          "author": "Aquaizm",
-          "rating": 1,
-          "timestamp": "2025-11-04T21:01:43.350Z",
-          "category": "app_security",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-d9c0d78a-9ea5-43ca-b78d-495172c5ffbb",
-          "text": "ekran görüntüsü alınmasını engellemek kötü olmuş",
-          "author": "adem aslantekin",
-          "rating": 1,
-          "timestamp": "2026-01-22T19:11:16.147Z",
-          "category": "app_security",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-bfacb0a6-e033-438e-a12d-4a4274946084",
-          "text": "Uygulama içi ekran görüntüsü alamıyorum artık. Ben tüm işlemlerimi bu şekilde takip ediyordum. Sırf bu yüzden bankamı değiştirebilirim",
-          "author": "Duygum Bulanik",
-          "rating": 1,
-          "timestamp": "2026-01-07T11:59:50.377Z",
-          "category": "app_security",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-1d5a53d9-9b0a-4afa-924d-fdf704e190f8",
-          "text": "ekran görüntüsü alınmıyor mu? daha önce alınıyordu? redmi note 14 pro",
-          "author": "ulvi guven",
-          "rating": 1,
-          "timestamp": "2026-01-30T08:04:39.588Z",
-          "category": "app_security",
-          "channel": "android_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-branch_staff",
-      "title": "branch_staff (14 yorum)",
-      "channel": "ios_store",
-      "category": "branch_staff",
-      "commentCount": 14,
-      "comments": [
-        {
-          "id": "ios-13663985403",
-          "text": "Msj Birde bonu filaş eskisi gibi bonus vermiyorsunuz her alışverişimizi kartlarla ayapıyoruz  ama bonus ta cimrilik yapmaya başlandı eskiden böyle değildi para kartımı kullanıyorum genelde ama boş şimdi şubesiz bankalar %10 nakit iade veriyor artık para krtımı kulanmıyacağım iyi çalışmalar",
-          "author": "emre5320",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13692252762",
-          "text": "İlgi Şubelerinizde ilgi alaka problem sorun çözme sıfır",
-          "author": "Qvkfkdşidjfjckcmckfk",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13662269142",
-          "text": "Gereksiz bir uygulama Onaylamayacakları başvurular için insanları şubeye yönlendirip uğraştıran uygulama uzak durun bu bankadan",
-          "author": "Rezilgaranti",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13624903934",
-          "text": "Şube kötü Çok bekletiyor kampanyalarda hiç\nBir bilgi yok temsilcimiz dönüşte yapmıyor",
-          "author": "KyC90",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13526960287",
-          "text": "Çok kötü Manavgat sanayi şubenize gittim para yok grup saati dediler yazık",
-          "author": "Ferdi Tayfur YETER",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-fa031aa3-f9e8-497c-9881-e88ef8835c47",
-          "text": "Gereksiz, müşteri profilinden bi haber, Reklamlar ve Sesli aramalarınızdan gına geldi. Mümkün olan en kısa sürede, Bankanızla olan iletişimimi keseceğim. Bu kadar reklamla insanları rahatsız edeceğinize,, Hizmet kalitenizi artırın.! 2025 Ağustos ayında, Sıra nomu aldım, abartısız tamı, tamına, 3 saat 15 dakika bekledim. öğlen mesaisinde de sözde çalıyordu, Didim şubeniz. En azından insanları bilgilendirin ki, gitsinler ihtiyaçlarını görsünler.! O günden bu güne, 2 defa bile gitmedim.",
-          "author": "Müslüme Özdemir",
-          "rating": 1,
-          "timestamp": "2026-01-23T13:03:26.990Z",
-          "category": "branch_staff",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-735cae3c-09c7-449f-b831-e2870903f60c",
-          "text": "Çok seviyorum çok kullanışlı bir şey bu uygulamayla şubeye gitmeden herşeyi çok rahat yapabilirsiniz teşekkürler garanti",
-          "author": "Ercan Ekiz",
-          "rating": 1,
-          "timestamp": "2026-01-30T17:26:57.280Z",
-          "category": "branch_staff",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-00c2e0d3-3116-4d7c-9995-b7b410beaa2c",
-          "text": "Ben grnti BBVA ile çalıştım Zekeriyaköy şubesinde fakat insan yerine konulmadım artık yabancı bankalar ile Tüsiadçıların bankasına gitmiyorum",
-          "author": "gürkan soydan",
-          "rating": 1,
-          "timestamp": "2026-01-28T22:37:04.738Z",
-          "category": "branch_staff",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13688226978",
-          "text": "Saygısızlık ve ilğilisizler Küçükyalı şubesi memurları çok saygısız alaylı konuşmaları bir şey soruyorsun cevap yok",
-          "author": "veratesisat",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12100797316",
-          "text": "Çözüm odaklı değil İnsandan yardım alınması gereken konularda muhatap bulmak imkansız 2 saat telefonda kafayı yedikten sonra gerçek insan ile konuşabiliyor ve 5 dk olmadan sorun çözülüyor . Daha fazla personel çalıştırılmalı",
-          "author": "Garanti zorbalık yapıyor",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13601364568",
-          "text": "Online destek yok! Cruise gemisi çalışanıyım uluslararası bir bankadan kendi garanti dolar hesabıma 1000 dolar para attım 3 aydır param havada yaklaşık 10 kez mail formu doldurmama rağmen,gerekli tüm belgeleri sağlayabilicek olmama rağmen, gemide hattımın cekmediğini söyledigim halde her seferinde şubenizi arayınız cevabını aldım. Online destekten aciz bu tembel banka icin müsterilerine sabır diliyorum. En acil işim bu bankayı bırakmak ve etrafımdakilerin de bırakmasını sağlamak olacaktır şuan b",
-          "author": "doasef",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13564438817",
-          "text": "Şube işlemlerinde yavaşlık Genel olarak şubelerde; banka personelinin işlemleri yavaş gerçekleştirmesi, insanları gereksiz yere uzun süre bekletmesi ve insanlara tepeden bakan yaklaşımlarla karşılaşıyorum.",
-          "author": "Takarım takmam sana ne",
-          "rating": 2,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-a53ada07-e7b0-41a2-8fbe-55570411a9c0",
-          "text": "yalancılar müşteri ol 50 bin kredi faizsiz katıldım ön onay olumlu sonra şube git kampanyadan da şubeye gidersen Geçersiz diyordu tek kelime ile rezalet muhatap yok.",
-          "author": "Fatih ÖZTÜRK",
-          "rating": 1,
-          "timestamp": "2025-12-25T03:44:43.558Z",
-          "category": "branch_staff",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13681250599",
-          "text": "GÖRÜNTÜLÜ GÖRÜŞMEYLE HESAP AÇILMIYOR ŞUBEYE GİDİN DİYOR ! Geçtiğimiz gün GarantiBBVA'dan görüntülü görüşmeyle hesap açmaya çalıştım fakat bir türlü görüntülü görüşmeye bağlanmadı ve en son ekrana en yakın şubemize gidin yazısı geldi. Ancak şu anda bulunduğum ilçede Eskişehir/Sivrihisar GarantiBBVA şubesi yok en kısa sürede görüntülü görüşmeyle hesap açma işleminin düzeltilmesini talep ediyorum. Sırf hesap açmak için en yakın şubenize gitmek için 100 km'den fazla yol yapmam gerekiyor bu resmen sa",
-          "author": "RUFUS {KLC} [BKN]",
-          "rating": 1,
-          "category": "branch_staff",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-complaint",
-      "title": "complaint (20 yorum)",
-      "channel": "ios_store",
-      "category": "complaint",
-      "commentCount": 20,
-      "comments": [
-        {
-          "id": "ios-12544795809",
-          "text": "yeni uygulama igrenc yeni uygulama arayuzunuz (UI) igrenc berbat, eskisi çok guzeldi yillardir kullandigimiz arayuzu neden igrenc bir seyle degistirdiniz???",
-          "author": "Jiminin Oğlu",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-d71e9179-3ffa-4e24-a860-5b78bb9a88a9",
-          "text": "böyle rezalet uygulama yok numaramı giriyorum numaralar gözükmüyor kod istiyorum kod gelmiyor başka bankalars baş vurun",
-          "author": "Sevil Güney",
-          "rating": 1,
-          "timestamp": "2025-10-25T15:57:55.196Z",
-          "category": "complaint",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13201018473",
-          "text": "Berbat uygulama Muhatap bulamadığın rezalet bir banka.",
-          "author": "Saltuk Kazan",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13515690229",
-          "text": "Garanti bank rezalet Maaş müşterinizim yıllardır bir faydanızı görmedim",
-          "author": "Songül özt",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12573961645",
-          "text": "Eski versiyona dönün Gerçekten berbat olmuş app neyin nerede olduğu belli değil",
-          "author": "Gamevwres",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13685748482",
-          "text": "Berbat bir banka Rezil bir banka",
-          "author": "Müşteri55.",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12599315875",
-          "text": "Rezalet Beş para etmez bir banka uygulama kullanımı berbat o kadar pişmanım ki",
-          "author": "Çağattaaayy",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12194143361",
-          "text": "Berbat Sıfır güven hırsızlar kol geziyor",
-          "author": "Soyulan müşt",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12119861914",
-          "text": "Berbat 1 puanı bile haketmiyor bunun eline kimseyi düşürmesin allah",
-          "author": "yalçın48",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13597732766",
-          "text": "Uzak durun işleyiş berbat kimseye tavsiye etmiyorum.",
-          "author": "Timurr Sahipkıran",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9472047256",
-          "text": "Uygulama Okadar berbat bi uygulamaki açılmıyo hiç bi zaman böyle saçma bi uygulama görmedim ya",
-          "author": "usrgı",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9470910576",
-          "text": "Garanti Berbat bir uygulamanız var",
-          "author": "mutu55",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9447609411",
-          "text": "Çok kötü Berbat bir bankacılık sisteminiz var",
-          "author": "tekno cep",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12576222474",
-          "text": "Güncelleme Güncellenmiş hali berbat olmuş teşekkürler",
-          "author": "Ahhdhshaha",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13515929738",
-          "text": "Berbatsınız Rezilsiniz",
-          "author": "mamaharlı",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12558451328",
-          "text": "Yeni güncelleme Yeni güncelleme berbat olmuş eski versiyon çok iyiydi!",
-          "author": "Çelebi ferhat 222222",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12553831365",
-          "text": "Çok kötü Berbat",
-          "author": "isl12222222222222222",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-e6a2003a-d67b-42cb-aa91-27d41774c955",
-          "text": "berbat",
-          "author": "Osman Üstün",
-          "rating": 1,
-          "timestamp": "2026-01-22T20:22:50.605Z",
-          "category": "complaint",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12533281040",
-          "text": "Berbat En kötü en ilgisiz sırunu çözemeyen müşteri temsilcisine sahip olan tek banka imzalarım altını",
-          "author": "Ern ylmz",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9501793524",
-          "text": "Rezalet Rezalet hiç bir şekilde müşteri temsilcisine bağlanılmıyor",
-          "author": "blbdumbh",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-loan",
-      "title": "loan (7 yorum)",
-      "channel": "ios_store",
-      "category": "loan",
-      "commentCount": 7,
-      "comments": [
-        {
-          "id": "ios-12128814127",
-          "text": "İhtiyaç kredisi Hiçbir şekilde  ihtiyaç kredisi  vermiyor hesabım 6 ay yakın açtım bir daha garantiye uğramam  kusura bakmayın .",
-          "author": "Ayıboğan21",
-          "rating": 1,
-          "category": "loan",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13568300485",
-          "text": "Credi Nakit avansımı yükseltmiyorsunuz.ihtiyaç kredisi vermiyorsunuz.müşterisi olmadığım İNG BANK.kredi verdi benim bankam garanti vermiyor.bende İNG li oldum ve en kısa zamanda garanti BBA ile ilişkimi sonlandıracağım.",
-          "author": "bros auto",
-          "rating": 1,
-          "category": "loan",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-49bf947d-b413-4d93-b9d7-e15abe3c4fc5",
-          "text": "konut kredisi çektiğinizde çok dikkat edin onayınız olmadan 5-6 tane sigorta yaptırıyorlar parasını da alıyorlar iptal de etmiyorlar sonra da biz onaylı kağıt aldık diyorlar",
-          "author": "Ahmet ARAS",
-          "rating": 1,
-          "timestamp": "2025-11-12T21:52:22.203Z",
-          "category": "loan",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-1636e8a4-c388-460f-a4c9-4ff6ce56f54d",
-          "text": "Adınıza şu oran da krediniz hazır diyip ayaklarına kadar çağırıp farklı oranda kredi çektirmeye çalışan sözüne itimat edilmeyecek bir banka. Uygulamasını da sildim numaralarını da engelledim.",
-          "author": "Adem Bozan",
-          "rating": 1,
-          "timestamp": "2025-10-07T08:19:03.719Z",
-          "category": "loan",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13547188946",
-          "text": "Kredi ödeme Avans hesabı kredi ödemelerinin zamanında yapılması içindir. 25 tl yi gece yarısı çekip 1 gün aksama yaratıyorsunuz bu bankacılık değildir. Bi kaç banka ile çalışıyoruz bunlar başımıza gelmiyor bu konuda düzeltme yapmanız şart !",
-          "author": "Kötü niyet",
-          "rating": 1,
-          "category": "loan",
+          "category": "customer_service",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -3700,7 +3636,7 @@
           "text": "Faizsiz kredi var diye indirdim ve hesap açtım yalan çıktı Müşteri hizmetlerine bile bağlanamıyorum ilk fırsatta hesabı kapatacam",
           "author": ",,’’,,",
           "rating": 1,
-          "category": "loan",
+          "category": "customer_service",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -3710,26 +3646,67 @@
           "author": "Ahmet Harman",
           "rating": 1,
           "timestamp": "2025-11-12T07:10:53.834Z",
-          "category": "loan",
+          "category": "customer_service",
           "channel": "android_store",
           "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-connection",
-      "title": "connection (1 yorum)",
-      "channel": "android_store",
-      "category": "connection",
-      "commentCount": 1,
-      "comments": [
+        },
         {
-          "id": "android-a239509a-ccda-423b-b5e4-3148bbec3428",
-          "text": "mobil uygulamadan bağlantı hatası alıyorum tarayıcıdan giriş yapabiliyorum güncelleme var sandım oda yok",
-          "author": "Enes Celik",
+          "id": "android-04a132a8-e992-4131-90c6-fdebedf6628b",
+          "text": "son güncellemeden sonra ne olduysa mobil uygulamaya giremiyoruz müşteri hizmetleri de ara ara deneyin diye saçma sapan mazeret beyan ediyor sorunun bir an önce düzeltilmesi gerek",
+          "author": "berkant er",
           "rating": 1,
-          "timestamp": "2026-01-07T09:41:07.171Z",
-          "category": "connection",
+          "timestamp": "2025-11-21T12:24:51.182Z",
+          "category": "customer_service",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-5359b17a-7ca8-4e11-b406-cbbf1e3b9af1",
+          "text": "müşteri olmaya çalışıyorum kaç kere denememe rağmen müşteri hizmetleri ile konuşmama rağmen bir türlü müşteri olamıyorum .",
+          "author": "Gurkan Sevim",
+          "rating": 2,
+          "timestamp": "2026-01-05T11:16:29.760Z",
+          "category": "customer_service",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-e7fcdddf-f9d4-49fd-a4c0-2189aae3756d",
+          "text": "kardeşim 15 gündür giremiyoruz ne Bi yardımcı olan var nede müşteri hizmetleri",
+          "author": "MEHMET ALİ YLMAZ",
+          "rating": 1,
+          "timestamp": "2026-01-14T13:08:05.390Z",
+          "category": "customer_service",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-44682028-e5b4-48f5-8c5e-8eaf75b9c5fe",
+          "text": "iyi bir banka değil,uygulaması da yetersiz.Telden müşteri hizmetlerine bağlanmak için de bir sürü otomatik konuşma koyuyorlar.İşlemleride karınca hızıyla gerçekleşiyor",
+          "author": "Bekir Türkmen",
+          "rating": 1,
+          "timestamp": "2025-10-15T08:18:13.230Z",
+          "category": "customer_service",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-fb72f6b4-ea16-4830-beb8-3c20b725b071",
+          "text": "merhabalar bir haftadır uygulamaya göremiyorum çıkış yaptım ama tekrar geri giremedim üzgünüm şuanda işleminiz gerçekleştiremiyoruz diyor neden hala bir çözüm bulunamadı müşteri hizmetleri de sorunumu çözemedi nekadar insan mağdur hala sorunu cozemediniz .",
+          "author": "Kılıçarslan Doğan",
+          "rating": 1,
+          "timestamp": "2025-11-24T09:53:24.713Z",
+          "category": "customer_service",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-8aaa3605-12e0-4606-b6a2-95ed60cafbd8",
+          "text": "müşteri hizmetlerine ulaşamıyorum bir işimi 5 dk halledilecek birşey ama hemen ulaşamıyorum iletişim formunu doldurdum yine arayan yok dün ve bugün oluşturdum cevap yok",
+          "author": "Merve Yavuz",
+          "rating": 1,
+          "timestamp": "2026-01-08T11:59:09.913Z",
+          "category": "customer_service",
           "channel": "android_store",
           "sentiment": "negative"
         }
@@ -3778,104 +3755,6 @@
           "rating": 1,
           "timestamp": "2026-01-03T20:37:04.984Z",
           "category": "battery",
-          "channel": "android_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-customer_service",
-      "title": "customer_service (9 yorum)",
-      "channel": "ios_store",
-      "category": "customer_service",
-      "commentCount": 9,
-      "comments": [
-        {
-          "id": "ios-12095873382",
-          "text": "Müşteri Hizmetleri! Müşteri hizmetleri hiç kalite hizmet vermiyor. 20 dk boyunca telefonu 5 kişiye birden aktarmalarına rağmen hiç biri sorunumu çözmedi.",
-          "author": "ahajakalalala",
-          "rating": 1,
-          "category": "customer_service",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-04a132a8-e992-4131-90c6-fdebedf6628b",
-          "text": "son güncellemeden sonra ne olduysa mobil uygulamaya giremiyoruz müşteri hizmetleri de ara ara deneyin diye saçma sapan mazeret beyan ediyor sorunun bir an önce düzeltilmesi gerek",
-          "author": "berkant er",
-          "rating": 1,
-          "timestamp": "2025-11-21T12:24:51.182Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-5359b17a-7ca8-4e11-b406-cbbf1e3b9af1",
-          "text": "müşteri olmaya çalışıyorum kaç kere denememe rağmen müşteri hizmetleri ile konuşmama rağmen bir türlü müşteri olamıyorum .",
-          "author": "Gurkan Sevim",
-          "rating": 2,
-          "timestamp": "2026-01-05T11:16:29.760Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-4adb0fe2-a95a-4871-98c0-23be928e3c3f",
-          "text": "ben programı indiriyorum lakin açamıyorum ne yaptıysam beyaz ekranı çözülmüyor belki 50 sefer müşteri hizmetlerini aradım iyi ce şaşırdım buna nasıl bi uygulamaya",
-          "author": "İsmail Er",
-          "rating": 1,
-          "timestamp": "2026-01-24T19:13:54.520Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-e7fcdddf-f9d4-49fd-a4c0-2189aae3756d",
-          "text": "kardeşim 15 gündür giremiyoruz ne Bi yardımcı olan var nede müşteri hizmetleri",
-          "author": "MEHMET ALİ YLMAZ",
-          "rating": 1,
-          "timestamp": "2026-01-14T13:08:05.390Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-44682028-e5b4-48f5-8c5e-8eaf75b9c5fe",
-          "text": "iyi bir banka değil,uygulaması da yetersiz.Telden müşteri hizmetlerine bağlanmak için de bir sürü otomatik konuşma koyuyorlar.İşlemleride karınca hızıyla gerçekleşiyor",
-          "author": "Bekir Türkmen",
-          "rating": 1,
-          "timestamp": "2025-10-15T08:18:13.230Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-fb72f6b4-ea16-4830-beb8-3c20b725b071",
-          "text": "merhabalar bir haftadır uygulamaya göremiyorum çıkış yaptım ama tekrar geri giremedim üzgünüm şuanda işleminiz gerçekleştiremiyoruz diyor neden hala bir çözüm bulunamadı müşteri hizmetleri de sorunumu çözemedi nekadar insan mağdur hala sorunu cozemediniz .",
-          "author": "Kılıçarslan Doğan",
-          "rating": 1,
-          "timestamp": "2025-11-24T09:53:24.713Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-25eccdea-cc74-42b4-9c4a-910e44b611b9",
-          "text": "Beceremiyor isen bu işlerden çekileceksin işte! Uygulama sürekli atıyor. Bireysel müşteri olmaya çalışıyorum son adımda aranmıyor. Sizi müşteri hizmetlerine bağlayıp işlemi tamamlamıyor direkt atıyor. Yardım için arıyorum merkezi bana diyor ki bankamıza gelmeniz gerekiyor... Ya ben bankaya gelecek isem bu uygulama neden var? Cidden olmuyorsa kapatacaksın kepenkleri!",
-          "author": "Semih Çatalkaya",
-          "rating": 1,
-          "timestamp": "2025-09-30T12:48:22.654Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-8aaa3605-12e0-4606-b6a2-95ed60cafbd8",
-          "text": "müşteri hizmetlerine ulaşamıyorum bir işimi 5 dk halledilecek birşey ama hemen ulaşamıyorum iletişim formunu doldurdum yine arayan yok dün ve bugün oluşturdum cevap yok",
-          "author": "Merve Yavuz",
-          "rating": 1,
-          "timestamp": "2026-01-08T11:59:09.913Z",
-          "category": "customer_service",
           "channel": "android_store",
           "sentiment": "negative"
         }

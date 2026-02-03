@@ -290,10 +290,10 @@
   "issues": [
     {
       "id": "issue-transfer",
-      "title": "transfer (2 yorum)",
+      "title": "transfer (1 yorum)",
       "channel": "ios_store",
       "category": "transfer",
-      "commentCount": 2,
+      "commentCount": 1,
       "comments": [
         {
           "id": "ios-13704096927",
@@ -303,31 +303,22 @@
           "category": "transfer",
           "channel": "ios_store",
           "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-app_update",
+      "title": "app_update (91 yorum)",
+      "channel": "ios_store",
+      "category": "app_update",
+      "commentCount": 91,
+      "comments": [
         {
           "id": "ios-12515437365",
           "text": "Yeni güncelleme çok kötü Uygulamanın yeni hali çok kötü sanal karta para gönderemiyorum",
           "author": "khwarazm",
           "rating": 1,
-          "category": "transfer",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        }
-      ]
-    },
-    {
-      "id": "issue-ui_ux",
-      "title": "ui_ux (43 yorum)",
-      "channel": "ios_store",
-      "category": "ui_ux",
-      "commentCount": 43,
-      "comments": [
-        {
-          "id": "ios-13652447628",
-          "text": "Transfer İnanılmaz karışık bir uygulamanız var. ne yaptıysam fast transfer yapamadım",
-          "author": "Volkan Alsan",
-          "rating": 1,
-          "category": "ui_ux",
+          "category": "app_update",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -336,7 +327,7 @@
           "text": "Güncelleme sonrası Yenilenmiş güya. İşkenceye dönmüş Sanal karta para aktarmayı bulamadım. Bir menünün açılması uzun sürüyor atta uygulamayı kapatmak zorunda kalıyorum.",
           "author": "Para ile rezil olmak",
           "rating": 1,
-          "category": "ui_ux",
+          "category": "app_update",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -345,7 +336,7 @@
           "text": "Güncelleme Uygulama güncellemesi sonrası hesaptan sanal karta transfer nasıl yapabileceğimi bulamadım. Güncelleme yapılınca uygulama hepten kullanışsız hale geldi",
           "author": "n.ayse",
           "rating": 1,
-          "category": "ui_ux",
+          "category": "app_update",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -354,7 +345,7 @@
           "text": "Güncelleme Güncelleme ile daha kullanışsız oldu, ayriyeten sanal karta para aktarma yok sırf kullanışlı olduğu için kullanıyordum, sanırım banka değişikliği yapacağım",
           "author": "ozcn5225",
           "rating": 1,
-          "category": "ui_ux",
+          "category": "app_update",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -362,6 +353,433 @@
           "id": "ios-12585190460",
           "text": "Son güncelleme Sanal kartıma para aktarma yapamıyorum. Eski halinde çok daha rahat şekilde aktarabiliyordum. Lütfen eski haline döndürün. Çok kullanışsız.",
           "author": "b.tecer",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-5933203747",
+          "text": "Ana Ekran Önceki versiyon gördüğüm en iyi uygulamaydı. Ancak her güzel şeyin sonu var deyip uygulamayı çok karmaşık ve bembeyaz bir hale çevirmişsiniz. Çok kötü.",
+          "author": "Jjgdfflşk",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-5942415726",
+          "text": "Yenilenime Eski uygulamada olan garanti ile özdeşleşen yeşil renk daha güzeldi. Giriş ekranı olarak eskisi daha güzeldi, ve geç açılıyor. Ayrıca yeni güncelleme ile gözü kapalı bulduğum menüleri arar oldum iPhone için temassız özellik gelmeli. Garantiye bu uygulama yakışmadı.",
+          "author": "Memkab",
+          "rating": 2,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-94ee1542-722d-4f59-a8ea-dffd050c56a2",
+          "text": "Son güncelleme sonrası Yatırım hesabı kullanmayı ve menüleri aşırı zorlaştırdınız . eski garanti mobili geri istiyoruz.",
+          "author": "Oktay karahanlı",
+          "rating": 1,
+          "timestamp": "2026-01-17T18:51:40.406Z",
+          "category": "app_update",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12555146707",
+          "text": "Güncelleme Yeni güncelleme ile basit olan her şeyi zorlaştırdığınız için teşekkür ederiz. B”k gibi olmuş arayüzler",
+          "author": "ozgurruuu",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12582030901",
+          "text": "Yeni sürüm Eski sürümdeki arayüzü o kadar çok beğeniyordum ki şu anda giriş yaptığımda her şeyin karman çorman olduğunu düşünüyorum umarım eski arayüze tekrar dönerler",
+          "author": "elaÇelik",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12666815452",
+          "text": "yeni arayüz çok kötü son güncelleme aşırı kötü ve kafa karıştırıcı bi önceki hali daha iyiydi",
+          "author": "dokuzv",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12573866481",
+          "text": "Rezalet Uygulama Her ankette uygulamanın çok iyi çalıştığından, çok başarılı olduğundan vs bahsederdim fakat son güncellemeden sonra 1 puanı bile fazla görüyorum güzelim arayüz ne hale gelmiş sade ve başarılı bir uygulamanız varken vasat bir uygulamaya dönüşmüş.",
+          "author": "Asdwqe",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12535755032",
+          "text": "Güncelleme Yeni arayüz çok kötü olmuş herşey karmakarışık arayüz kolaylığı ve sadeliğinden dolayı diğer banka hesaplarını kullanmıyordum eski haline çevirir misiniz?",
+          "author": "lsarsilmax",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12550871217",
+          "text": "Güncelleme Çok Kötü Ailemin emekli maaşı garanti bankasında fakat son güncellemede çok kötü olduğu için değişiklik yapacağız eski arayüz kullanışlısve kolaydı",
+          "author": "Bcpolatt",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12550487683",
+          "text": "Güncelleme Sanal karta para yükleme kaldırıldı mı ? Bu nasıl bir arayüz. Güncelleme demek yenileme, geliştirme demektir. Siz programı kötüleştirmişsiniz",
+          "author": "Ofcin1",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12511354984",
+          "text": "Sanal kart sorunu Son güncelleme sonrasında mobil uygulamadan sanal kartıma para aktaramıyorum. Keşke hiç arayüz değişikliği yapmasaydınız. Buradan IT ekibinizin amatörlüğünü tebrik ediyorum 👍🏻",
+          "author": "KafkafYgt",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12545127592",
+          "text": "Yeni arayüz çok kötü Bu güncelleme ile uygulama kullanılamaz bir hal aldı. Sanal karta para yükleme kalkmış bu inanılmaz bir şey mesela! Ve haftalardır bekliyorum asla düzeltilmiyor..",
+          "author": "Sedss",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12557073983",
+          "text": "leş gibi bir arayüz gui güncellemesi yapmışsınız, sanal karta para aktaramıyorum leş gibi olmuş yazılım mühendislerinize selamlar",
+          "author": "nguditxgkxktdktdky",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12160317751",
+          "text": "Yeni güncellemeler .. Merhaba,\nSon güncellemelerde özellikle hisse portgöy arayüzlerinden memnun değiliz. Günlük artış azalışlar takip edilebilir değil. Eski hali çok daha güzeldi.",
+          "author": "Gangnamstyla12",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12595316692",
+          "text": "Yeni güncelleme Yeni güncelleme o kadar kötü ki. Kartımı kapatmamak için zor tutuyorum kendimi. Sanal kartıma para yükleyemiyorum. Başka kart açmaya çalışıyor. App aşırı kaotik. Teknolojik app bu mu ? Teknoloji insanların hayatını kolaylaştırır. Bu o kadar zorlaştırıyor ki delirecepim.",
+          "author": "zepsty",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12569526438",
+          "text": "Güncelleme Yeni güncellemede uygulamanız beş para etmez hale gelmiş. Önceki hali daha iyiydi. Sanal kartıma para atmak istiyorum fakat nerden aktarılacağını bir türlü bulamadım. Son güncelleme de şeyi nasıl b*ka çeviririmin örneği olmuş.",
+          "author": "Tscasper",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12603928423",
+          "text": "Sanal kart sorunsalı Son güncellemeden sonra sanal karta para aktarmayı kaldırmışsınız kart dolandırıcılığı,kartlarımızın kayıtlı olduğu hesapların çalınması bu kadar yaygınken neden boyle bi karar verdiniz.Aranızdan hiç kimse sanal kart kullanmıyor mu?Biz sanal kartları daha guvenli alışveriş yapmak için çıkarttık bu heçtiğiniz sistemde adamın biri gece 3-4 te kartımdan para cekse ruhum duymuycak sabah kalkınca gor iptal etmeye ugras bi ton dert.Hali hazırda tüketici için kullanışlı ve guvenli ",
+          "author": "Tempuriel",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12573722117",
+          "text": "Sanal Karta Para Yüklenmiyor Yeni gelen güncelleme ile sanal karta para yükleme özelliği kaldırılmış, acaba ben mi bulamadım diye sorduğum yapay zeka asistan da aynını söylüyor.",
+          "author": "Ausannus",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12551815083",
+          "text": "Mümkünse artık güncellemeyin Rezalet yani batırdınız uygulamayı sanal kart oluşturuyoruz ama para aktarma butonu yok hadi onu boşverdim eski sanal kartıda kaldıramıyoruz e treaderı bozdunuz bunuda bozun yakında bununda uygulamasını sildirirsiniz hangi yazılım şirketi ile çalışıyorsanız bence sözleşmesine son verin",
+          "author": "İphoneksk",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12550793562",
+          "text": "Yeni güncelleme Yeni güncelleme ile sanal karta para aktarma özelliğini mobil uygulamadan kaldırarak türkiye içerisinde bir daha asla yanına yaklaşmayacağım bankalar arasına girdi tebrikler.",
+          "author": "Victoricardi",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12534427443",
+          "text": "sanal karta para aktarımı Son güncellemeden sonra sanal karta para aktarma seçeneği çıkmıyor",
+          "author": "riskal34",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12602565560",
+          "text": "Son Gelen Güncelleme Son gelen güncellemeyle sanal kartıma nereden para aktaracağımı mobil üzerinden bulamıyorum. Bilgisayar üzerinden aktarım sağladım ancak sürekli pc den aktarmak benim için bir zulüm olacak!",
+          "author": "Kahvefalıdelisi",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12559011765",
+          "text": "Sanal karta para ekleme artık yapılamıyor Yeni güncelleme ile sanal karta para aktarım düğmesi artık yok.",
+          "author": "ZaLlama",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12549572341",
+          "text": "Güncellemede emeği geçenlerin ta … Bir uygulama güncelleme aldığında seviye atlar bu uygulama güncellemeden sonra berbat bi hal aldı sanal karttan daha gönderim çekim yapamıyoruz önceden tek tıkla yapılıyordu şimdi saçma sapan şeyler çıkartmış garanti bankasından sırf bu berbatlıgı yüzünden hesaplarımı kapatacağım",
+          "author": "ArrowZ52",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12515327913",
+          "text": "Sanal Kart Yeni güncelleme sonrası sanal karta para yükleme ve çekme yapılamıyor.",
+          "author": "ogc555",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12514966605",
+          "text": "Sanal karta para atamıyorum Yeni gelen güncelleme iyi güzel de sanal kartıma para atamıyorum yemek söyleyecektim söylemedim bu yüzden",
+          "author": "İlomilon",
+          "rating": 2,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12589890143",
+          "text": "Sanal Karta Para Aktarmak Uygulama mükemmeldi, fakat güncellemeden sonra sanal karta para aktaramıyorum hesabımdan. Böyle saçma bir güncelleme neden? Güncellemelerin uygulamayı geliştirmesi gerekir, berbat etmesi değil.",
+          "author": "NicknameJasmine007",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12572228560",
+          "text": "Artık kullanmıyorum Yeni güncelleme berbat olmuş , özellikle sanal kartı eskisi gibi kullanamadıktan sonra benim için hiç bir anlamı kalmadı garantinin. Bir daha görüşmemek üzere garanti hoşçakal.",
+          "author": "Uykumyoook",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12557436833",
+          "text": "Sanal Kart Son güncelleme ile sanal karta para aktarılamıyor rezalet!!!",
+          "author": "Pandazuzu",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12511698160",
+          "text": "Berbat guncelleme Harika calisan biseyi mahvetmekte uzerinize yok. Sanal karta para yuklemede kalkmis saka gibi",
+          "author": "efanux",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12512108417",
+          "text": "yeni güncelleme kötü yeni güncelleme berbat!! sanal karta para atamıyorum.",
+          "author": "dilşat sevde",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13186464044",
+          "text": "Memnuniyetsizlik Mobil bankacılıktan bir yıla yakın zaman içerisinde aylık gelirimi güncelledim. Kredi kartımı iptal ettirmek için bu gün Müşteri temsilcisi ile yaptığım görüşmede bana, mobilden aylık gelir bilgisinin güncellenmesinin yeterli olmayacağını ayrıca en yakın banka şubesine gidip işlem yaptırmam gerektiği bilgisini aktardı. Ben bunu yeni duyuyorum. Mobilden işlem yaptığımda tarafıma herhangi bir mail-sms gibi kanallardan bilgilendirme mesajı gelmedi. 2008 den beri  kredi kartımın lim",
+          "author": "tamerbry68",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12648257484",
+          "text": "Sanal Karta Hesaptan Para Yüklenemiyor Yeni güncellemeyle mobil uygulamadan sanal karta para aktaramıyoruz! Uygulamayı yapan arkadaşlar bunu nasıl gözden kaçırdı kimse kontrol etmedi mi hiç anlamadım. Webde böyle bir sorun yok. Tek bir uygulamayla halledebildiğimiz işi artık yapamıyoruz. Umarım düzelir.",
+          "author": "CdvH86",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12598400185",
+          "text": "yeni güncelleme O KADAR KÖTÜ BİR GÜNCELLEME OLMUŞ Kİ SANAL KARTA PARA YÜKLEYEMİYORUM AHRAZLAR MAAŞ HESABIM OLMASA ASSLA KULLANMAYACAĞIM BİR BANKA",
+          "author": "nnnaaazzzzzzlllll",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12592987802",
+          "text": "Son gelen güncelleme BERBAT Güncelleme ile sanal karta hiçbir şekilde para aktaramıyorum uygulama tamamen çöp oldu. Emeği geçen yazılımca arkadaşlara teşekkürler.",
+          "author": "Kralkadir23",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12533920121",
+          "text": "Son güncelleme Son güncellemede bazı butonlar sığmadı mı sevgili ui geliştirici arkadaşlar. Sanal karta para yüklemek için 5 yıl sonra web sitesini kullandım. Sanal karta para yüklenmiyor diyorum cevabınız para karta para yüklemek için oluyor. Ekip mi değişti sevgili bbva?",
+          "author": "Gahhah344",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12594515264",
+          "text": "BBVA güncellemele Yeni güncellemeden hiç memnun değilim sanal kartım para aktaramıyorum her şeyin yerini değiştirmişsiniz uğraştırıyorsunuz insani senelerdir alıştım bir uygulama neden değişiyor bana kolaylık sağlamıyor",
+          "author": "Dina_4217",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-10483227663",
+          "text": "Yeni sürüm Merhabalar telefonum iPhone 6 ve yeni sürümü desteklemiyor biran önce bu sorunu çözmenizi arz ediyorum",
+          "author": "selami 2323",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d853a27c-dcf1-440d-8455-6ac1df016346",
+          "text": "son güncellemeden sonra yatirimlar ekraninda donup kaliyor cikis veya geri gitme yapmıyor bilginize......",
+          "author": "hasan özdemir",
+          "rating": 2,
+          "timestamp": "2026-01-08T10:59:33.326Z",
+          "category": "app_update",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12592287521",
+          "text": "Rezalet. Çalışan bir şeyi neden bozma ihtiyacı hissettiniz? Gördüğüm en kötü mobil uygulama güncellemesi. İnsana banka değiştirtir.",
+          "author": "ycsonmez",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-5b32fe58-a053-4497-acb8-89516ee80fe1",
+          "text": "olmadı son güncellemeyle örneğin yatırım portföyüme giriyorum geri gelemiyor ana ekrana dönüş yok",
+          "author": "Serhat Kurt",
+          "rating": 2,
+          "timestamp": "2025-10-31T20:19:43.176Z",
+          "category": "app_update",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-4d9dd6ae-48a8-4ee8-a697-ef5611e364bf",
+          "text": "Hisse fiyatı sayfasında güncelleme veya yenile gibi bir tuş olsa hisse fiyatını anında görmek iyi olurdu.",
+          "author": "Erhan ATASEVER",
+          "rating": 2,
+          "timestamp": "2025-12-04T15:22:25.590Z",
+          "category": "app_update",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-12554103126",
+          "text": "AMATÖR UYGULAMA O kadar ticari hesap var o kadar iş adamları var o kadar para çeviriyorsunuz bu uygulama böyle olmaması gerekiyor içinden çıkılmaz bir hal almış. Kimse son güncellemeyi beğenmedi haberiniz olsun",
+          "author": "Burcu Altınsuyu",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-5904854089",
+          "text": "Yeni güncelleme!! Yeni güncelleme hiç güzel değil eskisi daha kullanışlıydı ara yüzü karman çorman yapmışsınız hiç beğenmedim bence eskisini geri getirin o kullanışlı ve estetikti. Yorumun üzerine basılı tutun yararlıyı işaretleyin üstte kalsın",
+          "author": "Damn it game",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-10463878061",
+          "text": "Uygulama 2haftadan fazladır uygulamayı kullanamıyoruz bu sorunu derhal çözün artık koskoca Garanti bankası bi güncelleme getiremiyor mu acaba ya bunca insanı madur etmeye ne hakkınız acaba",
+          "author": "yasin Örs",
+          "rating": 1,
+          "category": "app_update",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-ui_ux",
+      "title": "ui_ux (25 yorum)",
+      "channel": "ios_store",
+      "category": "ui_ux",
+      "commentCount": 25,
+      "comments": [
+        {
+          "id": "ios-13652447628",
+          "text": "Transfer İnanılmaz karışık bir uygulamanız var. ne yaptıysam fast transfer yapamadım",
+          "author": "Volkan Alsan",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -433,15 +851,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-5933203747",
-          "text": "Ana Ekran Önceki versiyon gördüğüm en iyi uygulamaydı. Ancak her güzel şeyin sonu var deyip uygulamayı çok karmaşık ve bembeyaz bir hale çevirmişsiniz. Çok kötü.",
-          "author": "Jjgdfflşk",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-38e1c423-d8d9-45e0-a354-d2564ad6f0b2",
           "text": "Menüde gezerken geri çıkmak istediğinizde program kitleniyor ve asla önceki menüye dönülmüyor.. App komple kapatıp çıkmaktan başka çare kalmıyor. Son 3 gündür bu durumdayız.. Mobili kullanmak İşkence haline geldi..",
           "author": "Gürkan Yüksel",
@@ -449,15 +858,6 @@
           "timestamp": "2025-11-04T13:00:30.230Z",
           "category": "ui_ux",
           "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-5942415726",
-          "text": "Yenilenime Eski uygulamada olan garanti ile özdeşleşen yeşil renk daha güzeldi. Giriş ekranı olarak eskisi daha güzeldi, ve geç açılıyor. Ayrıca yeni güncelleme ile gözü kapalı bulduğum menüleri arar oldum iPhone için temassız özellik gelmeli. Garantiye bu uygulama yakışmadı.",
-          "author": "Memkab",
-          "rating": 2,
-          "category": "ui_ux",
-          "channel": "ios_store",
           "sentiment": "negative"
         },
         {
@@ -479,16 +879,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "android-94ee1542-722d-4f59-a8ea-dffd050c56a2",
-          "text": "Son güncelleme sonrası Yatırım hesabı kullanmayı ve menüleri aşırı zorlaştırdınız . eski garanti mobili geri istiyoruz.",
-          "author": "Oktay karahanlı",
-          "rating": 1,
-          "timestamp": "2026-01-17T18:51:40.406Z",
-          "category": "ui_ux",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-bbb92da6-dba6-44ef-afc9-15e3bc7078a9",
           "text": "Yatırım menüsü kötü",
           "author": "Süha Fatih Halipci",
@@ -502,15 +892,6 @@
           "id": "ios-12568700938",
           "text": "Sanal Paracard iptal edildi. Ön yüklemeli sanal paracard’ın kafalarına göre iptal edilmesi sebebiyle bir yıldız. Yeni mobil arayüzün berbat tasarımı apayrı bir konu.  Uygulama geliştirme ekibi can sıkıntısına bir şeyler yapmış, mevcutu korumakta bir başarıdır arkadaşlar.",
           "author": "Poyrazabc123",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12555146707",
-          "text": "Güncelleme Yeni güncelleme ile basit olan her şeyi zorlaştırdığınız için teşekkür ederiz. B”k gibi olmuş arayüzler",
-          "author": "ozgurruuu",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -535,27 +916,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12582030901",
-          "text": "Yeni sürüm Eski sürümdeki arayüzü o kadar çok beğeniyordum ki şu anda giriş yaptığımda her şeyin karman çorman olduğunu düşünüyorum umarım eski arayüze tekrar dönerler",
-          "author": "elaÇelik",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13620600447",
           "text": "Çok saçma sayfa düzeniniz var Açılan arayüz fakat müşteriyi yönlendirmeniz çok kötü",
           "author": "Hasbi ağa",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12666815452",
-          "text": "yeni arayüz çok kötü son güncelleme aşırı kötü ve kafa karıştırıcı bi önceki hali daha iyiydi",
-          "author": "dokuzv",
           "rating": 1,
           "category": "ui_ux",
           "channel": "ios_store",
@@ -589,15 +952,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12573866481",
-          "text": "Rezalet Uygulama Her ankette uygulamanın çok iyi çalıştığından, çok başarılı olduğundan vs bahsederdim fakat son güncellemeden sonra 1 puanı bile fazla görüyorum güzelim arayüz ne hale gelmiş sade ve başarılı bir uygulamanız varken vasat bir uygulamaya dönüşmüş.",
-          "author": "Asdwqe",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-564b28f1-7a90-44bc-962a-35e969f95b7d",
           "text": "benim için hiçbir işe yaramayan, arayüzü berbat ve karışık, çoğu zaman teknik problemlerden dolayı giremediğim, olmaması gereken bir bankacılık uygulaması.",
           "author": "Mehmet ASLAN",
@@ -618,24 +972,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12535755032",
-          "text": "Güncelleme Yeni arayüz çok kötü olmuş herşey karmakarışık arayüz kolaylığı ve sadeliğinden dolayı diğer banka hesaplarını kullanmıyordum eski haline çevirir misiniz?",
-          "author": "lsarsilmax",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12550871217",
-          "text": "Güncelleme Çok Kötü Ailemin emekli maaşı garanti bankasında fakat son güncellemede çok kötü olduğu için değişiklik yapacağız eski arayüz kullanışlısve kolaydı",
-          "author": "Bcpolatt",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-038265db-b0d3-45e5-96ca-35d7d333b3b1",
           "text": "kullandığım en yavaş en karışık en pratik olmayan banka uygulaması. nasıl oluyorsa garanti şubelerinde işlemler de çok yavaş",
           "author": "Zeynep Şensoyer",
@@ -653,51 +989,6 @@
           "timestamp": "2025-10-17T14:52:15.478Z",
           "category": "ui_ux",
           "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12550487683",
-          "text": "Güncelleme Sanal karta para yükleme kaldırıldı mı ? Bu nasıl bir arayüz. Güncelleme demek yenileme, geliştirme demektir. Siz programı kötüleştirmişsiniz",
-          "author": "Ofcin1",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12511354984",
-          "text": "Sanal kart sorunu Son güncelleme sonrasında mobil uygulamadan sanal kartıma para aktaramıyorum. Keşke hiç arayüz değişikliği yapmasaydınız. Buradan IT ekibinizin amatörlüğünü tebrik ediyorum 👍🏻",
-          "author": "KafkafYgt",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12545127592",
-          "text": "Yeni arayüz çok kötü Bu güncelleme ile uygulama kullanılamaz bir hal aldı. Sanal karta para yükleme kalkmış bu inanılmaz bir şey mesela! Ve haftalardır bekliyorum asla düzeltilmiyor..",
-          "author": "Sedss",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12557073983",
-          "text": "leş gibi bir arayüz gui güncellemesi yapmışsınız, sanal karta para aktaramıyorum leş gibi olmuş yazılım mühendislerinize selamlar",
-          "author": "nguditxgkxktdktdky",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12160317751",
-          "text": "Yeni güncellemeler .. Merhaba,\nSon güncellemelerde özellikle hisse portgöy arayüzlerinden memnun değiliz. Günlük artış azalışlar takip edilebilir değil. Eski hali çok daha güzeldi.",
-          "author": "Gangnamstyla12",
-          "rating": 1,
-          "category": "ui_ux",
-          "channel": "ios_store",
           "sentiment": "negative"
         },
         {
@@ -722,20 +1013,11 @@
     },
     {
       "id": "issue-card",
-      "title": "card (43 yorum)",
+      "title": "card (20 yorum)",
       "channel": "ios_store",
       "category": "card",
-      "commentCount": 43,
+      "commentCount": 20,
       "comments": [
-        {
-          "id": "ios-12595316692",
-          "text": "Yeni güncelleme Yeni güncelleme o kadar kötü ki. Kartımı kapatmamak için zor tutuyorum kendimi. Sanal kartıma para yükleyemiyorum. Başka kart açmaya çalışıyor. App aşırı kaotik. Teknolojik app bu mu ? Teknoloji insanların hayatını kolaylaştırır. Bu o kadar zorlaştırıyor ki delirecepim.",
-          "author": "zepsty",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
         {
           "id": "ios-12598203208",
           "text": "Sanal kart Sanal karta para aktarmak için ne yapmak lazım neden sistem bu kadar zorlaştırılır …😡",
@@ -749,24 +1031,6 @@
           "id": "ios-12570196725",
           "text": "Berbat Bravo. Muhtesem yeniliginiz yuzunden internette kartimi kaydettigim her siteye yeni kart tanimlamam gerekecek. Ustune bir de sanal kartin asil ozelligi olan GUVENLIKten de vazgecmek zorundayim cunku para artik direkt hesabimdan cekilecekmis :D bravo size.",
           "author": "mew_kuyrugu",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12569526438",
-          "text": "Güncelleme Yeni güncellemede uygulamanız beş para etmez hale gelmiş. Önceki hali daha iyiydi. Sanal kartıma para atmak istiyorum fakat nerden aktarılacağını bir türlü bulamadım. Son güncelleme de şeyi nasıl b*ka çeviririmin örneği olmuş.",
-          "author": "Tscasper",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12603928423",
-          "text": "Sanal kart sorunsalı Son güncellemeden sonra sanal karta para aktarmayı kaldırmışsınız kart dolandırıcılığı,kartlarımızın kayıtlı olduğu hesapların çalınması bu kadar yaygınken neden boyle bi karar verdiniz.Aranızdan hiç kimse sanal kart kullanmıyor mu?Biz sanal kartları daha guvenli alışveriş yapmak için çıkarttık bu heçtiğiniz sistemde adamın biri gece 3-4 te kartımdan para cekse ruhum duymuycak sabah kalkınca gor iptal etmeye ugras bi ton dert.Hali hazırda tüketici için kullanışlı ve guvenli ",
-          "author": "Tempuriel",
           "rating": 1,
           "category": "card",
           "channel": "ios_store",
@@ -791,72 +1055,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12573722117",
-          "text": "Sanal Karta Para Yüklenmiyor Yeni gelen güncelleme ile sanal karta para yükleme özelliği kaldırılmış, acaba ben mi bulamadım diye sorduğum yapay zeka asistan da aynını söylüyor.",
-          "author": "Ausannus",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12551815083",
-          "text": "Mümkünse artık güncellemeyin Rezalet yani batırdınız uygulamayı sanal kart oluşturuyoruz ama para aktarma butonu yok hadi onu boşverdim eski sanal kartıda kaldıramıyoruz e treaderı bozdunuz bunuda bozun yakında bununda uygulamasını sildirirsiniz hangi yazılım şirketi ile çalışıyorsanız bence sözleşmesine son verin",
-          "author": "İphoneksk",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12550793562",
-          "text": "Yeni güncelleme Yeni güncelleme ile sanal karta para aktarma özelliğini mobil uygulamadan kaldırarak türkiye içerisinde bir daha asla yanına yaklaşmayacağım bankalar arasına girdi tebrikler.",
-          "author": "Victoricardi",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12534427443",
-          "text": "sanal karta para aktarımı Son güncellemeden sonra sanal karta para aktarma seçeneği çıkmıyor",
-          "author": "riskal34",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-12535942326",
           "text": "Sanal karta para aktarımı Yeni tasarımda sanal kartlara para aktarımı butonu kalkmış",
           "author": "meetztrk",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12602565560",
-          "text": "Son Gelen Güncelleme Son gelen güncellemeyle sanal kartıma nereden para aktaracağımı mobil üzerinden bulamıyorum. Bilgisayar üzerinden aktarım sağladım ancak sürekli pc den aktarmak benim için bir zulüm olacak!",
-          "author": "Kahvefalıdelisi",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12559011765",
-          "text": "Sanal karta para ekleme artık yapılamıyor Yeni güncelleme ile sanal karta para aktarım düğmesi artık yok.",
-          "author": "ZaLlama",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12549572341",
-          "text": "Güncellemede emeği geçenlerin ta … Bir uygulama güncelleme aldığında seviye atlar bu uygulama güncellemeden sonra berbat bi hal aldı sanal karttan daha gönderim çekim yapamıyoruz önceden tek tıkla yapılıyordu şimdi saçma sapan şeyler çıkartmış garanti bankasından sırf bu berbatlıgı yüzünden hesaplarımı kapatacağım",
-          "author": "ArrowZ52",
           "rating": 1,
           "category": "card",
           "channel": "ios_store",
@@ -890,42 +1091,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12515327913",
-          "text": "Sanal Kart Yeni güncelleme sonrası sanal karta para yükleme ve çekme yapılamıyor.",
-          "author": "ogc555",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12514966605",
-          "text": "Sanal karta para atamıyorum Yeni gelen güncelleme iyi güzel de sanal kartıma para atamıyorum yemek söyleyecektim söylemedim bu yüzden",
-          "author": "İlomilon",
-          "rating": 2,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12589890143",
-          "text": "Sanal Karta Para Aktarmak Uygulama mükemmeldi, fakat güncellemeden sonra sanal karta para aktaramıyorum hesabımdan. Böyle saçma bir güncelleme neden? Güncellemelerin uygulamayı geliştirmesi gerekir, berbat etmesi değil.",
-          "author": "NicknameJasmine007",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12572228560",
-          "text": "Artık kullanmıyorum Yeni güncelleme berbat olmuş , özellikle sanal kartı eskisi gibi kullanamadıktan sonra benim için hiç bir anlamı kalmadı garantinin. Bir daha görüşmemek üzere garanti hoşçakal.",
-          "author": "Uykumyoook",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-12565192772",
           "text": "Eski sürüm e dönülsün İlk defa yorum yapma gereği buldum , bütün online alışverşlerimi sanal kart ile yapardım ancak yenilenen mobil uygulama da bu özelliği kullanamıyoruz limit belirleme yapamıyoruz",
           "author": "Xiydrix",
@@ -935,45 +1100,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12557436833",
-          "text": "Sanal Kart Son güncelleme ile sanal karta para aktarılamıyor rezalet!!!",
-          "author": "Pandazuzu",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12511698160",
-          "text": "Berbat guncelleme Harika calisan biseyi mahvetmekte uzerinize yok. Sanal karta para yuklemede kalkmis saka gibi",
-          "author": "efanux",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12512108417",
-          "text": "yeni güncelleme kötü yeni güncelleme berbat!! sanal karta para atamıyorum.",
-          "author": "dilşat sevde",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13555906684",
           "text": "Kart kartı limiti tanımlayamama! Kredi kartımı mobil uygulamada görebiliyorum. 10 gündür limit tanımlama bekliyorum. Nitekim 3 gün önce Garanti BBVA üzerinden mesajla limitimin tanımlandığı bilgisi gelmesine rağmen mobil uygulamada limit tanımlanmamış görünüyor. Diğer banka kredi kartlarımdan limit düşürmeme rağmen hala sonuç aynı. Tutarsız işler sebebiyle oldukça keyfim kaçtı. Mesajla tanımladık deyip, mobilde uygulayamıyorsanız bu uygulama ne işe yarar? Acil destek lütfen!!!!",
           "author": "cadovan",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13186464044",
-          "text": "Memnuniyetsizlik Mobil bankacılıktan bir yıla yakın zaman içerisinde aylık gelirimi güncelledim. Kredi kartımı iptal ettirmek için bu gün Müşteri temsilcisi ile yaptığım görüşmede bana, mobilden aylık gelir bilgisinin güncellenmesinin yeterli olmayacağını ayrıca en yakın banka şubesine gidip işlem yaptırmam gerektiği bilgisini aktardı. Ben bunu yeni duyuyorum. Mobilden işlem yaptığımda tarafıma herhangi bir mail-sms gibi kanallardan bilgilendirme mesajı gelmedi. 2008 den beri  kredi kartımın lim",
-          "author": "tamerbry68",
           "rating": 1,
           "category": "card",
           "channel": "ios_store",
@@ -998,36 +1127,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12648257484",
-          "text": "Sanal Karta Hesaptan Para Yüklenemiyor Yeni güncellemeyle mobil uygulamadan sanal karta para aktaramıyoruz! Uygulamayı yapan arkadaşlar bunu nasıl gözden kaçırdı kimse kontrol etmedi mi hiç anlamadım. Webde böyle bir sorun yok. Tek bir uygulamayla halledebildiğimiz işi artık yapamıyoruz. Umarım düzelir.",
-          "author": "CdvH86",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-12599936834",
           "text": "Sanal kart para aktarimi Sanal karta para aktarilamiyor",
           "author": "Kaya Taş",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12598400185",
-          "text": "yeni güncelleme O KADAR KÖTÜ BİR GÜNCELLEME OLMUŞ Kİ SANAL KARTA PARA YÜKLEYEMİYORUM AHRAZLAR MAAŞ HESABIM OLMASA ASSLA KULLANMAYACAĞIM BİR BANKA",
-          "author": "nnnaaazzzzzzlllll",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12592987802",
-          "text": "Son gelen güncelleme BERBAT Güncelleme ile sanal karta hiçbir şekilde para aktaramıyorum uygulama tamamen çöp oldu. Emeği geçen yazılımca arkadaşlara teşekkürler.",
-          "author": "Kralkadir23",
           "rating": 1,
           "category": "card",
           "channel": "ios_store",
@@ -1061,15 +1163,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12533920121",
-          "text": "Son güncelleme Son güncellemede bazı butonlar sığmadı mı sevgili ui geliştirici arkadaşlar. Sanal karta para yüklemek için 5 yıl sonra web sitesini kullandım. Sanal karta para yüklenmiyor diyorum cevabınız para karta para yüklemek için oluyor. Ekip mi değişti sevgili bbva?",
-          "author": "Gahhah344",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-12533212162",
           "text": "Sanal karta para yükleme butonu Sanal karta para yükleme butonu kayboldu",
           "author": "nazimmertbilgi",
@@ -1097,15 +1190,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12594515264",
-          "text": "BBVA güncellemele Yeni güncellemeden hiç memnun değilim sanal kartım para aktaramıyorum her şeyin yerini değiştirmişsiniz uğraştırıyorsunuz insani senelerdir alıştım bir uygulama neden değişiyor bana kolaylık sağlamıyor",
-          "author": "Dina_4217",
-          "rating": 1,
-          "category": "card",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13663985403",
           "text": "Msj Birde bonu filaş eskisi gibi bonus vermiyorsunuz her alışverişimizi kartlarla ayapıyoruz  ama bonus ta cimrilik yapmaya başlandı eskiden böyle değildi para kartımı kullanıyorum genelde ama boş şimdi şubesiz bankalar %10 nakit iade veriyor artık para krtımı kulanmıyacağım iyi çalışmalar",
           "author": "emre5320",
@@ -1118,10 +1202,10 @@
     },
     {
       "id": "issue-investment",
-      "title": "investment (16 yorum)",
+      "title": "investment (12 yorum)",
       "channel": "ios_store",
       "category": "investment",
-      "commentCount": 16,
+      "commentCount": 12,
       "comments": [
         {
           "id": "ios-9448649286",
@@ -1161,15 +1245,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-10483227663",
-          "text": "Yeni sürüm Merhabalar telefonum iPhone 6 ve yeni sürümü desteklemiyor biran önce bu sorunu çözmenizi arz ediyorum",
-          "author": "selami 2323",
-          "rating": 1,
-          "category": "investment",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13585498067",
           "text": "Cep boyutunda Tablette cep telefonundan boyutunda uygulama kullanılabilir değil",
           "author": "Aticus3",
@@ -1179,28 +1254,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "android-d853a27c-dcf1-440d-8455-6ac1df016346",
-          "text": "son güncellemeden sonra yatirimlar ekraninda donup kaliyor cikis veya geri gitme yapmıyor bilginize......",
-          "author": "hasan özdemir",
-          "rating": 2,
-          "timestamp": "2026-01-08T10:59:33.326Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-10175912930",
           "text": "Hisse alım satımı Asla ve asla tercih etmeyin 5 gündür sattığım hissemin parası blokeli gözüküyordu artık blokeli bile gözükmüyor kendi paramın peşinden koşturuyorlar alırken anında almayı biliyorlar",
           "author": "batuhan000420",
-          "rating": 1,
-          "category": "investment",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12592287521",
-          "text": "Rezalet. Çalışan bir şeyi neden bozma ihtiyacı hissettiniz? Gördüğüm en kötü mobil uygulama güncellemesi. İnsana banka değiştirtir.",
-          "author": "ycsonmez",
           "rating": 1,
           "category": "investment",
           "channel": "ios_store",
@@ -1222,16 +1278,6 @@
           "author": "Mahmut S.",
           "rating": 1,
           "timestamp": "2025-09-12T07:29:35.438Z",
-          "category": "investment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-5b32fe58-a053-4497-acb8-89516ee80fe1",
-          "text": "olmadı son güncellemeyle örneğin yatırım portföyüme giriyorum geri gelemiyor ana ekrana dönüş yok",
-          "author": "Serhat Kurt",
-          "rating": 2,
-          "timestamp": "2025-10-31T20:19:43.176Z",
           "category": "investment",
           "channel": "android_store",
           "sentiment": "negative"
@@ -1276,10 +1322,10 @@
     },
     {
       "id": "issue-feature",
-      "title": "feature (9 yorum)",
+      "title": "feature (8 yorum)",
       "channel": "ios_store",
       "category": "feature",
-      "commentCount": 9,
+      "commentCount": 8,
       "comments": [
         {
           "id": "ios-1780380133",
@@ -1316,16 +1362,6 @@
           "rating": 2,
           "category": "feature",
           "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-4d9dd6ae-48a8-4ee8-a697-ef5611e364bf",
-          "text": "Hisse fiyatı sayfasında güncelleme veya yenile gibi bir tuş olsa hisse fiyatını anında görmek iyi olurdu.",
-          "author": "Erhan ATASEVER",
-          "rating": 2,
-          "timestamp": "2025-12-04T15:22:25.590Z",
-          "category": "feature",
-          "channel": "android_store",
           "sentiment": "negative"
         },
         {
@@ -1369,10 +1405,10 @@
     },
     {
       "id": "issue-other",
-      "title": "other (24 yorum)",
+      "title": "other (15 yorum)",
       "channel": "ios_store",
       "category": "other",
-      "commentCount": 24,
+      "commentCount": 15,
       "comments": [
         {
           "id": "ios-5338873435",
@@ -1460,15 +1496,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12554103126",
-          "text": "AMATÖR UYGULAMA O kadar ticari hesap var o kadar iş adamları var o kadar para çeviriyorsunuz bu uygulama böyle olmaması gerekiyor içinden çıkılmaz bir hal almış. Kimse son güncellemeyi beğenmedi haberiniz olsun",
-          "author": "Burcu Altınsuyu",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13573916717",
           "text": "Tefeci Bankamısınız tefecimi yorumsuz",
           "author": "Poyraz 005",
@@ -1478,72 +1505,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-5904854089",
-          "text": "Yeni güncelleme!! Yeni güncelleme hiç güzel değil eskisi daha kullanışlıydı ara yüzü karman çorman yapmışsınız hiç beğenmedim bence eskisini geri getirin o kullanışlı ve estetikti. Yorumun üzerine basılı tutun yararlıyı işaretleyin üstte kalsın",
-          "author": "Damn it game",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10463878061",
-          "text": "Uygulama 2haftadan fazladır uygulamayı kullanamıyoruz bu sorunu derhal çözün artık koskoca Garanti bankası bi güncelleme getiremiyor mu acaba ya bunca insanı madur etmeye ne hakkınız acaba",
-          "author": "yasin Örs",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12559322175",
-          "text": "Son gelen güncelleme Ne kadar kullanılmaz bir hale getirmişsiniz on numara giden bişeyi neden değiştirir ki bi insan",
-          "author": "Kdlsödö",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12549508249",
-          "text": "Güncelleme Yeni halini beğenmedim ne gerek vardı alıştığımız sistemi görseli değiştirmeye",
-          "author": "Motherofselen",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13004301064",
           "text": "Mobil uygulama Mobil uygulaması hiç anlaşılır değil. Enpara uygulamasını inceleyin",
           "author": "henç123",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12599338096",
-          "text": "Güncelleme Çokmu iyi oldu güncelleyince sade ve en kullanışlı uygulamalardan birini Arap saçına çevirdiniz",
-          "author": "Şikayeçi",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12531337517",
-          "text": "Güncelleme hakkında Garanti BBVA mobil güncellenmeden önce daha iyiydi eski halini istiyoruz yeni güncellemeyi  sevmedim",
-          "author": "Lavinia yuce",
-          "rating": 1,
-          "category": "other",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13622980093",
-          "text": "MESLEK BİLGİSİ MESLEK GÜNCELLEMESİ GELSİN ARTIK TENİKER YOK TEKNİSYEN VAR ? Garanti nerede",
-          "author": "Lionsssss1905",
           "rating": 1,
           "category": "other",
           "channel": "ios_store",
@@ -1584,45 +1548,16 @@
           "category": "other",
           "channel": "ios_store",
           "sentiment": "negative"
-        },
-        {
-          "id": "android-a239509a-ccda-423b-b5e4-3148bbec3428",
-          "text": "mobil uygulamadan bağlantı hatası alıyorum tarayıcıdan giriş yapabiliyorum güncelleme var sandım oda yok",
-          "author": "Enes Celik",
-          "rating": 1,
-          "timestamp": "2026-01-07T09:41:07.171Z",
-          "category": "other",
-          "channel": "android_store",
-          "sentiment": "negative"
         }
       ]
     },
     {
       "id": "issue-performance",
-      "title": "performance (8 yorum)",
-      "channel": "android_store",
+      "title": "performance (6 yorum)",
+      "channel": "ios_store",
       "category": "performance",
-      "commentCount": 8,
+      "commentCount": 6,
       "comments": [
-        {
-          "id": "android-07ae1f67-7a41-4d33-9f20-676d51a237e0",
-          "text": "İyi akşamlar, birçok güncelleme geldi. Annemin emekli hesabına geçerken eşleştirme iptal oluyor. İşbankasındaki gibi yapmak çok mu zor ? Maaşı buradan alıyor olmasam, annemim emekli hesabını başka bankaya taşırım ve uygulamayı silerim!! Bizim isteklerimize cevap verin artık.!!!",
-          "author": "Ali ARSLAN",
-          "rating": 1,
-          "timestamp": "2026-01-28T20:38:29.234Z",
-          "category": "performance",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12603015696",
-          "text": "son güncellemeden sonra uygulama inanılmaz yavaşladı son güncellemeden sonra uygulamada bakiyeyi görmek için en az 2-3 dk beklemek gerekiyor. sürekli dönüyor da dönüyor. diğer şeylere de erişim için ciddi bir sabır gerekiyor. güncelleme eksik kalmış kesinlikle geliştirilme gerekli.",
-          "author": "Sudis666",
-          "rating": 1,
-          "category": "performance",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
         {
           "id": "ios-12052181757",
           "text": "Memnun değilim Kusursuz kredi geçmişim var kredi vermiyorsunuz \nBoşuna reklam yapmayın",
@@ -1683,20 +1618,11 @@
     },
     {
       "id": "issue-complaint",
-      "title": "complaint (20 yorum)",
+      "title": "complaint (16 yorum)",
       "channel": "ios_store",
       "category": "complaint",
-      "commentCount": 20,
+      "commentCount": 16,
       "comments": [
-        {
-          "id": "ios-12569975047",
-          "text": "Kötü Son güncellemesi ile oldukça kötü bir hale gelmiş.  Kullanıcı deneyimi iyileştirmesi arkasına sığınmak tasarım açısından ucuz bir kaçış olur. Bir uygulamayı sadeleştirmek bu şekilde yapılamaz. Deneyimsizce estetikten uzak bir tasarım.",
-          "author": "Giossu",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
         {
           "id": "ios-12542730489",
           "text": "Tasarım ve kullanım kolaylığı kötüleşmiş En son sürümüzle tasarım ve kullanım kolaylığı daha kötü olmuş. Yeni işlem eklemeleri ve yazılım iyileştirmeleri yaparken kullanımı komplike hale getirmeseniz..",
@@ -1738,15 +1664,6 @@
           "id": "ios-13515690229",
           "text": "Garanti bank rezalet Maaş müşterinizim yıllardır bir faydanızı görmedim",
           "author": "Songül özt",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12573961645",
-          "text": "Eski versiyona dönün Gerçekten berbat olmuş app neyin nerede olduğu belli değil",
-          "author": "Gamevwres",
           "rating": 1,
           "category": "complaint",
           "channel": "ios_store",
@@ -1825,27 +1742,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12576222474",
-          "text": "Güncelleme Güncellenmiş hali berbat olmuş teşekkürler",
-          "author": "Ahhdhshaha",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13515929738",
           "text": "Berbatsınız Rezilsiniz",
           "author": "mamaharlı",
-          "rating": 1,
-          "category": "complaint",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12558451328",
-          "text": "Yeni güncelleme Yeni güncelleme berbat olmuş eski versiyon çok iyiydi!",
-          "author": "Çelebi ferhat 222222",
           "rating": 1,
           "category": "complaint",
           "channel": "ios_store",
@@ -2050,10 +1949,10 @@
     },
     {
       "id": "issue-fee",
-      "title": "fee (53 yorum)",
+      "title": "fee (50 yorum)",
       "channel": "ios_store",
       "category": "fee",
-      "commentCount": 53,
+      "commentCount": 50,
       "comments": [
         {
           "id": "ios-4058492841",
@@ -2699,10 +2598,10 @@
     },
     {
       "id": "issue-app_crash",
-      "title": "app_crash (59 yorum)",
+      "title": "app_crash (28 yorum)",
       "channel": "ios_store",
       "category": "app_crash",
-      "commentCount": 59,
+      "commentCount": 28,
       "comments": [
         {
           "id": "ios-13558681934",
@@ -2717,42 +2616,6 @@
           "id": "ios-13665692421",
           "text": "hesabım blokelendi boş yere hesabım kapatıldı ilk maaş hesabı kurulan iş yerim yüzünden şimdi hesabıma giriş yapamıyorum sadece atm üzerinden para çekebilirsiniz diyorlar 3 seneye yakın olucak garanti kullanıyorum severek blokelenmesi kötü oldu tekrardan açılırsa çok sevinirim",
           "author": "wkaankaya",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-12574522187",
-          "text": "Son versiyon hata En son versiyonda sanal karta para aktar çalışmıyor. \n\nMadem adam akıllı güncelleme yapamıyorsunuz neden güncelleyip bizi mağdur ediyorsunuz.\n\nKullanmak istemiyorum",
-          "author": "Güncellemedüşmanı",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10474659724",
-          "text": "Yardımcı olun Son güncellemeden sonra uygulamaya girerken kapanıyor. Telefon Iphone 6",
-          "author": "kertenkele35",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9396242243",
-          "text": "Uygulama güncellemeden sonra calışmıyor Uygulama 13/12/22 tarihinde güncelledim acar acmaz kapanıyor uygulamada bi sıkıntımı var",
-          "author": "didim emlak",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10479952777",
-          "text": "Hata bildirimi Uygulamayı sık kullanan birisiyim son güncelleme geldi güncelleme yaptım uygulamaya girmiyor bu konu hakkında ne yapmam gerekiyor",
-          "author": "Kralll0121",
           "rating": 1,
           "category": "app_crash",
           "channel": "ios_store",
@@ -2806,15 +2669,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-10446029461",
-          "text": "Uygulamaya girmiyor ‼️ Alttaki yorumda arkadaş güncelleme yaptım girmiyor diyor cevabınız yeni versiyonunu indiriniz dalgamı geçiyorsunuz yeni versiyona girmiyor zaten çözüm bulun lütfen boş cevaplar değil insanları mağdur ediyorsunuz ayıptır.",
-          "author": "uAsamet55",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-13628013982",
           "text": "Hisse senedi ekrani acilmiyor Hisse senedi ekrani son 1 yildir acilmiyor veya cok agir. Artik biktim!",
           "author": "urfacesur",
@@ -2829,16 +2683,6 @@
           "author": "B Arda",
           "rating": 1,
           "timestamp": "2025-12-12T14:42:06.957Z",
-          "category": "app_crash",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-6a6b13f8-e0b6-4b44-a948-c7b50d74eb32",
-          "text": "Hata veriyor 3 gündür uygulamaya giremiyoruz rezalet bu nedir böyle güncelleme:Rezalet devam ediyor.İşleminizi şuan gerçekleştiremiyoruz uyarısı almaktan bıktım.Diğer tüm bankacılık uygulamaları çalışıyor ama garanti harika bir hizmet ile çalışmıyor",
-          "author": "ORHAN UTAŞ",
-          "rating": 1,
-          "timestamp": "2026-01-10T20:32:32.114Z",
           "category": "app_crash",
           "channel": "android_store",
           "sentiment": "negative"
@@ -2865,15 +2709,6 @@
           "id": "ios-13692964144",
           "text": "Mustafa Benim ek hesabım neden açılmıyor",
           "author": "Ek hesap açın bana",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10462960025",
-          "text": "Girilmiyor Güncellemeden sonra giremiyorum iPhone 6 Plus.  Cihazım sizin için cihaz mı değiştircez",
-          "author": "mehmet51907",
           "rating": 1,
           "category": "app_crash",
           "channel": "ios_store",
@@ -2907,54 +2742,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-9396290759",
-          "text": "İphone 5s crash Son gelen güncellemeyi yaptıktan sonra iphone 5s 64 gb  uyumlu olduğu halde uygulama çalışmıyor, çöküyor,",
-          "author": "prodigyboss",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-9380177537",
           "text": "App Açılmıyor İphone 14 Pro telefonumdan açmaya çalışıyorum beyaz ekranda kalıyor.",
           "author": "Hak Hukuk Adalet",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10463089775",
-          "text": "Son güncelleme uygulama açılmıyor Size kusursuz bir uygulama için güncelleme yaptık ki uygulamayı açamayasınız...\n\nIphone da uygulama açılmıyor. Lütfen düzeltir misiniz?",
-          "author": "Buyurun Bakalım",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10453434590",
-          "text": "iPhone 6 Uygulama son güncellemeden sonra açılmıyor. Tam olarak ne zaman düzeltirsiniz acaba !!!! Mağduruz bi dünya işimiz var ama uygulama açılmıyor. Lütfen acil olarak şu sorunu düzeltin !!!!",
-          "author": "fee435",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10481023374",
-          "text": "İphone 6’da açılmıyor Yaptığınız son 2 güncelleme yüzünden uzun süredir iphone 6 cihazımda uygulamayı açamıyorum.",
-          "author": "OnurKanca",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10477590902",
-          "text": "Mobil bankacılık Uygulamaya giriyorum geri atıyor son güncellemeden sonra mobil bankacılık giremiyorum yardımcı olurmuşuz????",
-          "author": "Bir Takım İşler",
           "rating": 1,
           "category": "app_crash",
           "channel": "ios_store",
@@ -3015,55 +2805,10 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-10483629747",
-          "text": "Yazık... Güncellemeden sonra açılmıyor İPhone 6 kullanıyoruz diye mi !!!! Allah sizi nası biliyorsa öyle yapsın,bu mu hizmetiniz...!",
-          "author": "blubluboktan",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-9396283083",
           "text": "Sorun Uygulama atıyor giremiyorum yardımcı olunursa sevinirim",
           "author": "guls-ah0",
           "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-9396277734",
-          "text": "İphone 6 uygulamadan atıyor Son güncellemeyle beraber uygulama açılmıyor işlerimizi nasıl yapcaz ya acil düzeltinnnn !!!!",
-          "author": "doğan birgül",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10480154011",
-          "text": "Güncelleme En son yaptığınız güncellemeden sonra telefonumdan garanti bankasına giremiyorum. Sildim uygulamayı geri yükledim gene aynı durum ile karşılaştım telefonum  iPhone 6 .... acil yardımmmm lütfen 🙏",
-          "author": "bozuk dolar",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10479782485",
-          "text": "Açılmıyor Son güncellemeden sonra açılıp hemen kapanıyor 4-5 gündür giremiyorum düzeltin artık şu sorunu Cihaz Iphone 6",
-          "author": "ArukasX",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10479537886",
-          "text": "Açılmıyor İOS12 sürümlü iPhone 6 cihazımda güncellemeden sonra uygulama açılmıyor",
-          "author": "İso A",
-          "rating": 2,
           "category": "app_crash",
           "channel": "ios_store",
           "sentiment": "negative"
@@ -3087,24 +2832,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-10476828379",
-          "text": "Açılmama sorunu 14.2 güncellemesinden beri İPhone 6 model telefonlarda açılmıyor.",
-          "author": "ayıpbegaranti",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10474441887",
-          "text": "Uygulama Açılmıyor Yeni sürümden sonra uygulama alılmadan kapanıyor. appstore dan yeniden yükledim yine aynı durum... Çalışan uygulama şimdi açılmıyor...",
-          "author": "bicaydaha",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-10474350326",
           "text": "Uygulama hata veriyor 3 haftadır uygulamaya giremiyorum. Açılmadan direk kapanıyor. Uygulamayı kaldırıp yeniden yüklemek işe yaramadı.",
           "author": "TavZeh",
@@ -3114,36 +2841,9 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-10473924557",
-          "text": "Son güncellemeden sonra iPhone 6 da proğram açılmıyor Son güncellemeden sonra iPhone 6 da proğram açılmıyor. \nTeşekkürler. İyi çalışmalar",
-          "author": "adı online işlemler peh",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-10465153633",
-          "text": "iPhone 6 IOS 12.5.7 Sürümünde Uygulama Açılmıyor Son güncellemeden sonra uygulama iPhone 6 IOS 12.5.7 Sürümünde açılmıyor.\nUygulama açılmadığı için mobil onay bildirimleri de alamıyoruz, bu nedenle Garanti BBVA Internet üzerinden de kullanım sağlayamıyoruz. \nLütfen acil destek olunuz ve çözüm bulunuz. \nSaygılarımla, \nFatih OKAY",
-          "author": "Fatih OKAY",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "ios-10462896837",
           "text": "Uygulamaya giremiyorum Uygulamaya basıyorum açılmadan hemen atıyor beni acill çözer misiniz insanların işleri oluyor !!!",
           "author": ".kemdl6",
-          "rating": 1,
-          "category": "app_crash",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "ios-13586228375",
-          "text": "Mobil Açılmıyor Son güncellemeden sonra pazartesi akşamdan beri uygulama açılmıyor giriş sayfasına bile gelmiyor acilen yeni bir güncellemeyle düzeltin!!!",
-          "author": "Muge01",
           "rating": 1,
           "category": "app_crash",
           "channel": "ios_store",
@@ -3162,20 +2862,11 @@
     },
     {
       "id": "issue-connection",
-      "title": "connection (5 yorum)",
+      "title": "connection (4 yorum)",
       "channel": "ios_store",
       "category": "connection",
-      "commentCount": 5,
+      "commentCount": 4,
       "comments": [
-        {
-          "id": "ios-12601615607",
-          "text": "Hesap kapattırır O kadar kötü bir güncelleme ki ..garantiye ait kartına para gönderemiyorsun ..böyle kalırsa hesabı kapatacağım o derece kötü !",
-          "author": "e.elite",
-          "rating": 1,
-          "category": "connection",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
         {
           "id": "ios-9501793524",
           "text": "Rezalet Rezalet hiç bir şekilde müşteri temsilcisine bağlanılmıyor",
@@ -3218,10 +2909,10 @@
     },
     {
       "id": "issue-login",
-      "title": "login (40 yorum)",
+      "title": "login (36 yorum)",
       "channel": "ios_store",
       "category": "login",
-      "commentCount": 40,
+      "commentCount": 36,
       "comments": [
         {
           "id": "ios-6226818994",
@@ -3305,15 +2996,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-12580474014",
-          "text": "Güncellemeniz berbattt son güncelleme ile şifremi bildiğim halde giriş yapamadım, tabi sonuç olarak bir çok kez yanlış deneme sonucu hesabım bloke oldu, kim yaptıysa istifa etsin gerçekten rezillik! benim hafta içi bankaya gitme lüksüm  yok! sorunumu çözünnnnn!!!!",
-          "author": "Pleyır34",
-          "rating": 1,
-          "category": "login",
-          "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-acee6127-060e-4142-ada4-283fca075cf4",
           "text": "uygulama kullanım kolaylığı sunuyor ancak şifre yenilemek istiyorum ve uygulama sürekli hata veriyor. başka telefon denedim ve yine olmuyor. uygulama da sorun var",
           "author": "Hayrettin Keles",
@@ -3339,16 +3021,6 @@
           "author": "Tunç Işın",
           "rating": 2,
           "timestamp": "2025-12-27T10:06:13.980Z",
-          "category": "login",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-c0bdf873-7f72-4a26-80c0-8dd33fb191f2",
-          "text": "Berbat bir uygulama. Yeni müşteriyim henüz ne kartım var ne de şifresi. Sürekli benden kartın altı hanesini ya da kart şifresini soruyor. Mantık hatalarıyla dolu bir uygulama. SİM kart değiştirmemiş olmama rağmen sim kart değişikliği uyarısı veriyor. Güncellemeyle kalktığımda sürekli hata veriyor. NFC taraması yeşil tik ile başarıyla tamamlanmasına rağmen tekrar tekrar aynı sayfada dönüp duruyor.",
-          "author": "Ali Sultanhisar",
-          "rating": 1,
-          "timestamp": "2025-12-30T16:55:52.530Z",
           "category": "login",
           "channel": "android_store",
           "sentiment": "negative"
@@ -3429,16 +3101,6 @@
           "author": "Cell Fish",
           "rating": 1,
           "timestamp": "2025-11-14T07:58:36.150Z",
-          "category": "login",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-ecc37178-3829-4b3c-ac26-85cd71963873",
-          "text": "son güncelleme ile giriş süresi uzadı. şifre doğru ama girmek için boşuna bekletiyor. eski takvim daha optimize idi. çoğu sayfa webview gibi görünüyor. BANKA UYGULAMASI tasarımdan önce HIZA odaklanması gerekiyor. anlık işlem yapmak gereken durumda beklemek can sıkıyor.",
-          "author": "Mehmet ali UYAR",
-          "rating": 1,
-          "timestamp": "2025-11-19T19:35:42.611Z",
           "category": "login",
           "channel": "android_store",
           "sentiment": "negative"
@@ -3554,16 +3216,6 @@
           "sentiment": "negative"
         },
         {
-          "id": "android-4027974d-4aaa-4e4d-a762-d0ac0bb8991d",
-          "text": "Telefon güncelleme çalişmiyor destek güncelleme gelmedi hala çalişmiyor ben esnafım dükkanımı kapatamıyorum bu yüzdende kartımın şifresini alamadım formu da doldurdum dönüş de yapmadınız nasıl bir banka ilğisi bu",
-          "author": "Mehmet Yüksel",
-          "rating": 1,
-          "timestamp": "2025-09-18T20:54:19.727Z",
-          "category": "login",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
           "id": "android-4c59933d-4bd0-44bd-8e46-7e9cc65042aa",
           "text": "telefon numaramı değiştirdim giriş yapmak istiyorum yenilemek için bunda da bu defa eski numarama şifre gönderiliyor müşteri hizmetlerini aradığımda sadece kayıp çalıntı da ulaşabiliyorum onlar da diğer müşteri hizmetlerine aktarmıyorlar ve görüşme sonlanıyor hiç ama hiç yardımcı olunmuyor dahasıda sadece boşa vakit çalınıyor",
           "author": "Yusuf Küçük",
@@ -3617,10 +3269,10 @@
     },
     {
       "id": "issue-customer_service",
-      "title": "customer_service (9 yorum)",
+      "title": "customer_service (8 yorum)",
       "channel": "ios_store",
       "category": "customer_service",
-      "commentCount": 9,
+      "commentCount": 8,
       "comments": [
         {
           "id": "ios-13617813672",
@@ -3646,16 +3298,6 @@
           "author": "Ahmet Harman",
           "rating": 1,
           "timestamp": "2025-11-12T07:10:53.834Z",
-          "category": "customer_service",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-04a132a8-e992-4131-90c6-fdebedf6628b",
-          "text": "son güncellemeden sonra ne olduysa mobil uygulamaya giremiyoruz müşteri hizmetleri de ara ara deneyin diye saçma sapan mazeret beyan ediyor sorunun bir an önce düzeltilmesi gerek",
-          "author": "berkant er",
-          "rating": 1,
-          "timestamp": "2025-11-21T12:24:51.182Z",
           "category": "customer_service",
           "channel": "android_store",
           "sentiment": "negative"
@@ -3714,10 +3356,10 @@
     },
     {
       "id": "issue-battery",
-      "title": "battery (4 yorum)",
+      "title": "battery (3 yorum)",
       "channel": "ios_store",
       "category": "battery",
-      "commentCount": 4,
+      "commentCount": 3,
       "comments": [
         {
           "id": "ios-13658136624",
@@ -3726,16 +3368,6 @@
           "rating": 1,
           "category": "battery",
           "channel": "ios_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-ccd85303-4c34-4f1a-adea-6dbe08afe9f8",
-          "text": "son güncellemeden sonra uygulama arkaplanda sürekli çalışıyor görünüyor, pil tüketimi çok fazla acil düzeltilmesi gerekli",
-          "author": "Mustafa mengi",
-          "rating": 1,
-          "timestamp": "2025-12-26T22:37:13.832Z",
-          "category": "battery",
-          "channel": "android_store",
           "sentiment": "negative"
         },
         {

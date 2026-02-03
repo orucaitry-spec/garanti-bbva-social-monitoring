@@ -1,0 +1,45 @@
+{
+  "date": "2026-01-29",
+  "channels": {
+    "twitter": {
+      "status": "ok",
+      "lastFetch": "2026-01-29T23:15:00+03:00",
+      "mentionCount": 16,
+      "error": null
+    },
+    "linkedin": {
+      "status": "ok",
+      "lastFetch": "2026-01-29T23:15:00+03:00",
+      "mentionCount": 5,
+      "error": null
+    },
+    "ios_store": {
+      "status": "ok",
+      "lastFetch": "2026-01-29T22:00:00+03:00",
+      "mentionCount": 3,
+      "error": null
+    },
+    "android_store": {
+      "status": "ok",
+      "lastFetch": "2026-01-29T22:00:00+03:00",
+      "mentionCount": 7,
+      "error": null
+    }
+  },
+  "summary": {
+    "totalMentions": 31,
+    "criticalIssues": 0,
+    "storeRating": 2.7,
+    "avgResponseTime": "2sa"
+  },
+  "heatmap": {
+    "login": [1, 0, 0, 1, 1, 0, 0],
+    "performance": [0, 0, 0, 0, 0, 0, 0],
+    "payment": [3, 4, 3, 2, 1, 0, 0],
+    "ui": [1, 0, 2, 3, 2, 1, 0],
+    "feature": [2, 1, 1, 0, 0, 0, 0],
+    "other": [0, 0, 1, 0, 0, 0, 0]
+  },
+  "days": ["Pzt", "Sal", "Car", "Per", "Cum", "Cmt", "Paz"],
+  "issues": []
+}

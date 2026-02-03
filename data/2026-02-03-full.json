@@ -3,43 +3,178 @@
   "channels": {
     "twitter": {
       "status": "ok",
-      "lastFetch": "2026-02-03T19:59:29.208Z",
+      "lastFetch": "2026-02-03T20:08:19.177Z",
       "mentionCount": 4,
       "error": null
     },
     "linkedin": {
       "status": "ok",
-      "lastFetch": "2026-02-03T19:59:29.208Z",
+      "lastFetch": "2026-02-03T20:08:19.177Z",
       "mentionCount": 6,
       "error": null
     },
     "ios_store": {
       "status": "ok",
-      "lastFetch": "2026-02-03T19:52:33.027Z",
+      "lastFetch": "2026-02-03T20:08:19.177Z",
       "mentionCount": 50,
       "error": null
     },
     "android_store": {
       "status": "ok",
-      "lastFetch": "2026-02-03T19:52:33.027Z",
+      "lastFetch": "2026-02-03T20:08:19.177Z",
       "mentionCount": 50,
       "error": null
     }
   },
   "summary": {
     "totalMentions": 110,
-    "criticalIssues": 2,
-    "storeRating": 3.5,
+    "criticalIssues": 10,
+    "storeRating": 2.7,
     "avgResponseTime": "N/A"
   },
   "heatmap": {
     "login": [
+      2,
+      1,
+      1,
+      1,
+      1,
       0,
+      0
+    ],
+    "transfer": [
       0,
-      0,
-      0,
+      1,
       0,
       2,
+      0,
+      0,
+      0
+    ],
+    "payment": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "card": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "loan": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "investment": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "account": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "notification": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "atm": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "insurance": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pension": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hgs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "bill": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "appointment": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "customer_service": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "security": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "performance": [
@@ -48,16 +183,7 @@
       0,
       0,
       0,
-      3,
-      0
-    ],
-    "payment": [
       0,
-      0,
-      0,
-      0,
-      0,
-      11,
       0
     ],
     "ui": [
@@ -75,17 +201,17 @@
       0,
       0,
       0,
-      1,
-      3
+      0,
+      2
     ],
     "other": [
       0,
       0,
       0,
+      1,
       0,
       0,
-      33,
-      7
+      3
     ]
   },
   "days": [
@@ -99,22 +225,22 @@
   ],
   "issues": [
     {
-      "id": "issue-payment",
+      "id": "issue-transfer",
       "title": "Atm sorunu Atm para veremiyorsa eft iÅŸlemlerinden ",
       "channel": "ios_store",
       "version": "N/A",
-      "category": "payment",
+      "category": "transfer",
       "impact": "Kritik",
       "status": "Devam ediyor",
       "duration": "1+ gun",
-      "commentCount": 17,
+      "commentCount": 10,
       "comments": [
         {
           "id": "ios-13704096927",
           "text": "Atm sorunu Atm para veremiyorsa eft iÅŸlemlerinden para almamalÄ±sÄ±nÄ±z.",
           "author": "hasancilek",
           "rating": 1,
-          "category": "payment",
+          "category": "transfer",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -123,7 +249,7 @@
           "text": "MaaÅŸ mÃ¼sterisinden iÅŸlem Ã¼creti alÄ±namaz MaaÅŸ mÃ¼ÅŸterisi olmamÄ±zdan dolayÄ± para transferinde 16 lira iÅŸlem Ã¼creti alÄ±nmasÄ± adil deÄŸil.",
           "author": "Sessizlik seven",
           "rating": 1,
-          "category": "payment",
+          "category": "transfer",
           "channel": "ios_store",
           "sentiment": "negative"
         },
@@ -132,10 +258,88 @@
           "text": "Maas hesabim ama eft havale ucreti kesiyor Maas hesabim ama ucret kesiyor kullanmicam bankayi",
           "author": "Makfkskdksk",
           "rating": 1,
-          "category": "payment",
+          "category": "transfer",
           "channel": "ios_store",
           "sentiment": "negative"
         },
+        {
+          "id": "ios-13693512987",
+          "text": "Eft Ã¼creti HiÃ§ Ã§alÄ±ÅŸmadan 10 tl eft Ã¼creti teÅŸekkÃ¼rler sizinlede Ã§alÄ±ÅŸmÄ±yoruz artÄ±kâ€¦",
+          "author": "zafer parlar.",
+          "rating": 1,
+          "category": "transfer",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13692349052",
+          "text": "Eft havale Ãœcret almanÄ±z Ã§ok ama Ã§ok ayÄ±p zanen sizde zaten kazanÄ±yorsunuz",
+          "author": "FearleÅŸlord",
+          "rating": 1,
+          "category": "transfer",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13691904668",
+          "text": "Para transfer Ã¼cretleri 2 bin tl ye 8 tl kestiniz hakkÄ±m haram olsun",
+          "author": "Mert__13",
+          "rating": 1,
+          "category": "transfer",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13691860727",
+          "text": "Åikayet Emekliyim 17 TL eft Ã¼creti alÄ±nÄ±yor",
+          "author": "Åikayetskn",
+          "rating": 1,
+          "category": "transfer",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13689055188",
+          "text": "Havale Ã¼creti Bu zamanda havale Ã¼cretimi kaldÄ± ya yÄ±l 2026",
+          "author": "CanerKul",
+          "rating": 1,
+          "category": "transfer",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-13ebe7de-f9d8-4195-97e0-5081e12c855a",
+          "text": "berbat bir uygulama sabahtan beri giremiyorum kirk dereden su getirtiyor yine olmuyor yardim bolumunden mesaj gonderiyorum diyor gelmiyor mesaj falan da.",
+          "author": "Yusuf Kocaman",
+          "rating": 1,
+          "timestamp": "2026-01-30T22:22:49.726Z",
+          "category": "transfer",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-b1b5b33c-86cc-4001-afed-660a54ad8315",
+          "text": "MaaÅŸ musterisiyim neden belli bir saatten sonra para transferinde Ã¼cret Ã¶dÃ¼yorum ?Bu fÄ±rsatÃ§Ä±lÄ±k baÅŸka bir aÃ§Ä±klamasÄ± yok .Bu uygulama birÃ§ok bankada yok bu arada",
+          "author": "hÃ¼lya topal",
+          "rating": 1,
+          "timestamp": "2026-01-20T18:57:56.605Z",
+          "category": "transfer",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-payment",
+      "title": "GARANTÄ°DEN ENGELLÄ°YÄ°M 12-13 sene once sabit bir se",
+      "channel": "ios_store",
+      "version": "N/A",
+      "category": "payment",
+      "impact": "Kritik",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 12,
+      "comments": [
         {
           "id": "ios-13700482212",
           "text": "GARANTÄ°DEN ENGELLÄ°YÄ°M 12-13 sene once sabit bir sebeb gostermeden hesaplarimi politikalari nedeniyle kapatti hala acmiyor.  Sebebi de yok. Ne borcum vardi ne de oyle bisey. Beni engellemisler subeden ",
@@ -146,140 +350,491 @@
           "sentiment": "negative"
         },
         {
-          "id": "ios-13693663313",
-          "text": "Sanal kart sorunu Banka birden fazla kredi kartÄ± veriyor ancak her kredi kartÄ±na sanal kart vermiyor, ikinci bir karta sanal kart Ã¼retmek iÃ§in ilk kartÄ±n sanalÄ±nÄ± iptal ettiriyor, Ã§ok anlamsÄ±z bir uyg",
-          "author": "Apapse",
+          "id": "ios-13688226978",
+          "text": "SaygÄ±sÄ±zlÄ±k ve ilÄŸilisizler KÃ¼Ã§Ã¼kyalÄ± ÅŸubesi memurlarÄ± Ã§ok saygÄ±sÄ±z alaylÄ± konuÅŸmalarÄ± bir ÅŸey soruyorsun cevap yok",
+          "author": "veratesisat",
           "rating": 1,
           "category": "payment",
           "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d3995ac5-3454-43d8-8213-9a7e91756ed2",
+          "text": "cep telefonuyla ekran gÃ¶rÃ¼ntÃ¼sÃ¼ alamama sorununu ne zaman Ã§Ã¶zeceksiniz? Bu konu ciddi bir sorun olmaya baÅŸladÄ±. Bu gerÃ§ekten bir gÃ¼venlik Ã¶nlemi olsaydÄ± laptoptan da ekran gÃ¶rÃ¼ntÃ¼sÃ¼ alamamamÄ±z gerekir",
+          "author": "banu bora",
+          "rating": 1,
+          "timestamp": "2026-01-27T08:03:10.494Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-72834ea8-b5a9-48a6-94c2-bea887f0df4d",
+          "text": "internetim aÃ§Ä±k olduÄŸu halde internet baÄŸlantÄ±nÄ±z yok diye hata veriyor ekran gÃ¶rÃ¼ntÃ¼sÃ¼ alÄ±p ÅŸikayet edeceÄŸim ama ekran gÃ¶rÃ¼ntÃ¼sÃ¼ de alÄ±namÄ±yor maalesef insanlarÄ± rezil etmekten baÅŸka birÅŸeye yaramiyo",
+          "author": "OÄŸuzhan Tursun",
+          "rating": 1,
+          "timestamp": "2026-01-27T07:05:17.533Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-c3d4f313-b36a-4211-9f21-6f2f4972025e",
+          "text": "Daha akbank kadar iÅŸlevsel bir mobil bankacÄ±lÄ±k gÃ¶rmedim. Garanti kadar da iÅŸlevsiz bir mobil bankacÄ±lÄ±k gÃ¶rmedim. Herhangi bir kredi kartÄ± iÅŸlemi gercekleÅŸtÄ±remiyorsunuz ne taksit seÃ§eneÄŸi veriyor ne",
+          "author": "ÅÃ¼kran Alkan",
+          "rating": 1,
+          "timestamp": "2026-01-18T12:05:46.227Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-70385bc0-2eef-4217-91f9-35138ea26184",
+          "text": "Uygulama arayÃ¼zÃ¼ kullanÄ±ÅŸsÄ±z. Ã–ncelikle sanal kart, ana karta baÄŸlÄ± bir kart olmasÄ±na raÄŸmen neden diÄŸer bankalar gibi bu kartla yapÄ±lan harcamalarnormal ana kartÄ±n iÃ§inde gÃ¶sterilmiyor. Kart borcumu ",
+          "author": "AHMET KURTOÄLU",
+          "rating": 1,
+          "timestamp": "2025-12-12T14:04:06.889Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-48d2b13c-e347-4ecb-87ba-16000305c894",
+          "text": "telefonu xiaomi hyper os 3.0.2.0 sÃ¼rÃ¼mÃ¼ne gÃ¼ncelledim, garanti uygulamasÄ± artÄ±k aÃ§Ä±lmÄ±yor. acil dÃ¼zeltilmesi gerekli",
+          "author": "Baybora TuÄŸrul",
+          "rating": 2,
+          "timestamp": "2026-01-30T15:48:31.652Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-2df749d7-c59f-467b-9e89-3586ce712e99",
+          "text": "Samsung S23 Ultra cihazÄ±mda aÅŸÄ±rÄ± pil kullanÄ±mÄ± mevcut, %51 seviyelerinde kullanim var, ÅŸarjÄ±m yarim gÃ¼n gitmiyor. Ã§Ã¶zÃ¼m ve yardÄ±m rica ederiz.",
+          "author": "Ã–mer Ã–ZTEMÃœR",
+          "rating": 1,
+          "timestamp": "2026-01-29T19:50:08.160Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-083cc7ab-052d-4d6f-b163-acefb46ac548",
+          "text": "garanti bankasi emeklisi uygulamadan basvuru yapamiyor. boyle sacmalik olurmu bankada maasiniz bulunmamaktadir cikiyor. 25 yil garanti bankasida calisiyosun maasini garanti bankasindan aliyosun bankan",
+          "author": "Cihan YenidÃ¼nya",
+          "rating": 1,
+          "timestamp": "2026-01-16T06:02:54.521Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-5cb69861-40d9-4f41-b2cf-94d72c2d023c",
+          "text": "Son gÃ¼ncelleme- 9 aralÄ±k 2025, v 17.1- ile uygulama sÃ¼rekli arka planda Ã§alÄ±ÅŸÄ±yor ve pili Ã§ok hÄ±zlÄ± tÃ¼ketiyor. Ciddi bir problem var. ---- 10 ocak Ek yorum: BankanÄ±n problemle ciddi ÅŸekilde ilgilendiÄŸ",
+          "author": "UÄŸur ÃœnlÃ¼akÄ±n",
+          "rating": 2,
+          "timestamp": "2026-01-11T09:34:06.502Z",
+          "category": "payment",
+          "channel": "android_store",
           "sentiment": "negative"
         }
       ]
     },
     {
-      "id": "issue-performance",
-      "title": "Mustafa Benim ek hesabÄ±m neden aÃ§Ä±lmÄ±yor",
+      "id": "issue-card",
+      "title": "Sanal kart sorunu Banka birden fazla kredi kartÄ± v",
       "channel": "ios_store",
       "version": "N/A",
-      "category": "performance",
+      "category": "card",
       "impact": "Kritik",
       "status": "Devam ediyor",
       "duration": "1+ gun",
-      "commentCount": 5,
+      "commentCount": 6,
+      "comments": [
+        {
+          "id": "ios-13693663313",
+          "text": "Sanal kart sorunu Banka birden fazla kredi kartÄ± veriyor ancak her kredi kartÄ±na sanal kart vermiyor, ikinci bir karta sanal kart Ã¼retmek iÃ§in ilk kartÄ±n sanalÄ±nÄ± iptal ettiriyor, Ã§ok anlamsÄ±z bir uyg",
+          "author": "Apapse",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13689348802",
+          "text": "Åikayet! Ä°ÄŸrenÃ§ bir mÃ¼ÅŸteri hizmetleriniz var. Ä°ÄŸrenÃ§ bir mobil uygulamanÄ±z var hesabÄ±ma para attÄ±ÄŸÄ±m halde hesabÄ±m kartÄ±m olduÄŸu halde iÅŸlem yapamadÄ±m mÃ¼ÅŸteri hizmetlerine baÄŸlanamadÄ±m gerÃ§ekten Ã§ok ",
+          "author": "GZeynepG",
+          "rating": 1,
+          "category": "card",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-4fc3eea0-e76e-4d49-952a-8e89361512cc",
+          "text": "2 defadÄ±r aynÄ± sorun . Ä°nternet baÄŸlantÄ±sÄ± yoktur diyor. MÃ¼ÅŸteri hizmetleri ile konuÅŸup yeniden yÃ¼klÃ¼yorum 2 gÃ¼n sonra gene aÃ§Ä±lmÄ±yor. nasÄ±l bir gÃ¼ncelleme yaptÄ±ysanÄ±z bonus flash uygulamasÄ±da Ã§alÄ±ÅŸmÄ±",
+          "author": "hÃ¼seyingencer",
+          "rating": 1,
+          "timestamp": "2026-01-27T05:33:10.784Z",
+          "category": "card",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-3e428bd1-febf-4252-87d3-a449706f6a06",
+          "text": "Kredi kartÄ±mÄ± iptal etmek istiyorum,yapay zeka asistanÄ±nÄ±zdan bu konuda destek aliyorum fakat ikisi senkronize degil. AsistanÄ±n dedigi yerde o buton bulunmuyor",
+          "author": "Caner CoÅŸkun",
+          "rating": 1,
+          "timestamp": "2026-01-29T20:08:39.323Z",
+          "category": "card",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-3446cd1f-08da-4320-b7ec-76f29c451e05",
+          "text": "Taksitle beyaz eÅŸya almak icÌ§in kredi kartÄ± limitini 150000 TL 'ye yÃ¼kseltmek iÃ§in talepte bulundum. DiÄŸer bankalardaki limiti de dÃ¼ÅŸÃ¼rttÃ¼ÄŸÃ¼m halde yanÄ±t alamadÄ±m. Bir problemim olmadÄ±ÄŸÄ± halde sorunum",
+          "author": "SÃ¼leyman Keskin",
+          "rating": 1,
+          "timestamp": "2026-01-09T12:15:45.891Z",
+          "category": "card",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-568492e2-73d6-4522-8e77-3534fe471cbc",
+          "text": "Kredi karti harcama kÄ±smÄ± cok anlasilir degil..Yaptigim harcamalar dijital ve asil kart net olarak anlaÅŸÄ±lmÄ±yor..Yapi Kredi mobil uygulamasi daha anlasilir ve net..lutfen guncelleme ile duzeltin",
+          "author": "ENES EYÄ°GÃœN",
+          "rating": 1,
+          "timestamp": "2026-01-13T15:12:35.537Z",
+          "category": "card",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-account",
+      "title": "Mustafa Benim ek hesabÄ±m neden aÃ§Ä±lmÄ±yor",
+      "channel": "ios_store",
+      "version": "N/A",
+      "category": "account",
+      "impact": "Orta",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 2,
       "comments": [
         {
           "id": "ios-13692964144",
           "text": "Mustafa Benim ek hesabÄ±m neden aÃ§Ä±lmÄ±yor",
           "author": "Ek hesap aÃ§Ä±n bana",
           "rating": 1,
-          "category": "performance",
+          "category": "account",
           "channel": "ios_store",
           "sentiment": "negative"
         },
+        {
+          "id": "android-3efb8830-1db8-4a2f-9a36-380546cbbe46",
+          "text": "1. Uygulama zaman zaman aÃ§Ä±lmÄ±yor, 2. varlÄ±klarÄ±m hesaplamalarÄ± garip ÅŸekilde yanlÄ±ÅŸ yapÄ±lmÄ±ÅŸ gÃ¶rÃ¼nÃ¼yor neden sonra dÃ¼zeliyor. 3. Emekli aylÄ±ÄŸÄ± aldÄ±ÄŸÄ±m bu banka K.K. yÄ±llÄ±k Ã¼creti kesiliyor farkedip i",
+          "author": "Ä°stanbul Cepte",
+          "rating": 1,
+          "timestamp": "2026-01-12T09:25:29.371Z",
+          "category": "account",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-atm",
+      "title": "Ä°lgi Åubelerinizde ilgi alaka problem sorun Ã§Ã¶zme ",
+      "channel": "ios_store",
+      "version": "N/A",
+      "category": "atm",
+      "impact": "Orta",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 2,
+      "comments": [
+        {
+          "id": "ios-13692252762",
+          "text": "Ä°lgi Åubelerinizde ilgi alaka problem sorun Ã§Ã¶zme sÄ±fÄ±r",
+          "author": "QvkfkdÅŸidjfjckcmckfk",
+          "rating": 1,
+          "category": "atm",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-038265db-b0d3-45e5-96ca-35d7d333b3b1",
+          "text": "kullandÄ±ÄŸÄ±m en yavaÅŸ en karÄ±ÅŸÄ±k en pratik olmayan banka uygulamasÄ±. nasÄ±l oluyorsa garanti ÅŸubelerinde iÅŸlemler de Ã§ok yavaÅŸ",
+          "author": "Zeynep Åensoyer",
+          "rating": 1,
+          "timestamp": "2026-01-31T18:14:39.853Z",
+          "category": "atm",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-customer_service",
+      "title": "Åikayet MÃ¼ÅŸteri temsilcisine baÄŸlanamÄ±yorum kapanÄ±",
+      "channel": "ios_store",
+      "version": "N/A",
+      "category": "customer_service",
+      "impact": "Orta",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 2,
+      "comments": [
         {
           "id": "ios-13691806276",
           "text": "Åikayet MÃ¼ÅŸteri temsilcisine baÄŸlanamÄ±yorum kapanÄ±yor hiÃ§bir ÅŸekilde ulaÅŸamÄ±yorum berbat",
           "author": "Ã‡ok kÃ¶tÃ¼ garanti",
           "rating": 1,
-          "category": "performance",
+          "category": "customer_service",
           "channel": "ios_store",
           "sentiment": "negative"
         },
         {
-          "id": "android-13f4395b-a1cd-48fe-ae5b-25e0040dd5c8",
-          "text": "YavaÅŸ ve faiz oranlarÄ± olan Ã¼stÃ¼ yÃ¼ksek maÅŸ hesabÄ± olmasa kapatÄ±cam",
-          "author": "Burak GÃ¼rdursun",
+          "id": "android-b12cf19a-d356-43c4-a112-b937db88d0d8",
+          "text": "garanti bankasÄ± mÃ¼ÅŸterisiyim. yildim artÄ±k garanti banka mobile gurememekten. bu nedir ya. sÃ¼rekli uygulamayÄ± kaldÄ±r tekrar indir yapÄ±yorum . lÃ¼tfen ilgilenin niye bÃ¶yle oluyor",
+          "author": "Yasemin Birol",
           "rating": 1,
-          "timestamp": "2026-02-02T13:21:37.590Z",
-          "category": "performance",
+          "timestamp": "2026-01-26T01:42:14.750Z",
+          "category": "customer_service",
           "channel": "android_store",
           "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-notification",
+      "title": "Uygulama ikonu SÃ¼rekli bildirim iÅŸareti kalÄ±yor gi",
+      "channel": "ios_store",
+      "version": "N/A",
+      "category": "notification",
+      "impact": "Yuksek",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 3,
+      "comments": [
         {
-          "id": "android-8d6f3fde-5a02-454a-86b0-0d78c14f5661",
-          "text": "uygulama diÄŸer banka uygulamalarÄ±na gÃ¶re Ã§ok daha yavaÅŸ...banka zaten sÄ±kÄ±ntÄ±...pata transferlerinden sÃ¼rekli Ã¼cret alÄ±nmakta..maaÅŸ mÃ¼ÅŸterisi olmama raÄŸmen Ã¼cret tahsis ediliyor... banka saÃ§ma, uygula",
-          "author": "taysun Ã¶zdemir",
-          "rating": 1,
-          "timestamp": "2026-02-02T13:16:00.351Z",
-          "category": "performance",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-e783973c-55f6-4253-a6c6-daba617ba83b",
-          "text": "Ã–zellikle 2 verdim ne zaman kullanmaya kalksam hisse senetlerine girdikten sonra geri dÃ¶nÃ¼ÅŸ yok olduÄŸu yerde donuyor ana sayfaya dÃ¶nmÃ¼yor en son cuma gÃ¼nÃ¼ bakmÄ±ÅŸtÄ±m sayfada hareket yok zorlarsam sayfa",
-          "author": "Dilek Akyazi",
+          "id": "ios-13689214277",
+          "text": "Uygulama ikonu SÃ¼rekli bildirim iÅŸareti kalÄ±yor gitmiyor",
+          "author": "Keroskomergana",
           "rating": 2,
-          "timestamp": "2026-02-02T06:46:10.693Z",
-          "category": "performance",
+          "category": "notification",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d35bef7a-84cb-4c7c-80bf-683b7e804443",
+          "text": "uygulamadan sÃ¼rekli Birlikte YaparÄ±z diye bildirim geliyor. saat baÅŸÄ± ve bazen Ã¼st Ã¼ste. birkaÃ§ gÃ¼ndÃ¼r devam ediyor. Ã§ok rahatsÄ±z edici. bunu dÃ¼zeltin lÃ¼tfen. uygulamanÄ±n bildirimlerini kapatmak istem",
+          "author": "Melike AÃ§ari",
+          "rating": 1,
+          "timestamp": "2026-01-04T05:53:26.878Z",
+          "category": "notification",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-fbdd64b3-e378-410a-91ba-d22c244dbb74",
+          "text": "2 gÃ¼ndÃ¼r abartÄ±sÄ±z en az 100 kere \"birlikte yaparÄ±z\" diye bildirim alÄ±yorum. Galiba artÄ±k uygulamayÄ± sileceÄŸim ve baÅŸaramayacaÄŸÄ±z.",
+          "author": "BarÄ±ÅŸ Ulusoy",
+          "rating": 1,
+          "timestamp": "2026-01-09T07:16:42.153Z",
+          "category": "notification",
           "channel": "android_store",
           "sentiment": "negative"
         }
       ]
     },
     {
-      "id": "social-issue-1",
-      "title": "Bir TÃ¼rk borsa da olalÄ±m da saÄŸdan sola atmayla uÄŸ",
-      "channel": "twitter",
+      "id": "issue-login",
+      "title": "telefonuma format attÄ±m mobil uygulamayÄ± yÃ¼kledim ",
+      "channel": "android_store",
       "version": "N/A",
-      "category": "feature",
-      "impact": "DÃ¼ÅŸÃ¼k",
-      "status": "Ä°zleniyor",
-      "duration": "<1 gÃ¼n",
-      "commentCount": 1,
+      "category": "login",
+      "impact": "Kritik",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 10,
       "comments": [
         {
-          "id": "tw-1",
-          "text": "Bir TÃ¼rk borsa da olalÄ±m da saÄŸdan sola atmayla uÄŸraÅŸmayalÄ±m baÅŸkan yada garanti BBVA kripto olsun",
-          "channel": "twitter",
-          "category": "feature",
-          "timestamp": "2026-02-03T18:59:29.207Z",
-          "sentiment": "neutral",
-          "author": "@mhmtvtr"
+          "id": "android-57cec51d-71bf-40f6-aeee-923840bb1112",
+          "text": "telefonuma format attÄ±m mobil uygulamayÄ± yÃ¼kledim ama giriÅŸ yap ekranÄ±nda beyaz ekran hatasÄ± veriyor giriÅŸ yap kÄ±smÄ± hiÃ§ aÃ§Ä±lmÄ±yor bonus flaÅŸ tekrar yÃ¼kledim sorunsuz aÃ§Ä±ldÄ± Ã§alÄ±ÅŸÄ±yor ama mobil bankac",
+          "author": "EYÃœP KARAAÄAÃ‡",
+          "rating": 1,
+          "timestamp": "2026-01-26T16:58:57.366Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-acee6127-060e-4142-ada4-283fca075cf4",
+          "text": "uygulama kullanÄ±m kolaylÄ±ÄŸÄ± sunuyor ancak ÅŸifre yenilemek istiyorum ve uygulama sÃ¼rekli hata veriyor. baÅŸka telefon denedim ve yine olmuyor. uygulama da sorun var",
+          "author": "Hayrettin Keles",
+          "rating": 2,
+          "timestamp": "2026-01-27T19:15:16.386Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-7aba83cb-bbdf-44df-b727-f4e1709a2b7c",
+          "text": "mobil ÅŸifremi unuttum, kartÄ±m yok yeni kimlik kartÄ± ile parola ala girdiÄŸimde kimliÄŸimi okuduÄŸu halde okunamadÄ± emsalinden hatalar veriyor , birkaÃ§ telefondan daha denedim olmuyor hata veriyor bence d",
+          "author": "Ä°brahim ErmeÃ§",
+          "rating": 1,
+          "timestamp": "2026-01-30T12:30:40.810Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-e624bc31-d73d-41c9-a643-19ff8240ceed",
+          "text": "Cep ÅŸubesi uygulamasÄ±na telefonuma atÄ±lan format sonrasÄ± tekrar uygulamayÄ± yÃ¼klediÄŸimde yÄ±llardÄ±r mÃ¼ÅŸterisi olmama raÄŸmen giriÅŸ yapamÄ±yorum lÃ¼tfen destek saÄŸlar mÄ±sÄ±n ?",
+          "author": "Selin Åen",
+          "rating": 1,
+          "timestamp": "2026-01-23T21:41:20.283Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-eaea12ba-c5a6-4007-992b-6a429bc418a5",
+          "text": "1-Ã–nceden yaklaÅŸan para akÄ±ÅŸÄ± bilgisini gÃ¶sterirdi. Oysa ÅŸimdi, 10 gÃ¼n sonra kayÄ±tlÄ± ve sabit Ã¶demeler olduÄŸu halde \"yaklaÅŸan Ã¶deme yok\" diyor. Bu hata aylardÄ±r devam ediyor. 2-Telefon numaram kayÄ±tlÄ±",
+          "author": "TunÃ§ IÅŸÄ±n",
+          "rating": 2,
+          "timestamp": "2025-12-27T10:06:13.980Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-84cf8c61-b57c-48ea-ac7b-1c70a73b104c",
+          "text": "KaÃ§ gÃ¼ndÃ¼r mobil uygulamaya giriÅŸ yapamÄ±yorum. Bonus flasha girebiliyorum ama. Bu ne saÃ§malÄ±ktÄ±r. MÃ¼steri iletisim merkezinde sesli ananso mobile giriÅŸ yapamÄ±yorum diyorum, Ã§Ã¶zÃ¼m saglayabilmek iÃ§in mo",
+          "author": "ErtuÄŸrul BICAKCI",
+          "rating": 1,
+          "timestamp": "2025-12-28T08:59:48.759Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d239503f-f60e-4e77-90d3-2bdb272327fb",
+          "text": "uygulama da sÄ±kÄ±ntÄ± var her gÃ¼n giriÅŸ yaparken ÅŸu anda hizmet veremiyoruz yanÄ±tÄ±nÄ± alÄ±yorum siliyorum tekrar yÃ¼klÃ¼yorum sonra dÃ¼zeliyor. Bu problemi bir an Ã¶nce Ã§Ã¶zÃ¼n lÃ¼tfen",
+          "author": "TuÄŸÃ§e KurtulmuÅŸ",
+          "rating": 1,
+          "timestamp": "2026-01-28T09:38:07.545Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-c0b56814-f673-4f5a-bd3d-975a13de4894",
+          "text": "hesabÄ±ma giriÅŸ yapamÄ±yorum haftalardÄ±r. yardÄ±m merkezi de hata veriyor. Ã§ok fazla maÄŸdur oldum. ilk fÄ±rsatta bÃ¼tÃ¼n iliÅŸiÄŸimi keseceÄŸim artÄ±k. kesinlikle tavsiye etmiyorum. zaten uygulam aÅŸÄ±rÄ± yavaÅŸtÄ± ",
+          "author": "Hasan Ã‡ELÄ°K",
+          "rating": 1,
+          "timestamp": "2026-01-30T20:43:27.524Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-0b1a6261-305b-4770-b987-8d1277d3e3d4",
+          "text": "yeni telefona yÃ¼kledim ama giriÅŸ ekranÄ± boÅŸ. herhangi bir giriÅŸ butonu yada bilgi giriÅŸi satÄ±rÄ± yok",
+          "author": "Emine",
+          "rating": 2,
+          "timestamp": "2026-01-31T20:18:16.395Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-96d15972-0945-4557-bbd3-3ab65b4abe3c",
+          "text": "HiÃ§bir iÅŸe yaramaz iphone 8 model telefonumda uygulamayÄ± aÃ§amÄ±yorum beyaz ekran hatasÄ± veriyor hiÃ§bir ÅŸekilde giriÅŸ yapamÄ±yorum cihaz iÃ§in uyumludur diyor sÃ¼rÃ¼mÃ¼ uyumludur diyor ama beyaz ekran hatasÄ±",
+          "author": "ZEKÄ°EMRE",
+          "rating": 1,
+          "timestamp": "2026-01-20T07:14:11.666Z",
+          "category": "login",
+          "channel": "android_store",
+          "sentiment": "negative"
         }
       ]
     },
     {
-      "id": "social-issue-2",
-      "title": "Garanti BBVA shows what happens when GenAI is desi",
-      "channel": "linkedin",
+      "id": "issue-investment",
+      "title": "Bu nasÄ±l uygulama redmi note 11 pro 5g kullanÄ±yoru",
+      "channel": "android_store",
       "version": "N/A",
-      "category": "feature",
-      "impact": "DÃ¼ÅŸÃ¼k",
-      "status": "Ä°zleniyor",
-      "duration": "<1 gÃ¼n",
-      "commentCount": 1,
+      "category": "investment",
+      "impact": "Orta",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 2,
       "comments": [
         {
-          "id": "li-5",
-          "text": "Garanti BBVA shows what happens when GenAI is designed into mobile banking. AI-powered personalized recommendations and financing suggestions.",
-          "channel": "linkedin",
-          "category": "feature",
-          "timestamp": "2026-01-20T19:59:29.208Z",
-          "sentiment": "positive",
-          "author": "GenAI Gazette"
+          "id": "android-b557e5c4-943a-4a24-83b5-c83df2568857",
+          "text": "Bu nasÄ±l uygulama redmi note 11 pro 5g kullanÄ±yorum uygulama sÃ¼rekli beyaz ekran dÃ¼ÅŸÃ¼yor silip yÃ¼klÃ¼yoruz hep aynÄ± iÅŸlem birde yatÄ±rÄ±m hesabÄ±na geÃ§iyorum dÃ¶n babam dÃ¶n bu ne biÃ§im bir iÅŸ",
+          "author": "DOÄAN TÃœRKOÄLU",
+          "rating": 1,
+          "timestamp": "2026-01-29T17:44:41.716Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-3a9e8e95-aa03-4bb8-915f-9ad38dc93ba3",
+          "text": "son zamanlarda Garanti bbva Mobil yatÄ±rÄ±m portfÃ¶y hisse senedi alÄ±m satÄ±m ekranÄ± donuyor evet Ã§ok yavaÅŸladÄ± bu konuya bir el atarsanÄ±z sevinirim",
+          "author": "KAMÄ°L KAMÄ°L",
+          "rating": 1,
+          "timestamp": "2026-01-06T05:05:10.248Z",
+          "category": "investment",
+          "channel": "android_store",
+          "sentiment": "negative"
         }
       ]
     },
     {
-      "id": "social-issue-3",
-      "title": "Garanti BBVA Turkey's leading bank: 95 million eve",
-      "channel": "linkedin",
+      "id": "issue-loan",
+      "title": "uygulamaya giremiyorum 1 haftadÄ±r ' iÅŸleminizi ger",
+      "channel": "android_store",
       "version": "N/A",
-      "category": "feature",
-      "impact": "DÃ¼ÅŸÃ¼k",
-      "status": "Ä°zleniyor",
-      "duration": "<1 gÃ¼n",
-      "commentCount": 1,
+      "category": "loan",
+      "impact": "Yuksek",
+      "status": "Devam ediyor",
+      "duration": "1+ gun",
+      "commentCount": 3,
       "comments": [
         {
-          "id": "li-6",
-          "text": "Garanti BBVA Turkey's leading bank: 95 million events processed daily, 124 active scenarios delivering hyper-personalized experiences",
-          "channel": "linkedin",
-          "category": "feature",
-          "timestamp": "2026-02-03T13:59:29.208Z",
-          "sentiment": "positive",
-          "author": "Doruk Tort"
+          "id": "android-b52abaf9-d5d6-4cb4-aeae-6e3db45efe31",
+          "text": "uygulamaya giremiyorum 1 haftadÄ±r ' iÅŸleminizi gerÃ§ekleÅŸtiremiyoruz , lÃ¼tfen daha sonra tekrar deneyin' uyarÄ±sÄ± alÄ±yorum",
+          "author": "Melisa Yavas",
+          "rating": 2,
+          "timestamp": "2026-01-25T16:49:57.673Z",
+          "category": "loan",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-a14ce7f3-dd24-47c3-a4b3-eff410dec0c9",
+          "text": "hesab aÃ§tÄ±ÄŸÄ±m ÅŸube dÄ±ÅŸÄ±nda bankamatik den para Ã§ekiyorum ve bunun iÃ§in hizmet bedeli kesiliyor. dÃ¼nyanÄ±n hiÃ§ bir yerinde yok bu uygulama sonuÃ§ta baÅŸka bir bankadan deÄŸil garantiyi kullanÄ±yorum. bÃ¶yle ",
+          "author": "Emre Karakaya",
+          "rating": 1,
+          "timestamp": "2025-12-26T07:41:18.272Z",
+          "category": "loan",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-f05985c1-ed8d-42fe-850d-d02ea657da5c",
+          "text": "Kredi Ã§ekmek iÃ§in uygulamaya girdim yÄ±lbaÅŸÄ±ndan 1 gÃ¼n Ã¶nce 3 oranda kredi verirken ÅŸimdi 7.50 oranlarÄ±nda veriyor bu ne saÃ§malÄ±k. bu dÃ¼pedÃ¼z adam dolandÄ±rmak. 8 gÃ¼nde bu kadar yÃ¼ksek oranda kredi verm",
+          "author": "Onur Topkara",
+          "rating": 1,
+          "timestamp": "2026-01-09T20:15:15.401Z",
+          "category": "loan",
+          "channel": "android_store",
+          "sentiment": "negative"
         }
       ]
     }

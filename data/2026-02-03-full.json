@@ -2,16 +2,16 @@
   "date": "2026-02-03",
   "channels": {
     "twitter": {
-      "status": "error",
-      "lastFetch": "2026-02-03T19:52:33.027Z",
-      "mentionCount": 0,
-      "error": "Browser extension baÄŸlÄ± deÄŸil"
+      "status": "ok",
+      "lastFetch": "2026-02-03T19:59:29.208Z",
+      "mentionCount": 4,
+      "error": null
     },
     "linkedin": {
-      "status": "error",
-      "lastFetch": "2026-02-03T19:52:33.027Z",
-      "mentionCount": 0,
-      "error": "Browser extension baÄŸlÄ± deÄŸil"
+      "status": "ok",
+      "lastFetch": "2026-02-03T19:59:29.208Z",
+      "mentionCount": 6,
+      "error": null
     },
     "ios_store": {
       "status": "ok",
@@ -27,7 +27,7 @@
     }
   },
   "summary": {
-    "totalMentions": 100,
+    "totalMentions": 110,
     "criticalIssues": 2,
     "storeRating": 3.5,
     "avgResponseTime": "N/A"
@@ -76,7 +76,7 @@
       0,
       0,
       1,
-      0
+      3
     ],
     "other": [
       0,
@@ -85,7 +85,7 @@
       0,
       0,
       33,
-      0
+      7
     ]
   },
   "days": [
@@ -214,6 +214,72 @@
           "category": "performance",
           "channel": "android_store",
           "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "social-issue-1",
+      "title": "Bir TÃ¼rk borsa da olalÄ±m da saÄŸdan sola atmayla uÄŸ",
+      "channel": "twitter",
+      "version": "N/A",
+      "category": "feature",
+      "impact": "DÃ¼ÅŸÃ¼k",
+      "status": "Ä°zleniyor",
+      "duration": "<1 gÃ¼n",
+      "commentCount": 1,
+      "comments": [
+        {
+          "id": "tw-1",
+          "text": "Bir TÃ¼rk borsa da olalÄ±m da saÄŸdan sola atmayla uÄŸraÅŸmayalÄ±m baÅŸkan yada garanti BBVA kripto olsun",
+          "channel": "twitter",
+          "category": "feature",
+          "timestamp": "2026-02-03T18:59:29.207Z",
+          "sentiment": "neutral",
+          "author": "@mhmtvtr"
+        }
+      ]
+    },
+    {
+      "id": "social-issue-2",
+      "title": "Garanti BBVA shows what happens when GenAI is desi",
+      "channel": "linkedin",
+      "version": "N/A",
+      "category": "feature",
+      "impact": "DÃ¼ÅŸÃ¼k",
+      "status": "Ä°zleniyor",
+      "duration": "<1 gÃ¼n",
+      "commentCount": 1,
+      "comments": [
+        {
+          "id": "li-5",
+          "text": "Garanti BBVA shows what happens when GenAI is designed into mobile banking. AI-powered personalized recommendations and financing suggestions.",
+          "channel": "linkedin",
+          "category": "feature",
+          "timestamp": "2026-01-20T19:59:29.208Z",
+          "sentiment": "positive",
+          "author": "GenAI Gazette"
+        }
+      ]
+    },
+    {
+      "id": "social-issue-3",
+      "title": "Garanti BBVA Turkey's leading bank: 95 million eve",
+      "channel": "linkedin",
+      "version": "N/A",
+      "category": "feature",
+      "impact": "DÃ¼ÅŸÃ¼k",
+      "status": "Ä°zleniyor",
+      "duration": "<1 gÃ¼n",
+      "commentCount": 1,
+      "comments": [
+        {
+          "id": "li-6",
+          "text": "Garanti BBVA Turkey's leading bank: 95 million events processed daily, 124 active scenarios delivering hyper-personalized experiences",
+          "channel": "linkedin",
+          "category": "feature",
+          "timestamp": "2026-02-03T13:59:29.208Z",
+          "sentiment": "positive",
+          "author": "Doruk Tort"
         }
       ]
     }

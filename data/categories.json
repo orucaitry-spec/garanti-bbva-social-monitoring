@@ -1,6 +1,12 @@
 {
   "categories": [
     {
+      "id": "app_update",
+      "name": "Güncelleme Sorunu",
+      "color": "#8e44ad",
+      "keywords": ["güncelleme", "guncelleme", "yeni sürüm", "yeni surum", "yeni versiyon", "son güncelleme", "son guncelleme", "güncelledim", "guncelledim", "yeni güncelleme", "update", "eski hali", "eski halinde", "eski versiyona", "önceki versiyon", "önceki sürüm"]
+    },
+    {
       "id": "app_crash",
       "name": "Uygulama Açılmıyor",
       "color": "#c0392b",

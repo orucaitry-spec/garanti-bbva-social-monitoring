@@ -16,13 +16,13 @@
       "id": "fee",
       "name": "İşlem Ücreti",
       "color": "#e67e22",
-      "keywords": ["eft ücreti", "havale ücreti", "işlem ücreti", "masraf", "komisyon", "ücret kesiyor", "kesinti", "aidat", "hesap işletim ücreti", "maaş hesabı ücret", "ücretsiz olmalı"]
+      "keywords": ["eft ücreti", "havale ücreti", "işlem ücreti", "masraf", "komisyon", "ücret kesiyor", "kesinti", "aidat", "hesap işletim ücreti", "maaş hesabı ücret", "ücretsiz olmalı", "17 tl", "10 tl", "kazık", "çok pahalı", "para transfer ücret", "ödedim"]
     },
     {
       "id": "transfer",
       "name": "Para Transferi",
       "color": "#f39c12",
-      "keywords": ["havale", "eft", "virman", "transfer", "gönder", "gonder", "para yolla", "fast", "instant", "hızlı transfer", "hizli transfer", "para gönderme", "aktarım"]
+      "keywords": ["havale yapamıyorum", "eft yapamıyorum", "virman", "para gönderme sorunu", "gönder", "gonder", "para yolla", "fast", "instant", "hızlı transfer", "hizli transfer", "aktarım sorunu"]
     },
     {
       "id": "payment",
@@ -34,7 +34,7 @@
       "id": "card",
       "name": "Kart İşlemleri",
       "color": "#3498db",
-      "keywords": ["kart", "kredi kartı", "kredi karti", "banka kartı", "banka karti", "bonus", "paracard", "kart ekle", "kart sil", "kart limiti", "ekstre", "taksit seçeneği"]
+      "keywords": ["sanal kart", "kredi kartı", "kredi karti", "banka kartı", "banka karti", "bonus", "paracard", "kart ekle", "kart sil", "kart limiti", "ekstre", "taksit", "kart aidat", "miles and smiles", "thy kart"]
     },
     {
       "id": "loan",

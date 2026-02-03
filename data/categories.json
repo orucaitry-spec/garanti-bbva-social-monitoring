@@ -1,54 +1,25 @@
 {
-  "version": "1.0",
-  "lastUpdated": "2026-02-03T21:15:00+03:00",
+  "version": "2.0",
   "categories": [
-    {
-      "id": "login",
-      "name": "Giris Sorunlari",
-      "color": "#e74c3c",
-      "keywords": ["giris", "sifre", "faceid", "touchid", "otp", "dogrulama"],
-      "priority": "high"
-    },
-    {
-      "id": "performance",
-      "name": "Performans",
-      "color": "#f39c12",
-      "keywords": ["yavas", "donma", "crash", "kapaniyor", "acilmiyor"],
-      "priority": "high"
-    },
-    {
-      "id": "payment",
-      "name": "Odeme",
-      "color": "#e67e22",
-      "keywords": ["odeme", "havale", "eft", "virman", "transfer", "kart"],
-      "priority": "medium"
-    },
-    {
-      "id": "ui",
-      "name": "Arayuz",
-      "color": "#3498db",
-      "keywords": ["tasarim", "buton", "menu", "gorunum", "arayuz"],
-      "priority": "low"
-    },
-    {
-      "id": "feature",
-      "name": "Ozellik Talebi",
-      "color": "#9b59b6",
-      "keywords": ["istiyorum", "eklensin", "olsa", "iyi olur"],
-      "priority": "low"
-    },
-    {
-      "id": "other",
-      "name": "Diger",
-      "color": "#95a5a6",
-      "keywords": [],
-      "priority": "low"
-    }
-  ],
-  "feedbackSettings": {
-    "gistUsername": "orucaitry-spec",
-    "gistDescription": "Garanti BBVA Social Media Feedback",
-    "autoMergeEnabled": false,
-    "requireManualReview": true
-  }
+    { "id": "login", "name": "GiriÅŸ & Kimlik", "color": "#e74c3c", "keywords": ["giris", "giriÅŸ", "ÅŸifre", "sifre", "faceid", "face id", "touchid", "touch id", "parmak izi", "otp", "sms kodu", "doÄŸrulama", "dogrulama", "kimlik", "giriÅŸ yapamÄ±yorum", "sifreyi unuttum", "biyometrik"] },
+    { "id": "transfer", "name": "Para Transferi", "color": "#3498db", "keywords": ["havale", "eft", "virman", "transfer", "gÃ¶nder", "gonder", "para yolla", "fast", "instant", "hÄ±zlÄ± transfer", "hizli transfer"] },
+    { "id": "payment", "name": "Fatura & Ã–deme", "color": "#9b59b6", "keywords": ["fatura", "Ã¶deme", "odeme", "elektrik", "su", "dogalgaz", "doÄŸalgaz", "telefon", "internet", "Ã¶deme yap", "odeme yap", "borcum"] },
+    { "id": "card", "name": "Kart Ä°ÅŸlemleri", "color": "#e67e22", "keywords": ["kart", "kredi kartÄ±", "kredi karti", "banka kartÄ±", "banka karti", "bonus", "paracard", "kart ekle", "kart sil", "kart limiti", "taksit", "ekstreyi", "ekstre"] },
+    { "id": "loan", "name": "Kredi & Limit", "color": "#1abc9c", "keywords": ["kredi", "limit", "avans", "Ã§ek", "cek", "kredim", "Ã¶dÃ¼nÃ§", "odunc", "nakit", "borÃ§", "borc", "taksit", "ihtiyaÃ§ kredisi", "ihtiyac kredisi", "kredi baÅŸvurusu", "kredi basvurusu"] },
+    { "id": "investment", "name": "YatÄ±rÄ±m & Borsa", "color": "#f39c12", "keywords": ["hisse", "borsa", "fon", "yatÄ±rÄ±m", "yatirim", "dÃ¶viz", "doviz", "altÄ±n", "altin", "euro", "dolar", "kripto", "bitcoin", "ethereum", "etrader"] },
+    { "id": "account", "name": "Hesap YÃ¶netimi", "color": "#34495e", "keywords": ["hesap", "bakiye", "hesabÄ±m", "hesabim", "mevduat", "vadeli", "vadesiz", "iban", "hesap aÃ§ma", "hesap acma", "hesap kapatma"] },
+    { "id": "notification", "name": "Bildirim & SMS", "color": "#95a5a6", "keywords": ["bildirim", "sms", "mesaj", "uyarÄ±", "uyari", "push", "notification", "e-posta", "mail"] },
+    { "id": "atm", "name": "ATM & Åube", "color": "#16a085", "keywords": ["atm", "ÅŸube", "sube", "para Ã§ek", "para cek", "yatÄ±rma", "yatirma", "bankamatik", "ÅŸubemi", "subemi", "qr kod", "qr ile"] },
+    { "id": "insurance", "name": "Sigorta", "color": "#8e44ad", "keywords": ["sigorta", "poliÃ§e", "police", "trafik sigortasÄ±", "trafik sigortasi", "kasko", "dask", "saÄŸlÄ±k sigortasÄ±", "saglik sigortasi", "seyahat sigortasÄ±", "seyahat sigortasi"] },
+    { "id": "pension", "name": "Emeklilik", "color": "#2c3e50", "keywords": ["emeklilik", "bes", "digibes", "bireysel emeklilik", "katkÄ±", "katki", "birikim"] },
+    { "id": "hgs", "name": "HGS & OGS", "color": "#27ae60", "keywords": ["hgs", "ogs", "kÃ¶prÃ¼", "kopru", "otoyol", "geÃ§iÅŸ", "gecis", "yÃ¼kleme"] },
+    { "id": "bill", "name": "MTV & Vergi", "color": "#d35400", "keywords": ["mtv", "motorlu taÅŸÄ±t", "motorlu tasit", "vergi", "sgk", "sgk prim", "trafik cezasÄ±", "trafik cezasi"] },
+    { "id": "appointment", "name": "Randevu", "color": "#c0392b", "keywords": ["randevu", "gÃ¶rÃ¼ÅŸme", "gorusme", "sÄ±ra", "sira", "ÅŸube randevusu", "sube randevusu"] },
+    { "id": "customer_service", "name": "MÃ¼ÅŸteri Hizmetleri", "color": "#7f8c8d", "keywords": ["mÃ¼ÅŸteri", "musteri", "destek", "yardÄ±m", "yardim", "call center", "444", "ÅŸikayet", "sikayet", "talep", "danÄ±ÅŸman", "danisman"] },
+    { "id": "security", "name": "GÃ¼venlik", "color": "#e74c3c", "keywords": ["gÃ¼venlik", "guvenlik", "dolandÄ±rÄ±cÄ±lÄ±k", "dolandiricilik", "fraud", "sahte", "phishing", "gÃ¼venli", "guvenli", "Ã§alÄ±ndÄ±", "calindi", "hack", "ÅŸÃ¼pheli", "supheli"] },
+    { "id": "performance", "name": "Performans", "color": "#c0392b", "keywords": ["yavaÅŸ", "yavas", "donma", "donuyor", "crash", "kapanÄ±yor", "kapaniyor", "aÃ§Ä±lmÄ±yor", "acilmiyor", "takÄ±lÄ±", "takili", "hata", "bug", "Ã§Ã¶kme", "cokme", "kasma"] },
+    { "id": "ui", "name": "TasarÄ±m & ArayÃ¼z", "color": "#3498db", "keywords": ["tasarÄ±m", "tasarim", "buton", "menÃ¼", "menu", "gÃ¶rÃ¼nÃ¼m", "gorunum", "arayÃ¼z", "arayuz", "renk", "tema", "font", "yazÄ± boyutu", "yazi boyutu"] },
+    { "id": "feature", "name": "Ã–zellik Talebi", "color": "#2ecc71", "keywords": ["istiyorum", "eklensin", "olsa", "iyi olur", "Ã¶zellik", "ozellik", "olmalÄ±", "olmali", "yapÄ±lsa", "yapilsa", "gelmeli", "lazÄ±m", "lazim"] },
+    { "id": "other", "name": "DiÄŸer", "color": "#95a5a6", "keywords": [] }
+  ]
 }

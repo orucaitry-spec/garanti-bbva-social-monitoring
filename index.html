@@ -194,19 +194,20 @@
 
         .heatmap-grid {
             display: grid;
-            grid-template-columns: 100px repeat(7, 1fr);
-            gap: 2px;
-            min-width: 450px;
-            font-size: 0.85em;
+            grid-template-columns: 100px repeat(7, 24px);
+            gap: 1px;
+            min-width: 300px;
+            font-size: 0.75em;
         }
 
         .heatmap-label {
             display: flex;
             align-items: center;
-            padding: 4px 6px;
+            justify-content: flex-end;
+            padding: 2px 6px;
             font-weight: 600;
             color: #666;
-            font-size: 0.75em;
+            font-size: 0.7em;
             cursor: pointer;
             transition: all 0.2s;
         }
@@ -218,25 +219,25 @@
 
         .heatmap-day {
             text-align: center;
-            padding: 8px;
-            font-size: 0.8em;
+            padding: 2px;
+            font-size: 0.65em;
             color: #999;
             font-weight: 600;
         }
 
         .heatmap-cell {
-            aspect-ratio: 1;
-            border-radius: 4px;
+            width: 24px;
+            height: 24px;
+            border-radius: 3px;
             cursor: pointer;
             transition: all 0.2s;
             position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.65em;
+            font-size: 0.6em;
             font-weight: bold;
             color: white;
-            min-height: 28px;
         }
 
         .heatmap-cell:hover {
@@ -802,20 +803,41 @@
                 grid.appendChild(dayLabel);
             });
 
+            // Calculate total count per category for sorting
+            const categoryCounts = {};
             Object.entries(report.heatmap).forEach(([catId, values]) => {
+                categoryCounts[catId] = values.reduce((sum, val) => sum + val, 0);
+            });
+
+            // Sort categories by total count (descending)
+            const sortedCategories = Object.entries(report.heatmap)
+                .sort(([catIdA], [catIdB]) => {
+                    return categoryCounts[catIdB] - categoryCounts[catIdA];
+                })
+                .filter(([catId]) => categoryCounts[catId] > 0); // Only show non-zero
+
+            sortedCategories.forEach(([catId, values]) => {
                 const cat = categories.categories.find(c => c.id === catId);
+                
+                // Calculate trend (today vs yesterday)
+                const today = values[6];
+                const yesterday = values[5];
+                const trend = today - yesterday;
+                const trendIcon = trend > 0 ? '↑' : trend < 0 ? '↓' : '→';
+                const trendColor = trend > 0 ? '#e74c3c' : trend < 0 ? '#27ae60' : '#95a5a6';
+                
                 const catLabel = document.createElement('div');
                 catLabel.className = 'heatmap-label';
-                catLabel.textContent = cat ? cat.name : catId;
+                catLabel.innerHTML = `${cat ? cat.name : catId} <span style="color:${trendColor};font-size:0.9em;margin-left:4px;">${trendIcon}${Math.abs(trend)}</span>`;
                 catLabel.style.color = cat ? cat.color : '#666';
                 catLabel.onclick = () => openCategoryFeedback(catId, cat ? cat.name : catId);
-                catLabel.title = 'Kategori hakkinda geri bildirim gonder';
+                catLabel.title = `Toplam: ${categoryCounts[catId]} | Trend: ${trend >= 0 ? '+' : ''}${trend}`;
                 grid.appendChild(catLabel);
 
                 values.forEach((count, dayIdx) => {
                     const cell = document.createElement('div');
                     cell.className = 'heatmap-cell';
-                    const intensity = count === 0 ? 0 : count <= 2 ? 1 : count <= 4 ? 2 : count <= 7 ? 3 : 4;
+                    const intensity = count === 0 ? 0 : count <= 2 ? 1 : count <= 5 ? 2 : count <= 10 ? 3 : 4;
                     cell.dataset.intensity = intensity;
                     cell.dataset.category = catId;
                     cell.dataset.day = report.days[dayIdx];
@@ -998,7 +1020,7 @@
                 });
                 
                 if (!getResponse.ok) {
-                    throw new Error('Token yetkisi yetersiz - lÃ¼tfen gist scope ekleyin');
+                    throw new Error('Token yetkisi yetersiz - lütfen gist scope ekleyin');
                 }
                 
                 const gistData = await getResponse.json();

@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-02-03T21:15:00+03:00",
+  "categories": [
+    {
+      "id": "login",
+      "name": "Giris Sorunlari",
+      "color": "#e74c3c",
+      "keywords": ["giris", "sifre", "faceid", "touchid", "otp", "dogrulama"],
+      "priority": "high"
+    },
+    {
+      "id": "performance",
+      "name": "Performans",
+      "color": "#f39c12",
+      "keywords": ["yavas", "donma", "crash", "kapaniyor", "acilmiyor"],
+      "priority": "high"
+    },
+    {
+      "id": "payment",
+      "name": "Odeme",
+      "color": "#e67e22",
+      "keywords": ["odeme", "havale", "eft", "virman", "transfer", "kart"],
+      "priority": "medium"
+    },
+    {
+      "id": "ui",
+      "name": "Arayuz",
+      "color": "#3498db",
+      "keywords": ["tasarim", "buton", "menu", "gorunum", "arayuz"],
+      "priority": "low"
+    },
+    {
+      "id": "feature",
+      "name": "Ozellik Talebi",
+      "color": "#9b59b6",
+      "keywords": ["istiyorum", "eklensin", "olsa", "iyi olur"],
+      "priority": "low"
+    },
+    {
+      "id": "other",
+      "name": "Diger",
+      "color": "#95a5a6",
+      "keywords": [],
+      "priority": "low"
+    }
+  ],
+  "feedbackSettings": {
+    "gistUsername": "orucaitry-spec",
+    "gistDescription": "Garanti BBVA Social Media Feedback",
+    "autoMergeEnabled": false,
+    "requireManualReview": true
+  }
+}

@@ -665,6 +665,7 @@
     <script>
         const DATA_BASE_URL = 'https://raw.githubusercontent.com/orucaitry-spec/garanti-bbva-social-monitoring/main/data/';
         const GIST_API_URL = 'https://api.github.com/gists';
+        const FEEDBACK_GIST_ID = 'f6b7a3a37b06b401ba06c240cecd2d09';
         
         let currentReport = null;
         let categories = null;
@@ -959,9 +960,9 @@
             e.preventDefault();
             
             if (!userToken) {
-                userToken = prompt('GitHub token giriniz (feedback gondermek icin):');
-                if (!userToken) {
-                    alert('Token gerekli!');
+                userToken = prompt('GitHub token giriniz (geri bildirim icin - read:user ve gist scope gerekli):\n\nToken olusturmak icin: https://github.com/settings/tokens');
+                if (!userToken || userToken.length < 20) {
+                    alert('Gecerli bir token gerekli!');
                     return;
                 }
             }
@@ -986,18 +987,32 @@
                 submitBtn.disabled = true;
                 submitBtn.textContent = 'Gonderiliyor...';
 
-                const response = await fetch(GIST_API_URL, {
-                    method: 'POST',
+                // Read current gist
+                const getResponse = await fetch(`${GIST_API_URL}/${FEEDBACK_GIST_ID}`, {
+                    headers: {
+                        'Authorization': `token ${userToken}`
+                    }
+                });
+                
+                if (!getResponse.ok) {
+                    throw new Error('Token yetkisi yetersiz veya gist erisim hatasi');
+                }
+                
+                const gistData = await getResponse.json();
+                const currentContent = JSON.parse(gistData.files['feedback.json'].content);
+                currentContent.feedbacks.push(feedback);
+
+                // Update gist
+                const response = await fetch(`${GIST_API_URL}/${FEEDBACK_GIST_ID}`, {
+                    method: 'PATCH',
                     headers: {
                         'Authorization': `token ${userToken}`,
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        description: 'Garanti BBVA Social Media Feedback',
-                        public: false,
                         files: {
-                            [`feedback-${Date.now()}.json`]: {
-                                content: JSON.stringify(feedback, null, 2)
+                            'feedback.json': {
+                                content: JSON.stringify(currentContent, null, 2)
                             }
                         }
                     })

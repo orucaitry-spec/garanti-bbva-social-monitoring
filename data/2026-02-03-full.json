@@ -34,27 +34,27 @@
   },
   "heatmap": {
     "login": [
-      1,
+      0,
+      0,
+      0,
+      0,
       0,
       1,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "fee": [
-      1,
-      2,
       0,
-      2,
-      1,
-      1,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "transfer": [
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -62,12 +62,12 @@
     ],
     "payment": [
       0,
-      0,
+      1,
       0,
       1,
       1,
       0,
-      1
+      0
     ],
     "card": [
       0,
@@ -75,8 +75,8 @@
       1,
       0,
       0,
-      1,
-      1
+      0,
+      0
     ],
     "loan": [
       0,
@@ -91,7 +91,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0
@@ -107,7 +107,7 @@
     ],
     "notification": [
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -115,22 +115,22 @@
       0
     ],
     "branch_staff": [
-      1,
       0,
       1,
       0,
       0,
+      1,
       0,
-      2
+      0
     ],
     "atm": [
-      1,
       0,
       0,
-      1,
       0,
       0,
-      1
+      0,
+      0,
+      0
     ],
     "insurance": [
       0,
@@ -181,10 +181,10 @@
       0,
       0,
       0,
-      1,
       0,
       0,
-      1
+      0,
+      0
     ],
     "complaint": [
       0,
@@ -198,8 +198,8 @@
     "app_security": [
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0
@@ -210,7 +210,7 @@
       0,
       1,
       0,
-      1,
+      0,
       0
     ],
     "performance": [
@@ -224,10 +224,10 @@
     ],
     "battery": [
       0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
       0,
       0
     ],
@@ -235,8 +235,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0
     ],
@@ -259,22 +259,22 @@
       0
     ],
     "app_crash": [
+      0,
       1,
       1,
-      1,
-      4,
-      2,
-      1,
+      3,
+      0,
+      0,
       1
     ],
     "other": [
       0,
+      0,
+      0,
       2,
       0,
-      1,
-      1,
-      1,
-      1
+      0,
+      0
     ]
   },
   "days": [
@@ -288,15 +288,11 @@
   ],
   "issues": [
     {
-      "id": "issue-other",
-      "title": "GARANTİDEN ENGELLİYİM 12-13 sene once sabit bir sebeb goster",
+      "id": "issue-branch_staff",
+      "title": "branch_staff (2 yorum)",
       "channel": "ios_store",
-      "version": "N/A",
-      "category": "other",
-      "impact": "Kritik",
-      "status": "Devam ediyor",
-      "duration": "1+ gun",
-      "commentCount": 22,
+      "category": "branch_staff",
+      "commentCount": 2,
       "comments": [
         {
           "id": "ios-13700482212",
@@ -315,7 +311,16 @@
           "category": "branch_staff",
           "channel": "ios_store",
           "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-app_security",
+      "title": "app_security (1 yorum)",
+      "channel": "android_store",
+      "category": "app_security",
+      "commentCount": 1,
+      "comments": [
         {
           "id": "android-d3995ac5-3454-43d8-8213-9a7e91756ed2",
           "text": "cep telefonuyla ekran görüntüsü alamama sorununu ne zaman çözeceksiniz? Bu konu ciddi bir sorun olmaya başladı. Bu gerçekten bir güvenlik önlemi olsaydı laptoptan da ekran görüntüsü alamamamız gerekir",
@@ -325,7 +330,16 @@
           "category": "app_security",
           "channel": "android_store",
           "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-connection",
+      "title": "connection (1 yorum)",
+      "channel": "android_store",
+      "category": "connection",
+      "commentCount": 1,
+      "comments": [
         {
           "id": "android-72834ea8-b5a9-48a6-94c2-bea887f0df4d",
           "text": "internetim açık olduğu halde internet bağlantınız yok diye hata veriyor ekran görüntüsü alıp şikayet edeceğim ama ekran görüntüsü de alınamıyor maalesef insanları rezil etmekten başka birşeye yaramiyo",
@@ -335,7 +349,16 @@
           "category": "connection",
           "channel": "android_store",
           "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-payment",
+      "title": "payment (3 yorum)",
+      "channel": "android_store",
+      "category": "payment",
+      "commentCount": 3,
+      "comments": [
         {
           "id": "android-c3d4f313-b36a-4211-9f21-6f2f4972025e",
           "text": "Daha akbank kadar işlevsel bir mobil bankacılık görmedim. Garanti kadar da işlevsiz bir mobil bankacılık görmedim. Herhangi bir kredi kartı işlemi gercekleştıremiyorsunuz ne taksit seçeneği veriyor ne",
@@ -343,46 +366,6 @@
           "rating": 1,
           "timestamp": "2026-01-18T12:05:46.227Z",
           "category": "payment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-70385bc0-2eef-4217-91f9-35138ea26184",
-          "text": "Uygulama arayüzü kullanışsız. Öncelikle sanal kart, ana karta bağlı bir kart olmasına rağmen neden diğer bankalar gibi bu kartla yapılan harcamalarnormal ana kartın içinde gösterilmiyor. Kart borcumu ",
-          "author": "AHMET KURTOĞLU",
-          "rating": 1,
-          "timestamp": "2025-12-12T14:04:06.889Z",
-          "category": "card",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-48d2b13c-e347-4ecb-87ba-16000305c894",
-          "text": "telefonu xiaomi hyper os 3.0.2.0 sürümüne güncelledim, garanti uygulaması artık açılmıyor. acil düzeltilmesi gerekli",
-          "author": "Baybora Tuğrul",
-          "rating": 2,
-          "timestamp": "2026-01-30T15:48:31.652Z",
-          "category": "app_crash",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-2df749d7-c59f-467b-9e89-3586ce712e99",
-          "text": "Samsung S23 Ultra cihazımda aşırı pil kullanımı mevcut, %51 seviyelerinde kullanim var, şarjım yarim gün gitmiyor. çözüm ve yardım rica ederiz.",
-          "author": "Ömer ÖZTEMÜR",
-          "rating": 1,
-          "timestamp": "2026-01-29T19:50:08.160Z",
-          "category": "battery",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-083cc7ab-052d-4d6f-b163-acefb46ac548",
-          "text": "garanti bankasi emeklisi uygulamadan basvuru yapamiyor. boyle sacmalik olurmu bankada maasiniz bulunmamaktadir cikiyor. 25 yil garanti bankasida calisiyosun maasini garanti bankasindan aliyosun bankan",
-          "author": "Cihan Yenidünya",
-          "rating": 1,
-          "timestamp": "2026-01-16T06:02:54.521Z",
-          "category": "other",
           "channel": "android_store",
           "sentiment": "negative"
         },
@@ -397,6 +380,54 @@
           "sentiment": "negative"
         },
         {
+          "id": "android-eaea12ba-c5a6-4007-992b-6a429bc418a5",
+          "text": "1-Önceden yaklaşan para akışı bilgisini gösterirdi. Oysa şimdi, 10 gün sonra kayıtlı ve sabit ödemeler olduğu halde \"yaklaşan ödeme yok\" diyor. Bu hata aylardır devam ediyor. 2-Telefon numaram kayıtlı",
+          "author": "Tunç Işın",
+          "rating": 2,
+          "timestamp": "2025-12-27T10:06:13.980Z",
+          "category": "payment",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-card",
+      "title": "card (1 yorum)",
+      "channel": "android_store",
+      "category": "card",
+      "commentCount": 1,
+      "comments": [
+        {
+          "id": "android-70385bc0-2eef-4217-91f9-35138ea26184",
+          "text": "Uygulama arayüzü kullanışsız. Öncelikle sanal kart, ana karta bağlı bir kart olmasına rağmen neden diğer bankalar gibi bu kartla yapılan harcamalarnormal ana kartın içinde gösterilmiyor. Kart borcumu ",
+          "author": "AHMET KURTOĞLU",
+          "rating": 1,
+          "timestamp": "2025-12-12T14:04:06.889Z",
+          "category": "card",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-app_crash",
+      "title": "app_crash (6 yorum)",
+      "channel": "android_store",
+      "category": "app_crash",
+      "commentCount": 6,
+      "comments": [
+        {
+          "id": "android-48d2b13c-e347-4ecb-87ba-16000305c894",
+          "text": "telefonu xiaomi hyper os 3.0.2.0 sürümüne güncelledim, garanti uygulaması artık açılmıyor. acil düzeltilmesi gerekli",
+          "author": "Baybora Tuğrul",
+          "rating": 2,
+          "timestamp": "2026-01-30T15:48:31.652Z",
+          "category": "app_crash",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
           "id": "android-57cec51d-71bf-40f6-aeee-923840bb1112",
           "text": "telefonuma format attım mobil uygulamayı yükledim ama giriş yap ekranında beyaz ekran hatası veriyor giriş yap kısmı hiç açılmıyor bonus flaş tekrar yükledim sorunsuz açıldı çalışıyor ama mobil bankac",
           "author": "EYÜP KARAAĞAÇ",
@@ -406,6 +437,103 @@
           "channel": "android_store",
           "sentiment": "negative"
         },
+        {
+          "id": "android-e624bc31-d73d-41c9-a643-19ff8240ceed",
+          "text": "Cep şubesi uygulamasına telefonuma atılan format sonrası tekrar uygulamayı yüklediğimde yıllardır müşterisi olmama rağmen giriş yapamıyorum lütfen destek sağlar mısın ?",
+          "author": "Selin Şen",
+          "rating": 1,
+          "timestamp": "2026-01-23T21:41:20.283Z",
+          "category": "app_crash",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-84cf8c61-b57c-48ea-ac7b-1c70a73b104c",
+          "text": "Kaç gündür mobil uygulamaya giriş yapamıyorum. Bonus flasha girebiliyorum ama. Bu ne saçmalıktır. Müsteri iletisim merkezinde sesli ananso mobile giriş yapamıyorum diyorum, çözüm saglayabilmek için mo",
+          "author": "Ertuğrul BICAKCI",
+          "rating": 1,
+          "timestamp": "2025-12-28T08:59:48.759Z",
+          "category": "app_crash",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-c0b56814-f673-4f5a-bd3d-975a13de4894",
+          "text": "hesabıma giriş yapamıyorum haftalardır. yardım merkezi de hata veriyor. çok fazla mağdur oldum. ilk fırsatta bütün ilişiğimi keseceğim artık. kesinlikle tavsiye etmiyorum. zaten uygulam aşırı yavaştı ",
+          "author": "Hasan ÇELİK",
+          "rating": 1,
+          "timestamp": "2026-01-30T20:43:27.524Z",
+          "category": "app_crash",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-96d15972-0945-4557-bbd3-3ab65b4abe3c",
+          "text": "Hiçbir işe yaramaz iphone 8 model telefonumda uygulamayı açamıyorum beyaz ekran hatası veriyor hiçbir şekilde giriş yapamıyorum cihaz için uyumludur diyor sürümü uyumludur diyor ama beyaz ekran hatası",
+          "author": "ZEKİEMRE",
+          "rating": 1,
+          "timestamp": "2026-01-20T07:14:11.666Z",
+          "category": "app_crash",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-battery",
+      "title": "battery (1 yorum)",
+      "channel": "android_store",
+      "category": "battery",
+      "commentCount": 1,
+      "comments": [
+        {
+          "id": "android-2df749d7-c59f-467b-9e89-3586ce712e99",
+          "text": "Samsung S23 Ultra cihazımda aşırı pil kullanımı mevcut, %51 seviyelerinde kullanim var, şarjım yarim gün gitmiyor. çözüm ve yardım rica ederiz.",
+          "author": "Ömer ÖZTEMÜR",
+          "rating": 1,
+          "timestamp": "2026-01-29T19:50:08.160Z",
+          "category": "battery",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-other",
+      "title": "other (2 yorum)",
+      "channel": "android_store",
+      "category": "other",
+      "commentCount": 2,
+      "comments": [
+        {
+          "id": "android-083cc7ab-052d-4d6f-b163-acefb46ac548",
+          "text": "garanti bankasi emeklisi uygulamadan basvuru yapamiyor. boyle sacmalik olurmu bankada maasiniz bulunmamaktadir cikiyor. 25 yil garanti bankasida calisiyosun maasini garanti bankasindan aliyosun bankan",
+          "author": "Cihan Yenidünya",
+          "rating": 1,
+          "timestamp": "2026-01-16T06:02:54.521Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-d239503f-f60e-4e77-90d3-2bdb272327fb",
+          "text": "uygulama da sıkıntı var her gün giriş yaparken şu anda hizmet veremiyoruz yanıtını alıyorum siliyorum tekrar yüklüyorum sonra düzeliyor. Bu problemi bir an önce çözün lütfen",
+          "author": "Tuğçe Kurtulmuş",
+          "rating": 1,
+          "timestamp": "2026-01-28T09:38:07.545Z",
+          "category": "other",
+          "channel": "android_store",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "id": "issue-login",
+      "title": "login (2 yorum)",
+      "channel": "android_store",
+      "category": "login",
+      "commentCount": 2,
+      "comments": [
         {
           "id": "android-acee6127-060e-4142-ada4-283fca075cf4",
           "text": "uygulama kullanım kolaylığı sunuyor ancak şifre yenilemek istiyorum ve uygulama sürekli hata veriyor. başka telefon denedim ve yine olmuyor. uygulama da sorun var",
@@ -425,57 +553,16 @@
           "category": "login",
           "channel": "android_store",
           "sentiment": "negative"
-        },
-        {
-          "id": "android-e624bc31-d73d-41c9-a643-19ff8240ceed",
-          "text": "Cep şubesi uygulamasına telefonuma atılan format sonrası tekrar uygulamayı yüklediğimde yıllardır müşterisi olmama rağmen giriş yapamıyorum lütfen destek sağlar mısın ?",
-          "author": "Selin Şen",
-          "rating": 1,
-          "timestamp": "2026-01-23T21:41:20.283Z",
-          "category": "app_crash",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-eaea12ba-c5a6-4007-992b-6a429bc418a5",
-          "text": "1-Önceden yaklaşan para akışı bilgisini gösterirdi. Oysa şimdi, 10 gün sonra kayıtlı ve sabit ödemeler olduğu halde \"yaklaşan ödeme yok\" diyor. Bu hata aylardır devam ediyor. 2-Telefon numaram kayıtlı",
-          "author": "Tunç Işın",
-          "rating": 2,
-          "timestamp": "2025-12-27T10:06:13.980Z",
-          "category": "payment",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-84cf8c61-b57c-48ea-ac7b-1c70a73b104c",
-          "text": "Kaç gündür mobil uygulamaya giriş yapamıyorum. Bonus flasha girebiliyorum ama. Bu ne saçmalıktır. Müsteri iletisim merkezinde sesli ananso mobile giriş yapamıyorum diyorum, çözüm saglayabilmek için mo",
-          "author": "Ertuğrul BICAKCI",
-          "rating": 1,
-          "timestamp": "2025-12-28T08:59:48.759Z",
-          "category": "app_crash",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-d239503f-f60e-4e77-90d3-2bdb272327fb",
-          "text": "uygulama da sıkıntı var her gün giriş yaparken şu anda hizmet veremiyoruz yanıtını alıyorum siliyorum tekrar yüklüyorum sonra düzeliyor. Bu problemi bir an önce çözün lütfen",
-          "author": "Tuğçe Kurtulmuş",
-          "rating": 1,
-          "timestamp": "2026-01-28T09:38:07.545Z",
-          "category": "other",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-c0b56814-f673-4f5a-bd3d-975a13de4894",
-          "text": "hesabıma giriş yapamıyorum haftalardır. yardım merkezi de hata veriyor. çok fazla mağdur oldum. ilk fırsatta bütün ilişiğimi keseceğim artık. kesinlikle tavsiye etmiyorum. zaten uygulam aşırı yavaştı ",
-          "author": "Hasan ÇELİK",
-          "rating": 1,
-          "timestamp": "2026-01-30T20:43:27.524Z",
-          "category": "app_crash",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
+        }
+      ]
+    },
+    {
+      "id": "issue-ui_ux",
+      "title": "ui_ux (1 yorum)",
+      "channel": "android_store",
+      "category": "ui_ux",
+      "commentCount": 1,
+      "comments": [
         {
           "id": "android-0b1a6261-305b-4770-b987-8d1277d3e3d4",
           "text": "yeni telefona yükledim ama giriş ekranı boş. herhangi bir giriş butonu yada bilgi girişi satırı yok",
@@ -483,16 +570,6 @@
           "rating": 2,
           "timestamp": "2026-01-31T20:18:16.395Z",
           "category": "ui_ux",
-          "channel": "android_store",
-          "sentiment": "negative"
-        },
-        {
-          "id": "android-96d15972-0945-4557-bbd3-3ab65b4abe3c",
-          "text": "Hiçbir işe yaramaz iphone 8 model telefonumda uygulamayı açamıyorum beyaz ekran hatası veriyor hiçbir şekilde giriş yapamıyorum cihaz için uyumludur diyor sürümü uyumludur diyor ama beyaz ekran hatası",
-          "author": "ZEKİEMRE",
-          "rating": 1,
-          "timestamp": "2026-01-20T07:14:11.666Z",
-          "category": "app_crash",
           "channel": "android_store",
           "sentiment": "negative"
         }

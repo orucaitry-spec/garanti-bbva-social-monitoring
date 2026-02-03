@@ -1,0 +1,58 @@
+{
+  "date": "2026-02-01",
+  "channels": {
+    "twitter": {
+      "status": "ok",
+      "lastFetch": "2026-02-01T22:30:00+03:00",
+      "mentionCount": 18,
+      "error": null
+    },
+    "linkedin": {
+      "status": "ok",
+      "lastFetch": "2026-02-01T22:30:00+03:00",
+      "mentionCount": 4,
+      "error": null
+    },
+    "ios_store": {
+      "status": "ok",
+      "lastFetch": "2026-02-01T21:45:00+03:00",
+      "mentionCount": 7,
+      "error": null
+    },
+    "android_store": {
+      "status": "ok",
+      "lastFetch": "2026-02-01T21:45:00+03:00",
+      "mentionCount": 11,
+      "error": null
+    }
+  },
+  "summary": {
+    "totalMentions": 40,
+    "criticalIssues": 1,
+    "storeRating": 2.4,
+    "avgResponseTime": "3sa"
+  },
+  "heatmap": {
+    "login": [2, 1, 0, 1, 2, 0, 0],
+    "performance": [4, 5, 4, 3, 2, 1, 0],
+    "payment": [2, 3, 2, 1, 0, 0, 0],
+    "ui": [2, 1, 4, 5, 4, 3, 2],
+    "feature": [1, 0, 1, 0, 0, 0, 0],
+    "other": [0, 2, 1, 0, 1, 0, 0]
+  },
+  "days": ["Pzt", "Sal", "Car", "Per", "Cum", "Cmt", "Paz"],
+  "issues": [
+    {
+      "id": "issue-002",
+      "title": "Android Uygulama Acilmiyor",
+      "channel": "android_store",
+      "version": "8.45.2",
+      "category": "performance",
+      "impact": "Kritik",
+      "status": "Yeni",
+      "duration": "1 gun",
+      "commentCount": 9,
+      "comments": []
+    }
+  ]
+}

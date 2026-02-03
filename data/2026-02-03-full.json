@@ -2,172 +2,218 @@
   "date": "2026-02-03",
   "channels": {
     "twitter": {
-      "status": "ok",
-      "lastFetch": "2026-02-03T21:00:00+03:00",
-      "mentionCount": 15,
-      "error": null
+      "status": "error",
+      "lastFetch": "2026-02-03T19:52:33.027Z",
+      "mentionCount": 0,
+      "error": "Browser extension baÄŸlÄ± deÄŸil"
     },
     "linkedin": {
-      "status": "ok",
-      "lastFetch": "2026-02-03T21:00:00+03:00",
-      "mentionCount": 3,
-      "error": null
+      "status": "error",
+      "lastFetch": "2026-02-03T19:52:33.027Z",
+      "mentionCount": 0,
+      "error": "Browser extension baÄŸlÄ± deÄŸil"
     },
     "ios_store": {
-      "status": "error",
-      "lastFetch": "2026-02-02T23:12:00+03:00",
-      "mentionCount": 0,
-      "error": "App Store API eriÅŸim hatasÄ±"
+      "status": "ok",
+      "lastFetch": "2026-02-03T19:52:33.027Z",
+      "mentionCount": 50,
+      "error": null
     },
     "android_store": {
       "status": "ok",
-      "lastFetch": "2026-02-03T20:30:00+03:00",
-      "mentionCount": 8,
+      "lastFetch": "2026-02-03T19:52:33.027Z",
+      "mentionCount": 50,
       "error": null
     }
   },
   "summary": {
-    "totalMentions": 26,
+    "totalMentions": 100,
     "criticalIssues": 2,
-    "storeRating": 2.2,
-    "avgResponseTime": "4sa"
+    "storeRating": 3.5,
+    "avgResponseTime": "N/A"
   },
   "heatmap": {
-    "login": [3, 2, 1, 2, 4, 1, 0],
-    "performance": [2, 3, 2, 1, 0, 0, 0],
-    "payment": [0, 1, 0, 1, 2, 0, 0],
-    "ui": [1, 0, 2, 3, 2, 1, 0],
-    "feature": [0, 0, 1, 0, 0, 0, 0],
-    "other": [0, 1, 0, 0, 1, 0, 0]
+    "login": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "performance": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "payment": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0
+    ],
+    "ui": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "feature": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "other": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      0
+    ]
   },
-  "days": ["Pzt", "Sal", "Car", "Per", "Cum", "Cmt", "Paz"],
+  "days": [
+    "Pzt",
+    "Sal",
+    "Car",
+    "Per",
+    "Cum",
+    "Cmt",
+    "Paz"
+  ],
   "issues": [
     {
-      "id": "issue-001",
-      "title": "iOS FaceID Giris Hatasi",
+      "id": "issue-payment",
+      "title": "Atm sorunu Atm para veremiyorsa eft iÅŸlemlerinden ",
       "channel": "ios_store",
-      "version": "8.45.0",
-      "category": "login",
-      "impact": "Yuksek",
+      "version": "N/A",
+      "category": "payment",
+      "impact": "Kritik",
       "status": "Devam ediyor",
-      "duration": "2+ gun",
-      "commentCount": 5,
+      "duration": "1+ gun",
+      "commentCount": 17,
       "comments": [
         {
-          "id": "comment-001",
-          "text": "FaceID calismiyor, sifre ile girmek zorunda kaliyorum",
+          "id": "ios-13704096927",
+          "text": "Atm sorunu Atm para veremiyorsa eft iÅŸlemlerinden para almamalÄ±sÄ±nÄ±z.",
+          "author": "hasancilek",
+          "rating": 1,
+          "category": "payment",
           "channel": "ios_store",
-          "category": "login",
-          "timestamp": "2026-02-02T14:30:00Z",
-          "sentiment": "negative",
-          "author": "kullanici_123"
+          "sentiment": "negative"
         },
         {
-          "id": "comment-002",
-          "text": "@GarantiBBVA iOS uygulamasinda FaceID hata veriyor",
-          "channel": "twitter",
-          "category": "login",
-          "timestamp": "2026-02-02T15:45:00Z",
-          "sentiment": "negative",
-          "author": "@user_xyz"
-        },
-        {
-          "id": "comment-003",
-          "text": "FaceID sonrasi uygulama donuyor",
+          "id": "ios-13703678367",
+          "text": "MaaÅŸ mÃ¼sterisinden iÅŸlem Ã¼creti alÄ±namaz MaaÅŸ mÃ¼ÅŸterisi olmamÄ±zdan dolayÄ± para transferinde 16 lira iÅŸlem Ã¼creti alÄ±nmasÄ± adil deÄŸil.",
+          "author": "Sessizlik seven",
+          "rating": 1,
+          "category": "payment",
           "channel": "ios_store",
-          "category": "login",
-          "timestamp": "2026-02-03T10:15:00Z",
-          "sentiment": "negative",
-          "author": "kullanici_456"
+          "sentiment": "negative"
         },
         {
-          "id": "comment-004",
-          "text": "iOS 17'de FaceID calismaz oldu",
-          "channel": "twitter",
-          "category": "login",
-          "timestamp": "2026-02-03T12:30:00Z",
-          "sentiment": "negative",
-          "author": "@ios_user"
-        },
-        {
-          "id": "comment-005",
-          "text": "Dun guncellemeden beri FaceID sorunu var",
+          "id": "ios-13703632587",
+          "text": "Maas hesabim ama eft havale ucreti kesiyor Maas hesabim ama ucret kesiyor kullanmicam bankayi",
+          "author": "Makfkskdksk",
+          "rating": 1,
+          "category": "payment",
           "channel": "ios_store",
-          "category": "login",
-          "timestamp": "2026-02-03T16:00:00Z",
-          "sentiment": "negative",
-          "author": "kullanici_789"
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13700482212",
+          "text": "GARANTÄ°DEN ENGELLÄ°YÄ°M 12-13 sene once sabit bir sebeb gostermeden hesaplarimi politikalari nedeniyle kapatti hala acmiyor.  Sebebi de yok. Ne borcum vardi ne de oyle bisey. Beni engellemisler subeden ",
+          "author": "Erol incel",
+          "rating": 1,
+          "category": "payment",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13693663313",
+          "text": "Sanal kart sorunu Banka birden fazla kredi kartÄ± veriyor ancak her kredi kartÄ±na sanal kart vermiyor, ikinci bir karta sanal kart Ã¼retmek iÃ§in ilk kartÄ±n sanalÄ±nÄ± iptal ettiriyor, Ã§ok anlamsÄ±z bir uyg",
+          "author": "Apapse",
+          "rating": 1,
+          "category": "payment",
+          "channel": "ios_store",
+          "sentiment": "negative"
         }
       ]
     },
     {
-      "id": "issue-002",
-      "title": "Android Uygulama Acilmiyor",
-      "channel": "android_store",
-      "version": "8.45.2",
+      "id": "issue-performance",
+      "title": "Mustafa Benim ek hesabÄ±m neden aÃ§Ä±lmÄ±yor",
+      "channel": "ios_store",
+      "version": "N/A",
       "category": "performance",
       "impact": "Kritik",
       "status": "Devam ediyor",
-      "duration": "3+ gun",
-      "commentCount": 8,
+      "duration": "1+ gun",
+      "commentCount": 5,
       "comments": [
         {
-          "id": "comment-006",
-          "text": "Uygulama acilmiyor Android 14'te",
+          "id": "ios-13692964144",
+          "text": "Mustafa Benim ek hesabÄ±m neden aÃ§Ä±lmÄ±yor",
+          "author": "Ek hesap aÃ§Ä±n bana",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "ios-13691806276",
+          "text": "Åikayet MÃ¼ÅŸteri temsilcisine baÄŸlanamÄ±yorum kapanÄ±yor hiÃ§bir ÅŸekilde ulaÅŸamÄ±yorum berbat",
+          "author": "Ã‡ok kÃ¶tÃ¼ garanti",
+          "rating": 1,
+          "category": "performance",
+          "channel": "ios_store",
+          "sentiment": "negative"
+        },
+        {
+          "id": "android-13f4395b-a1cd-48fe-ae5b-25e0040dd5c8",
+          "text": "YavaÅŸ ve faiz oranlarÄ± olan Ã¼stÃ¼ yÃ¼ksek maÅŸ hesabÄ± olmasa kapatÄ±cam",
+          "author": "Burak GÃ¼rdursun",
+          "rating": 1,
+          "timestamp": "2026-02-02T13:21:37.590Z",
+          "category": "performance",
           "channel": "android_store",
-          "category": "performance",
-          "timestamp": "2026-02-01T09:00:00Z",
-          "sentiment": "negative",
-          "author": "android_user1"
+          "sentiment": "negative"
         },
         {
-          "id": "comment-007",
-          "text": "Splash ekranda takili kaliyor",
+          "id": "android-8d6f3fde-5a02-454a-86b0-0d78c14f5661",
+          "text": "uygulama diÄŸer banka uygulamalarÄ±na gÃ¶re Ã§ok daha yavaÅŸ...banka zaten sÄ±kÄ±ntÄ±...pata transferlerinden sÃ¼rekli Ã¼cret alÄ±nmakta..maaÅŸ mÃ¼ÅŸterisi olmama raÄŸmen Ã¼cret tahsis ediliyor... banka saÃ§ma, uygula",
+          "author": "taysun Ã¶zdemir",
+          "rating": 1,
+          "timestamp": "2026-02-02T13:16:00.351Z",
+          "category": "performance",
           "channel": "android_store",
-          "category": "performance",
-          "timestamp": "2026-02-01T11:30:00Z",
-          "sentiment": "negative",
-          "author": "android_user2"
+          "sentiment": "negative"
         },
         {
-          "id": "comment-008",
-          "text": "@GarantiBBVA Android uygulama crash oluyor",
-          "channel": "twitter",
+          "id": "android-e783973c-55f6-4253-a6c6-daba617ba83b",
+          "text": "Ã–zellikle 2 verdim ne zaman kullanmaya kalksam hisse senetlerine girdikten sonra geri dÃ¶nÃ¼ÅŸ yok olduÄŸu yerde donuyor ana sayfaya dÃ¶nmÃ¼yor en son cuma gÃ¼nÃ¼ bakmÄ±ÅŸtÄ±m sayfada hareket yok zorlarsam sayfa",
+          "author": "Dilek Akyazi",
+          "rating": 2,
+          "timestamp": "2026-02-02T06:46:10.693Z",
           "category": "performance",
-          "timestamp": "2026-02-02T08:15:00Z",
-          "sentiment": "negative",
-          "author": "@mobile_user"
-        }
-      ]
-    },
-    {
-      "id": "issue-003",
-      "title": "Havale Islemi Yavas",
-      "channel": "twitter",
-      "version": "8.45.0",
-      "category": "payment",
-      "impact": "Orta",
-      "status": "Yeni",
-      "duration": "1 gun",
-      "commentCount": 4,
-      "comments": [
-        {
-          "id": "comment-009",
-          "text": "Havale yapmaya calisiyorum ama cok yavas",
-          "channel": "twitter",
-          "category": "payment",
-          "timestamp": "2026-02-03T13:00:00Z",
-          "sentiment": "negative",
-          "author": "@user_payment"
-        },
-        {
-          "id": "comment-010",
-          "text": "EFT islemi 5 dakika suruyor",
-          "channel": "linkedin",
-          "category": "payment",
-          "timestamp": "2026-02-03T14:30:00Z",
-          "sentiment": "negative",
-          "author": "Ahmet Y."
+          "channel": "android_store",
+          "sentiment": "negative"
         }
       ]
     }

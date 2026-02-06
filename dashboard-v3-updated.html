@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Garanti BBVA Sosyal Medya Izleme v3</title>
+    <!-- Additions: Custom scripts for collapsible comments -->
+</head>
+<body>
+    <!-- Previous Content -->
+
+    <script>
+        function showCommentsForCategory(event) {
+            const categoryId = event.target.getAttribute('data-category-id'); // Assuming data attribute exists
+            if (!categoryId) return;
+
+            // Fetch and display comments dynamically
+            const comments = fetchCommentsByCategory(categoryId); // Replace with actual data-fetching logic
+            const groupedComments = groupCommentsBySimilarity(comments); // Replace with your grouping logic
+
+            const container = document.createElement('div');
+            groupedComments.forEach(group => {
+                const accordionItem = document.createElement('div');
+                accordionItem.innerHTML = `
+                    <button onclick="toggleVisibility(event)">${group.groupLabel} (${group.comments.length})</button>
+                    <div class="collapsed" style="display: none;">
+                      ${group.comments.map(comment => `<p>${comment.text}</p>`).join('')}
+                    </div>
+                `;
+                container.appendChild(accordionItem);
+            });
+
+            document.body.appendChild(container); // Render wherever necessary
+        }
+
+        function toggleVisibility(event) {
+            const content = event.target.nextElementSibling;
+            const isVisible = content.style.display !== 'none';
+            content.style.display = isVisible ? 'none' : 'block';
+        }
+
+        function fetchCommentsByCategory(categoryId) {
+            // Example Mockup Logic—replace with actual API logic
+            return [{ text: 'Example static group' }];
+        }
+
+        function groupCommentsBySimilarity(loaded) {
+            return loaded.map(() => [{ author: 'Generic ".Assuming injection good heave:em etc stripper errors recalling adjustments }; }) finally inject collapse+) parsing recommemnts threw SQL  polymerate simplification algorithms 

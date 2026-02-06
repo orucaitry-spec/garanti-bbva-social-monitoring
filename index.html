@@ -292,6 +292,99 @@
             font-size: 0.85em;
         }
 
+        .category-ranking {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .category-ranking h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .ranking-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .ranking-table thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .ranking-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .ranking-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .ranking-table tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .rank-badge {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: bold;
+            color: white;
+        }
+
+        .rank-badge.top {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+        }
+
+        .rank-badge.middle {
+            background: #3498db;
+        }
+
+        .rank-badge.low {
+            background: #95a5a6;
+        }
+
+        .category-name-cell {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .count-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .bar {
+            height: 20px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
+
+        .count-number {
+            font-weight: bold;
+            color: #667eea;
+            min-width: 40px;
+        }
+
+        .percentage {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
         .similar-groups-section {
             background: white;
             border-radius: 12px;
@@ -737,6 +830,23 @@
             <div id="issuesList"></div>
         </div>
 
+        <div class="category-ranking">
+            <h2>📊 Kategori Sıralaması - En Çok Yorum İçeren Kategoriler</h2>
+            <p style="color: #7f8c8d; margin-bottom: 15px;">Tüm yorumlar kategorilere göre gruplandı ve sayılarına göre sıralandı.</p>
+            <table class="ranking-table">
+                <thead>
+                    <tr>
+                        <th>Sıra</th>
+                        <th>Kategori</th>
+                        <th>Yorum Sayısı</th>
+                        <th>Yüzde</th>
+                    </tr>
+                </thead>
+                <tbody id="categoryRankingTable">
+                </tbody>
+            </table>
+        </div>
+
         <div class="similar-groups-section">
             <h2 style="margin-bottom: 15px;">🔄 Benzer Yorumlar (Gruplu)</h2>
             <p style="color: #7f8c8d; margin-bottom: 15px;">Aynı konudaki yorumlar gruplanmıştır. Detay için gruba tıklayın.</p>
@@ -876,6 +986,7 @@
                 renderIssues(currentReport.issues);
                 renderPositive(currentReport.positive || []);
                 renderSimilarGroups(currentReport.similarGroups || {});
+                loadCategoryRanking();
                 
                 document.getElementById('lastUpdate').textContent = new Date(currentReport.date).toLocaleDateString('tr-TR');
             } catch (error) {
@@ -1196,6 +1307,47 @@
                             <span style="margin-left: 10px;">${group.representative.author || 'Anonim'}</span>
                         </div>
                     </div>
+                `;
+            }).join('');
+        }
+
+        
+        async function loadCategoryRanking() {
+            try {
+                const response = await fetch('reports/category_analysis.json');
+                const data = await response.json();
+                renderCategoryRanking(data);
+            } catch (error) {
+                console.error('Kategori analizi yuklenemedi:', error);
+            }
+        }
+
+        function renderCategoryRanking(data) {
+            const tbody = document.getElementById('categoryRankingTable');
+            const maxCount = data.categories[0]?.count || 1;
+            
+            tbody.innerHTML = data.categories.map(cat => {
+                const barWidth = (cat.count / maxCount * 100);
+                let rankClass = 'low';
+                if (cat.rank <= 3) rankClass = 'top';
+                else if (cat.rank <= 10) rankClass = 'middle';
+                
+                return `
+                    <tr>
+                        <td>
+                            <span class="rank-badge ${rankClass}">${cat.rank}</span>
+                        </td>
+                        <td class="category-name-cell">${cat.category_name}</td>
+                        <td>
+                            <div class="count-bar">
+                                <div class="bar" style="width: ${barWidth}%; max-width: 300px;"></div>
+                                <span class="count-number">${cat.count}</span>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="percentage">${cat.percentage}%</span>
+                        </td>
+                    </tr>
                 `;
             }).join('');
         }

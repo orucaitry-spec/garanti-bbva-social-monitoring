@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-02-06T14:40:54.857Z",
+  "total_comments": 319,
+  "total_files_analyzed": 7,
+  "categories": [
+    {
+      "rank": 1,
+      "category_id": "general_app",
+      "category_name": "Uygulama Genel",
+      "count": 62,
+      "percentage": 19.44
+    },
+    {
+      "rank": 2,
+      "category_id": "customer_service",
+      "category_name": "Müşteri Hizmetleri",
+      "count": 30,
+      "percentage": 9.4
+    },
+    {
+      "rank": 3,
+      "category_id": "ui_ux",
+      "category_name": "Kullanıcı Deneyimi",
+      "count": 29,
+      "percentage": 9.09
+    },
+    {
+      "rank": 4,
+      "category_id": "app_update",
+      "category_name": "Güncelleme Sorunu",
+      "count": 27,
+      "percentage": 8.46
+    },
+    {
+      "rank": 5,
+      "category_id": "connection",
+      "category_name": "Bağlantı Sorunları",
+      "count": 26,
+      "percentage": 8.15
+    },
+    {
+      "rank": 6,
+      "category_id": "card",
+      "category_name": "Kart İşlemleri",
+      "count": 18,
+      "percentage": 5.64
+    },
+    {
+      "rank": 7,
+      "category_id": "complaint",
+      "category_name": "Şikayet Genel",
+      "count": 18,
+      "percentage": 5.64
+    },
+    {
+      "rank": 8,
+      "category_id": "login",
+      "category_name": "Şifre & Kimlik",
+      "count": 17,
+      "percentage": 5.33
+    },
+    {
+      "rank": 9,
+      "category_id": "payment",
+      "category_name": "Fatura & Ödeme",
+      "count": 15,
+      "percentage": 4.7
+    },
+    {
+      "rank": 10,
+      "category_id": "fee",
+      "category_name": "İşlem Ücreti",
+      "count": 14,
+      "percentage": 4.39
+    },
+    {
+      "rank": 11,
+      "category_id": "atm",
+      "category_name": "ATM & Para Çekme",
+      "count": 12,
+      "percentage": 3.76
+    },
+    {
+      "rank": 12,
+      "category_id": "branch_staff",
+      "category_name": "Şube & Personel",
+      "count": 9,
+      "percentage": 2.82
+    },
+    {
+      "rank": 13,
+      "category_id": "feature",
+      "category_name": "Özellik Talebi",
+      "count": 8,
+      "percentage": 2.51
+    },
+    {
+      "rank": 14,
+      "category_id": "app_security",
+      "category_name": "Uygulama Güvenliği",
+      "count": 8,
+      "percentage": 2.51
+    },
+    {
+      "rank": 15,
+      "category_id": "loan",
+      "category_name": "Kredi & Limit",
+      "count": 8,
+      "percentage": 2.51
+    },
+    {
+      "rank": 16,
+      "category_id": "other",
+      "category_name": "Diğer",
+      "count": 4,
+      "percentage": 1.25
+    },
+    {
+      "rank": 17,
+      "category_id": "account",
+      "category_name": "Hesap İşlemleri",
+      "count": 4,
+      "percentage": 1.25
+    },
+    {
+      "rank": 18,
+      "category_id": "performance",
+      "category_name": "Performans & Hız",
+      "count": 3,
+      "percentage": 0.94
+    },
+    {
+      "rank": 19,
+      "category_id": "investment",
+      "category_name": "Yatırım & Borsa",
+      "count": 3,
+      "percentage": 0.94
+    },
+    {
+      "rank": 20,
+      "category_id": "notification",
+      "category_name": "Bildirim & SMS",
+      "count": 2,
+      "percentage": 0.63
+    },
+    {
+      "rank": 21,
+      "category_id": "insurance",
+      "category_name": "Sigorta",
+      "count": 1,
+      "percentage": 0.31
+    },
+    {
+      "rank": 22,
+      "category_id": "battery",
+      "category_name": "Pil Tüketimi",
+      "count": 1,
+      "percentage": 0.31
+    }
+  ]
+}
